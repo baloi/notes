@@ -48,6 +48,7 @@ Sun Feb  1 01:50:42 EST 2015
 
         # ifconfig urtwn0 scan      // gets the nwid (network id)
         # ifconfig urtwn0 nwid "network-id" wpakey "passkey"
+        # dhclient urtwn0           // or dhclient wpi0
 
     Git configure
         Generate ssh key and then copy to Mac
@@ -63,6 +64,41 @@ Sun Feb  1 01:50:42 EST 2015
 
 ================================================================================
 
+    Error setting up wifi:
+
+    ERROR:
+        failed to load firmware urtwn0 urtwn18192cfwT
+
+    This error came up when trying to do:
+        # dhclient wpi0
+    
+    But I only found this error in dmesg:
+
+        # dmesg | tail
+
+    That is after I still could not connect to wifi even after all the 
+    configuration I tried alread. It got a bit bloody. I had to read the man
+    pages which actually was very helpful. A person I worked who used to own an
+    ISP and still works with Linux told me to try "ifconfig" and go from there.
+    He specifically said to try ifconfig and read the man page. Duh! 
+
+    I am sometimes tempted to read stuff from the internet before referring to
+    the man pages so I get bits and pieces of things and sometimes miss the big
+    picture.
+
+    Having a barebones machine has enabled me to look at the system and its
+    internals more now. I even downloaded the OpenBSD source and tinkered with
+    "ed" the line editor's source code. From running make I learned how to 
+    compile multiple c files with the "-c" option to first make the object files
+    then try something like:
+
+        $ gcc -Wall -o program routines.o another_object.o main.c
+
+    Now to read the gcc man pages....
+
+
+================================================================================
+
 Sun Feb  1 00:49:21 EST 2015
 
     Mounting usb stick:
@@ -74,9 +110,6 @@ Sun Feb  1 00:49:21 EST 2015
     Mount:
         # mount /dev/sd0a /mnt/sd0
 
-
-    ERROR:
-        failed to load firmware urtwn0 urtwn18192cfwT
 
 ================================================================================
 
