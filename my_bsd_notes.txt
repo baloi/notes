@@ -98,6 +98,13 @@ Sun Feb  1 01:50:42 EST 2015
 
     Now to read the gcc man pages....
 
+    Man pages say running gcc with the "-c" option tells gcc not to do linking,
+    so the output will be object files output by the assembler.
+
+    Warning: GCC man page spits out a LOT OF STUFF.
+
+    "When you invoke GCC, it normally does preprocessing, compilation, assembly
+    and linking. " - man pages for gcc
 
 ================================================================================
 
