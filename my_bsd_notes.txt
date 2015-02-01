@@ -43,12 +43,14 @@ Sun Feb  1 01:50:42 EST 2015
 
         Connect to internet and update firmware:
         # fw_update
+            // Cool! this updated wpi and urtwn
 
         Configure network
 
         # ifconfig urtwn0 scan      // gets the nwid (network id)
         # ifconfig urtwn0 nwid "network-id" wpakey "passkey"
-        # dhclient urtwn0           // or dhclient wpi0
+        # dhclient urtwn0           // or dhclient wpi0 if urtwn0 configured as
+                                    // above
 
     Git configure
         Generate ssh key and then copy to Mac
@@ -70,7 +72,7 @@ Sun Feb  1 01:50:42 EST 2015
         failed to load firmware urtwn0 urtwn18192cfwT
 
     This error came up when trying to do:
-        # dhclient wpi0
+        # dhclient urtwn0
     
     But I only found this error in dmesg:
 
