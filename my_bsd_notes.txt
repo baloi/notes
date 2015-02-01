@@ -1,0 +1,239 @@
+
+                        BSD Notes by Baloi
+
+================================================================================
+
+Mon Jan 26 23:10:09 EST 2015
+
+        I will log everything I did in this file. This entry will be the main 
+page and all other entries will be from the newest to the oldest. If my goals
+change then the main page will also change. Minimize main pages
+
+        I am creating a development machine from scratch using BSD, OpenBSD in 
+this case. I plan to have a good configuration for vim, Python and C development 
+for my needs. I need to be able to run my scheduling scripts from this machine. 
+I need internet from LAN at least and from wifi optimally. It would be nice to 
+have a nice working Gnome window manager if ever. Or I will just use tmux as my 
+window manager.
+
+        Needed: 
+        * vim
+        * good vim configuration
+        * letter count in vim
+        * syntax highlighting in vim
+        * git?
+        * internet connection
+        * file transfer 
+
+        If not, I will write all my tools from scratch in C and in shell script. 
+        Maybe this is what I will do.
+        * No internet by default.
+        * No emails
+        * No browser
+        * Just vim 
+        * STUDY SOURCECODE
+        * Write my own tools from scratch, even command line tools.
+        * Try to use only what is in the default install plus vim and git!
+
+================================================================================
+
+Sun Feb  1 01:50:42 EST 2015
+
+    Making wireless usb work:
+
+        Connect to internet and update firmware:
+        # fw_update
+
+        Configure network
+
+        # ifconfig urtwn0 scan      // gets the nwid (network id)
+        # ifconfig urtwn0 nwid "network-id" wpakey "passkey"
+
+    Git configure
+        Generate ssh key and then copy to Mac
+        $ cd .ssh
+        $ scp id_rsa.pub user@ip_address://Users/username/directory
+
+        Init repo
+        $ git remote add origin git@github.com:baloi/repository_name.git
+        $ git push -u origin master
+
+================================================================================
+
+Sun Feb  1 00:49:21 EST 2015
+
+    Mounting usb stick:
+        # sysctl hw.disknames   // to get the name
+
+    Get more info:
+        # disklabel sd0
+
+    Mount:
+        # mount /dev/sd0a /mnt/sd0
+
+
+    ERROR:
+        failed to load firmware urtwn0 urtwn18192cfwT
+
+================================================================================
+
+Thu Jan 29 22:26:38 EST 2015
+
+    Working out. Started at 9:50 PM. Stretched hips and shoulders. 2 rounds of
+lifts now. Amazon music on. Slowly lowering volume of music and TV. Getting 
+pumped also about my coding...
+
+    Main function in main.c of link_list data structure project. Have structure
+templates ready with function pointers for possible struct functions...
+
+    I now have to figure out how to test and implement these functions. Then
+eventually use this linked list to store some items...
+
+    Eventually did 3 rounds of strengthening exercises....
+
+================================================================================
+
+Thu Jan 29 18:52:55 EST 2015
+
+    Created local git repository for my tinkering with containers in C:
+
+      * Create 'git' user
+      * Login as git, make project directory and then initialize directory
+
+        $ mkdir containers.git
+        $ cd containers.git
+        $ git init --bare
+
+      * Login as your user and clone bare repo
+
+        $ cd ~/working/
+        $ git clone git@localhost:/home/baloi/git/containers.git
+        $ git add .
+        $ git commit -m 'first commit'
+        $ git push origin master
+ 
+    UPDATE: This currently works for me!
+
+================================================================================
+
+Wed Jan 28 22:06:34 EST 2015
+
+    After downloading the OpenBSD source code, I checked out the bin directory
+and surprised to find directories for the commands like cat, cp, chmod, date,
+dd, ln, ls, md5, ps, rm, even ed!
+
+    Go into directory like ed and just issue command:
+        
+        $ make
+
+    Or it seems we can just compile eachline with:
+        
+        $ cc -02 -pipe -DBACKWARDS -c filename.c
+          ....
+          # do for all c files
+        $ cc -o program_name 1.o 2.o 3.o
+
+================================================================================
+
+Wed Jan 28 19:01:34 EST 2015
+
+    The kids are still at St. John the Baptist church basketball court for prac-
+tice. Julia is sick from too much cold from yesterday's sledding and working 
+today at very cold temperatures.
+    To download OpenBSD code via cvs:
+    
+    # cvs -qd anoncvs@anoncvs.ca.openbsd.org:/cvs get -P src
+
+================================================================================
+
+Tue Jan 27 21:59:25 EST 2015
+
+    Standing while reading the book "The Unix Programming Enviroment". Ordered
+Kernigan and Ritchie's "The C Programming Language". I want to work on the
+samples there. Getting interested in the standard C library functions.
+
+
+Tue Jan 27 19:24:29 EST 2015
+
+    Finished workout in 40 minutes. Mostly dancing to 3 tunes free from Amazon:
+Personal Jesus, Gonna Make You Sweat(Everybody ), The Power (Snap).
+    Had a good dinner (shrimp, pork ribs menudo with atay, and pork curry. Also
+cleaned some dishes with Janjan. Janjan regularly washes dishes. Bless him.
+
+
+Tue Jan 27 18:02:14 EST 2015
+
+    I finished work and went to Hannaford with Julia and Kenken. Spent $43 plus
+Julia spent $15 on more food from Stewarts. More extra expenses. Good thing we
+have something in the bank, but extra stuff has to be tapered starting now. 
+
+    Going to work out in 5 minutes. Planning to do 30-45 minutes. Having a cut-
+off for workouts is good so I know how to allot time for the task.
+    Going now!
+
+================================================================================
+
+Tue Jan 27 07:41:04 EST 2015
+
+        Installing packages:
+
+        * Connect to LAN
+        * # export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.6/packages/i386/
+        * # pkg_add vim
+
+        Works!
+
+        Setup global vimrc file:
+        
+        * # cp /usr/local/share/vim/vim74/vimrc_example.vim /usr/local/share/vimrc
+
+        Install git:
+        * # pkg_add git
+
+
+================================================================================
+
+
+Mon Jan 26 23:00:09 EST 2015
+        
+        This will be my log of what I have done with my BSD machine. I just 
+installed this from my flash drive by doing the following:
+
+  * downloaded install56.fs the OpenBSD website
+
+  * erased contents of a flash drive using GUI diskutil
+
+  * use command line diskutil to get current list of devices
+    $  diskutil list
+
+       // my flash drive was /dev/disk1
+
+  * unmount flash drive
+    $ diskutil unmountDisk /dev/disk1
+
+  * wrote install56.fs to disk
+    $ sudo dd if=install56.fs of=/dev/rdisk1 bs=1m
+
+        // Note that using /dev/rdiskN instead of /dev/diskN may be faster
+
+  * eject
+    $ diskutil eject /dev/disk1
+
+  * restart machine you want to install OpenBSD. Make sure that your flash drive 
+is plugged in during boot.
+
+        // Note: 
+        //      Installation was easy and added user. Did not connect to the
+        //      internet yet. This will be for the second install. gcc was 
+        //      installed by default with vi also - makes it good. I just could 
+        //      not find the sources yet. Maybe sources are not installed by 
+        //      default. Installation took much less than 30 minutes. Felt like 
+        //      10 minutes.
+
+        Currently only vi and not vim is installed. No syntax highlighting, no
+        auto complete, no expandtab, no retab. Bare bones. No Python even.
+
+        Am I in trouble or what? "!!date command in vi works though for 
+        timestamping so I am doing something right.
+        
+================================================================================
