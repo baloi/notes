@@ -37,6 +37,25 @@ window manager.
 
 ================================================================================
 
+Sun Feb  1 09:37:41 EST 2015
+
+    I am currently using tmux on my OpenBSD terminal to be my "window manager".
+    It does not get any sweeter than this. Pure text bliss. Everything is text.
+    This is one way of looking at programming also, especially if you work with
+    languages like C or Python. Open file, open socket, read file, read bytes
+    from stream, write to file, search through lists, arrays, files, etc...
+
+    Text processing in the modern world. 
+
+    I still have my MacBook at my side for music and "eye candy" or to have any
+    distraction. Keep distractions on another machine or even a tablet. 
+    Internet for my BSD machine will be for git, ssh and scp. Should I remove
+    lynx then? Yes, I just did.
+
+        # pkg_delete lynx
+
+================================================================================
+
 Sun Feb  1 01:50:42 EST 2015
 
     Making wireless usb work:
