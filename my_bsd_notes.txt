@@ -37,6 +37,25 @@ window manager.
 
 ================================================================================
 
+Sun Feb  1 18:47:39 EST 2015
+
+    Just about done cooking dinner with Julia. Made re-baked chicken and minced
+    cacciatori. We just also came home from YMCA and ALDI. We were waived the 
+    fee for membership of $100 and this month is pro-rated at $40, it will be
+    $88 next month. We will be able to reimbursed by our Blue Cross insurance.
+
+    At the Y, I first played rebounder for the kids at the basketball court, 
+    lifted a few kettlebell presses and did a lunge, pushup, run circuit at the
+    track for about 3 rounds. Got me breathing harder. I then finished with the
+    hot whirlpool and almost 10 minutes at the sauna. Really hot. Got me sweat-
+    ing. Stress relief.
+
+    Superbowl Sunday!
+
+    
+
+================================================================================
+
 Sun Feb  1 09:50:44 EST 2015
 
     Maybe having python on my OpenBSD machine will be "too much tech". A little
@@ -46,9 +65,11 @@ Sun Feb  1 09:50:44 EST 2015
     1969 - B (forerunner to C)
     1970 - Pascal
     1970 - Forth
+
     1972 - C
     1972 - Smalltalk
     1972 - Prolog
+
     1973 - ML
     1975 - Scheme
     1978 - SQL
@@ -56,6 +77,7 @@ Sun Feb  1 09:50:44 EST 2015
     1980 - C++
     1983 - Ada
     1984 - Common Lisp
+
     1984 - MATLAB
     1985 - Eiffel
     1986 - Objective-C
