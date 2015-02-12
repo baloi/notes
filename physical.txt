@@ -1,3 +1,9 @@
+> basics of snatch:
+  * swing
+  * getup
+  * clean
+  * press
+
 > kettlebell pentathlon:
   * 6 minutes of Kettlebell cleans, max 120 count
     5 minutes rest
