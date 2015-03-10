@@ -37,6 +37,16 @@ window manager.
 
 ================================================================================
 
+Mon Mar  9 23:56:02 EDT 2015
+
+    To have color in the console:
+  
+    $ export TERM=wsvt25
+
+    This may be added to .profile file. Colors! Sweet
+
+================================================================================
+
 Fri Feb 27 18:29:30 EST 2015
 
     Just 1 day more than a month after I've had this OpenBSD installation on my
