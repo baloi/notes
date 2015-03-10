@@ -1,0 +1,4 @@
+TODO:
+> test debug macros
+> webserver coding
+> interactive DB console!

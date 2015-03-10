@@ -37,6 +37,30 @@ window manager.
 
 ================================================================================
 
+Fri Feb 27 18:29:30 EST 2015
+
+    Just 1 day more than a month after I've had this OpenBSD installation on my
+    older Lenovo Thinkpad which I put alongside my oldish "more media" Macbook
+    and I have learned a few things. Configured network, install/update driver
+    for my wireless USB, have a console-only machine. Fun, fun, fun!
+
+
+    It seems that the default shell for OpenBSD is the Korn shell /bin/ksh.
+    
+    The creator of Redis wrote that for the six years of developing Redis, he
+    had quite a few side projects himself to keep his "juices flowing". Some-
+    thing to break the monotony of one project, one code base. Distractions,
+    scratching an itch. This is it.
+
+    Now to figure out ksh....
+
+    Downloaded vividchalk.vim using lynx. Then installed zip and unzip:
+    # pkg_add -r zip
+    # pkg_add -r unzip
+
+
+================================================================================
+
 Sun Feb 22 21:13:06 EST 2015
 
     No long-lasting headache since the 14th of February. Went on a week-long
@@ -44,6 +68,9 @@ Sun Feb 22 21:13:06 EST 2015
     Frederick Maryland. Slept always by 9 or 10 PM. Ate well and not too often.
     A good vacation, although the new used car's AC had wrecked my airways. Had
     an asthma attack during the whole week, but was semi-manageable.
+
+    Another possible headache cause would be the lack of sleep and the very late
+    vigorous exercise.
 
 ================================================================================
 
