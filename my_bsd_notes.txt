@@ -37,6 +37,29 @@ window manager.
 
 ================================================================================
 
+Tue Mar 10 21:39:31 EDT 2015
+
+    Installing ports:
+
+    # pkg_add wget
+    # cd /usr
+    # wget ftp://ftp.openbsd.org/pub/OpenBSD/$(uname -r)/ports.tar.gz
+
+    # tar -zxvf ports.tar.gz
+
+    # cd /usr/ports/sysutils/colorls
+    # make install
+    
+    # vi .profile
+    
+    export PS1='\u@\h \w # `
+    export TERM=wsvt25
+    alias ls='usr/local/bin/colorls -G'
+    :wq!
+
+
+================================================================================
+
 Mon Mar  9 23:56:02 EDT 2015
 
     To have color in the console:
