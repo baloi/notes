@@ -37,6 +37,14 @@ window manager.
 
 ================================================================================
 
+Sat Mar 14 07:06:53 EDT 2015
+
+    I figured that using vim and tmux would give me the functionality I needed
+    to be able to edit and basically do all other stuff in my laptop or at least
+    be a reason not to go into emacs.
+
+================================================================================
+
 Tue Mar 10 21:39:31 EDT 2015
 
     Installing ports:
