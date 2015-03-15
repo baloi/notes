@@ -1,5 +1,6 @@
 
                         BSD Notes by Baloi
+               (!! 8 hours coding my project per week)
 
 ================================================================================
 
@@ -34,6 +35,25 @@ window manager.
         * STUDY SOURCECODE
         * Write my own tools from scratch, even command line tools.
         * Try to use only what is in the default install plus vim and git!
+
+================================================================================
+
+Sun Mar 15 19:31:41 EDT 2015
+
+    From Anteriz weblog (http://antirez.com/news/88): 
+
+    It is a few months that I spend ~ 15-20% of my time, mostly hours stolen to
+    nights and weekends, working to a new system....
+
+    This is an eye opener for me. I am now earning enough money to support my
+    family starting to save up for investment. I will invest time to get ready
+    when enough money is there to build or nurture something.
+
+    If I work at least 40-50 hours per week, I should have 8-10 hours for my
+    side project. 8 hours seems good. 1 hour per day and then 4 hours in the 
+    weekends...
+
+    This is my new goal.
 
 ================================================================================
 
