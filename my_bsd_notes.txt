@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Fri Mar 20 07:18:11 EDT 2015
+
+    Need to study this program from antirez (fascinating little programs):
+
+    https://github.com/antirez/linenoise
+
+================================================================================
+
 Wed Mar 18 22:45:35 EDT 2015
 
     Working and typing on the laptop keyboard from ottomans seem an ok position.
