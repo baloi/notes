@@ -38,6 +38,28 @@ window manager.
 
 ================================================================================
 
+Mon Mar 23 22:30:39 EDT 2015
+
+    Got the DES encryption with OpenSSL: example in C to run. 
+    Code was gladly taken from: 
+
+    http://www.codealias.info/technotes/des_encryption_using_openssl_a_simple_example
+
+    It had this line:
+
+    #include <openssl/des.h>
+
+    The code sample instructions for compilation given was:
+
+    $ gcc test.c -o test -lssl
+
+    I had a bunch of errors after compling as mentioned above. It finally
+    compiled with -lcrypto
+
+    $ gcc test.c -o test -lssl -lcrypto
+
+================================================================================
+
 Mon Mar 23 17:44:56 EDT 2015
 
     Finished work @ 4:11 PM, went home, cooked pre dinner meal for family, 
@@ -64,28 +86,9 @@ Mon Mar 23 17:44:56 EDT 2015
 
     SOLVED !! Compile like this:
 
-
     $ gcc -Wall -o open_encrypt open_encrypt.c -lssl -lcrypto
 
     (Need -lcrypto)
-
-    Got the DES encryption with OpenSSL: example in C to run. 
-    Code was gladly taken from: 
-
-    http://www.codealias.info/technotes/des_encryption_using_openssl_a_simple_example
-
-    It had this line:
-
-    #include <openssl/des.h>
-
-    The code sample instructions for compilation given was:
-
-    $ gcc test.c -o test -lssl
-
-    I had a bunch of errors after compling as mentioned above. It finally
-    compiled with -lcrypto
-
-    $ gcc test.c -o test -lssl -lcrypto
 
 ================================================================================
 
