@@ -38,6 +38,32 @@ window manager.
 
 ================================================================================
 
+Mon Mar 23 17:44:56 EDT 2015
+
+    Finished work @ 4:11 PM, went home, cooked pre dinner meal for family, 
+    listening to Pandora / Linkin Park radio.
+
+    openbsd.txt now has:
+    
+    baloi@192.168.0.21 
+
+    Can ssh to OpenBSD machine. Cool! Trying to figure out DES encryption from
+    GNU C library or OpenBSD/SSL. Trouble compiling BSD, still trying to figure
+    this out. 
+
+    already tried:
+
+    $ gcc -Wall -o open_encrypt open_encrypt.c -lssl
+
+    This produces "undefined reference" stuff though. Lots of it...
+
+    Waiting for my encryption book to arrive. I might just end up hard coding
+    all of it myself. Hope I have the energy even just to type everything from
+    the book. Maybe just DES, which could end up to be a few hundred or k 
+    lines.
+
+================================================================================
+
 Fri Mar 20 07:18:11 EDT 2015
 
     Need to study this program from antirez (fascinating little programs):
