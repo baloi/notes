@@ -38,6 +38,61 @@ window manager.
 
 ================================================================================
 
+Sun Mar 29 09:30:40 EDT 2015
+
+    I have decided that using vim-tmux for development might just be the best
+    option for me right now rather than learning EMACS. I read something about
+    Linus' development habits and he is said to change machines something like
+    twice a year, wants a Linux distro that is easy to install and works out of
+    the box, has not used Debian (I don't know if he has already today), created
+    the kernel but says he might not be any good programming in "user space", 
+    uses pine to check email and uses micro emacs only (with his tweaks) to 
+    do development.
+
+    This shows that Linus just wants to get to coding most of the time and not
+    be bogged down with configuring systems - I had configuration nightmares 
+    before that is why I left rails (setting up the libraries even with RVM at
+    one time took too much of my time. I am not going to mess with that again.
+
+    This will be the new mantra:
+    > go near the computer
+    > setup environment in less than 5 minutes (from scratch if everything is
+      turned off) less than 1 minute of server is open... 
+      Setup should include opening logs, journals, todos
+    > CODE, music, code
+
+    That is why this is my new setup:
+    > standing "desk" room dresser with big mirror (clean table top)
+    > OpenBSD development machine/server sitting at a corner downstairs on a
+      standing desk in case I want to code there. (takes up less than 4 feet
+      by 4 feet corner space without cluttering the view in the living room.
+      The OpenBSD machine is like a sculpture.
+    > Macbook Intel (older) plugged in and on the standing desk by room 
+      dresser (easy to copy and paste links from this machine), have one
+      Firefox browser open and two iTerm windows open (one ssh to BSD and 
+      the other open to the local files that I have developed on this machine,
+      mostly C now, some Python. 
+    > Samsung Alpha phone with Pandora open (Linkin, S.U.N. project, etc) to
+      keep the juices flowing. Email (gmail) and youtube accessed only through
+      this gadget as it has faster internet, smaller screen (reminding me that
+      email and youtube take lower precedence to programming on my Mac which
+      has a bigger screen, but now a sometimes choppy internet connection.
+
+    Evertime a coding session is done, I close my Macbook and tuck it in a
+    corner, put any book in my bookshelf downstairs, unplug my phone if it is
+    charging (tuck charger in its place), and maybe just close the "lid" of
+    my BSD machine to put it into hibernate. My BSD machine will always be
+    plugged in with a tmux session always open. 
+
+    It is still nice to know that the BSD machine is still my central dev 
+    machine which I can carry and charge with a very common Lenovo charger
+    which I even have at work. 
+
+    The music as whitenoise works for me too.
+   
+
+================================================================================
+
 Mon Mar 23 22:30:39 EDT 2015
 
     Got the DES encryption with OpenSSL: example in C to run. 
