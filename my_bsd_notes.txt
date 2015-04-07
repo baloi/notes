@@ -38,6 +38,24 @@ window manager.
 
 ================================================================================
 
+Mon Apr  6 21:15:38 EDT 2015
+
+    Read from ycombinator news - Linus interviewed about GIT after 10 years. I
+    downloaded the earliest git commit for git itself from: 
+
+    https://www.kernel.org/pub/software/scm/git/
+
+
+    Downloaded git-0.01.tar.gz and will study this. Easier to download from my
+    Mac with Firefox right now but I scp'd it to my BSD machine:
+
+    $ scp git-0.01.tar.gz baloi@192.168.0.13://home/baloi/baloi/
+
+    Now will got through the source code and try compile it in BSD as it did
+    not compile with Makefile on my Mac.
+    
+================================================================================
+
 Sun Mar 29 09:30:40 EDT 2015
 
     I have decided that using vim-tmux for development might just be the best
