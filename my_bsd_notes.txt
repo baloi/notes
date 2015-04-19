@@ -41,10 +41,12 @@ window manager.
 Fri Apr 17 21:10:51 EDT 2015
     
     > Code git origins
-    > Code some cryptography
+    > Code some cryptography (BSD libs used)
     > Code:
         - C implementation of encrypted database (simple)
         - Python implementation of "user interface" which will still be text
+          (have to install python in BSD), Python simplifies coding of the
+          user interface.
 
 ================================================================================
 
