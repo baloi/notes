@@ -1,8 +1,7 @@
 TODO:
 > READ a topic in kernigan's and in Unix book
 > code C
-> try emacs?
 
 > test debug macros
 > webserver coding
-> interactive DB console!
+> interactive (python) encrypted DB (C) console!
