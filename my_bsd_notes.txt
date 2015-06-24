@@ -38,6 +38,26 @@ window manager.
 
 ================================================================================
 
+Tue Jun 23 20:17:43 EDT 2015
+
+    Working on my Mac for a couple of days now for coding and recording entries.
+    My BSD machine seems clunky nowadays especially as I had even more trouble
+    trying to compile the git source code (version 0.01) on it. I might as well
+    just program in Mac.
+
+    The reason I am coding is an article from news.ycombinator.com about Elixir.
+    I need to give this a try. And then work on the git source code and other
+    projects.
+
+    Installing Elixir:
+    
+    $ brew update
+    $ brew install elixir
+
+    ... now it is installing libtool, makedepend, openssl, libtiff, wxmac, jpeg,
+    libpng, .... hung up...
+================================================================================
+
 Sun Jun  7 09:06:21 EDT 2015
 
     One week since the end of my Eddy VNA training ended... 7 weeks of hardcore
