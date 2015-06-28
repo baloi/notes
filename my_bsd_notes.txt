@@ -38,6 +38,16 @@ window manager.
 
 ================================================================================
 
+Sun Jun 28 15:43:32 EDT 2015
+
+    Copying git-1.8.1-rc2 from my Mac to the BSD machine:
+
+    $ scp user@192.168.0.15://User/user/user/working/git_tinker/* .
+
+    Might as well start somewhere.
+
+================================================================================
+
 Tue Jun 23 20:17:43 EDT 2015
 
     Working on my Mac for a couple of days now for coding and recording entries.
@@ -57,7 +67,7 @@ Tue Jun 23 20:17:43 EDT 2015
     ... now it is installing libtool, makedepend, openssl, libtiff, wxmac, jpeg,
     libpng, .... hung up...
 
-    Unable to install Elixir. Back to C and Go coding.
+    Unable to install Elixir. Back to C and Go coding. This sort of sucks.
 
 
 ================================================================================
