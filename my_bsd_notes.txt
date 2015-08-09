@@ -38,6 +38,36 @@ window manager.
 
 ================================================================================
 
+Fri Aug  7 14:32:47 EDT 2015
+
+    I have been thinking a lot during the last shift of my main job of 3. I am
+    already doing 3 jobs. I do not earn enough to be really financially free as
+    although I earn more, I have a bit more expenses to cover to be able to do
+    3 jobs like: 2 cars now instead of 1 and I had to buy a relatively newer van
+    to replace our old van for the family, but this is an investment in my
+    family's happiness. The second car will just let me go to other jobs or 
+    appointments. It also gives me more freedom. Thus, both cars are an invest-
+    ment. Two new phones and upgraded Julia's. So we now have 3 phones with all
+    unlimited text and messaging. Also all needed to be able to communicate more
+    with family and for working relations, finding jobs, Kenken's phone to keep
+    his job and got him a little more freedom, which he needs and deserves. All
+    again pluses.
+
+    I figured out that once these all get paid up then I will have some wiggle
+    room to help out the kids for school. I will also soon have to increase
+    savings.
+
+    With all this figured out, I then decided. Time to get started with my 
+    dream of getting a tech/learning/programming group started. Sir Brizo will
+    be a good resource. That is why I bought a cana kit raspberry pi. I will
+    ship it on Saturday to Bohol and get this thing started.
+
+    Lastly. I am getting a rhythm of getting my "paperwork" done. Managing more.
+    Time to make a pact with myself. First 30 minutes and last 30 minutes of the
+    day should be spent on writing and coding.
+
+================================================================================
+
 Sun Jun 28 18:12:58 EDT 2015
 
     Now getting the error:
@@ -52,8 +82,9 @@ Sun Jun 28 18:12:58 EDT 2015
     snprintf() instead of sprintf() or strlcpy() instead of strcpy(). This might
     be something of an exercise next time, but the thing compiles. It's alive!
 
-
 ================================================================================
+
+
 
 Sun Jun 28 15:43:32 EDT 2015
 
