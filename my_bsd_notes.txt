@@ -38,6 +38,30 @@ window manager.
 
 ================================================================================
 
+Sun Aug  9 07:11:20 EDT 2015
+
+    I read that working fast matters as the faster you finish something or you 
+    expect to finish something, the less a barrier it will be to get it started
+    and the less afraid you are to do it. So I created a directory to my current
+    work to prevent having to try to remember what I was working on and then
+    just get it done!
+
+    Created a link to current work on C which is version 0.01 of git.
+
+        $ ln -s study/git_study/git-0.01-src/ current_work
+
+    To remove the link I could just do:
+
+        $ rm current_work
+
+    To go to the current work just:
+
+        $ cd current_work
+
+
+
+================================================================================
+
 Fri Aug  7 14:32:47 EDT 2015
 
     I have been thinking a lot during the last shift of my main job of 3. I am
