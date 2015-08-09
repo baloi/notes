@@ -1,7 +1,8 @@
 TODO:
-> READ a topic in kernigan's and in Unix book
 > code C
+> work on GIT code
+> work on ZLIB code
+> unix programming
 
-> test debug macros
 > webserver coding
 > interactive (python) encrypted DB (C) console!
