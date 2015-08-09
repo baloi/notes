@@ -38,6 +38,23 @@ window manager.
 
 ================================================================================
 
+Sun Jun 28 18:12:58 EDT 2015
+
+    Now getting the error:
+
+        warning: incompatible implicit declaration of built-in function 'strpy'
+
+    This also includes sprintf, strlen.....
+
+    Solved this by adding #include <string.h> in cache.h.
+
+    Now the whole thing compiles fine excluding a warning by the compiler to use
+    snprintf() instead of sprintf() or strlcpy() instead of strcpy(). This might
+    be something of an exercise next time, but the thing compiles. It's alive!
+
+
+================================================================================
+
 Sun Jun 28 15:43:32 EDT 2015
 
     Copying git-1.8.1-rc2 from my Mac to the BSD machine:
