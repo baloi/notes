@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Tue Sep  8 06:15:17 EDT 2015
+
+    Started clojure programming. Read some of this tutorial to start:
+
+    https://aphyr.com/posts/301-clojure-from-the-ground-up-first-principles
+
+================================================================================
+
 Tue Sep  1 22:40:51 EDT 2015
 
     Will code now...
