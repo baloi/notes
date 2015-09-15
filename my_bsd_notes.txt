@@ -38,6 +38,40 @@ window manager.
 
 ================================================================================
 
+Mon Sep 14 21:50:47 EDT 2015
+    
+    Bought the book Go Programming Blueprints. I decided to just dive right in
+    instead of getting stuck in internet tutorials or buying a beginner go book
+    which can be very boring indeed. This book was a good choice. Dive right in.
+    The author is also versed in TDD and that kind of stuff. "Modern" methodolo-
+    gy, fun projects, practice by copying and tinkering with real code. Evolving
+    small programs to be bigger and more functions. Understanding from the 
+    explanation provided in the book.
+
+    The only other resource I will use is the golang book in google which has
+    small snippets...
+
+    Installing go in OpenBSD 5.6:
+
+        # export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.6/packages/i386/
+        # pkg_add 
+
+    Installed go 1.3...
+
+        $ go version
+
+    This got a lot of errors.
+
+    Can be solved with:
+
+        $ export GOPATH=/home/go
+        $ export PATH=$PATH:$GOPATH/bin
+        $ ulimit -n 512
+        $ ulimit -p 512
+        $ ulimit -d 2036792
+
+================================================================================
+
 Tue Sep  8 06:15:17 EDT 2015
 
     Started clojure programming. Read some of this tutorial to start:
