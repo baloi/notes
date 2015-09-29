@@ -38,6 +38,35 @@ window manager.
 
 ================================================================================
 
+Tue Sep 29 07:10:57 EDT 2015
+
+    Taken from http://etodd.io/2015/09/28/one-weird-trick-better-code/:
+
+    In summary, design data structures to match your specific problem. Don't 
+    shoehorn a single concept into a bunch of separate, encapsulated objects.
+
+    Next, write functions that leave the smallest possible footprint on that 
+    data. If possible, write pure stateless functions.  
+
+    That's the trick.
+
+================================================================================
+
+Sat Sep 26 08:55:57 EDT 2015
+
+    Lesson learned: When studying from a book with code, code only from one
+    place and have bookmarks only on one place of where your reading progress
+    is. Not being able to keep track wanes interest. Keep track of progress
+    so you can go on. This is what I will do now. Forgive myself for being
+    sidetracked, but get the hell started again. Go on my OpenBSD is not so
+    cool as I need root right now. I do not have the time to figure out how
+    to configure it correctly so to hell with it. Start reading and coding. I
+    will do JUST THAT! I will enjoy  the book now please. Dump the too techie
+    stuff. In this case configuration is killing my learning. So just get rid
+    of configuration problems and just code away. 
+
+================================================================================
+
 Mon Sep 14 21:50:47 EDT 2015
     
     Bought the book Go Programming Blueprints. I decided to just dive right in
