@@ -38,6 +38,29 @@ window manager.
 
 ================================================================================
 
+Sat Oct  3 15:19:30 EDT 2015
+
+    Finally solved the "undefined" errors on go. 
+
+    $ go build -o {name}
+
+    I had to re-install go with brew:
+
+    $ brew install git go
+
+    I ended up with a colorized git though.
+
+    I do not care what happened to other installations. My golang installation
+    runs and my git is colorized. Cool!
+
+    Had to set $GOROOT(/usr/local/Cellar/go/1.4.2/libexec) and $GOPATH 
+    (/Users/me/go).
+
+    Calling "go run" is good for only one file, use "go build" for multiple
+    files. Easier than building in C.
+
+================================================================================
+
 Sat Oct  3 14:27:08 EDT 2015
     
     Undoing stuff with git:
@@ -54,11 +77,11 @@ Sat Oct  3 13:37:04 EDT 2015
     As of go 1.2, a valid GOPATH is required to use the `go get` command:
       https://golang.org/doc/code.html#GOPATH
 
-      You may wish to add the GOROOT-based install location to your PATH:
-        export PATH=$PATH:/usr/local/opt/go/libexec/bin
+    You may wish to add the GOROOT-based install location to your PATH:
+      export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
-        ==> Summary
-        /usr/local/Cellar/go/1.4.2: 4566 files, 155M, built in 3.8 minutes
+    ==> Summary
+    /usr/local/Cellar/go/1.4.2: 4566 files, 155M, built in 3.8 minutes
 
 ================================================================================
 
