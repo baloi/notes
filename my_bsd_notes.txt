@@ -61,6 +61,30 @@ Sat Oct  3 15:19:30 EDT 2015
 
 ================================================================================
 
+Sun Oct  4 07:31:47 EDT 2015
+    To make go and vim environment rock, I enabled pathogen in vim, by adding
+    "pathogen infect()" something in .vim/vimrc. It only works in my account
+    and not root, but at this time I just want to code go in a non root account
+    anyway so it works. Got the vim-go pathogen by following something from
+    here: http://blog.gopheracademy.com/vimgo-development-environment/ . 
+    Actually only these 2 lines:
+
+    $ cd ~/.vim/bundle
+    $ git clone https://github.com/fatih/vim-go.git
+    
+    I had to create "bundle" directory and another one. 
+
+    Vim and go at work. 
+
+    One caveat: everytime I save in vim, it autoformats which is great, but
+    the vim "undo" feature goes only to the last save. So what I do now is
+    to use git to commit (not even push to a server) and then I can do all
+    my rollbacks from there. The good thing with git is that every commit
+    will have a description. I can plan better and get to learn to use git
+    more effectively now.
+
+================================================================================
+
 Sat Oct  3 14:27:08 EDT 2015
     
     Undoing stuff with git:
