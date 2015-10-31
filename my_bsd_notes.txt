@@ -38,6 +38,22 @@ window manager.
 
 ================================================================================
 
+Thu Oct 29 19:40:55 EDT 2015
+
+    Trying out martini go with sqlite 3.
+
+    $ go get github.com/mattn/go-sqlite3
+
+================================================================================
+
+Tue Oct 27 21:40:33 EDT 2015
+
+    Install Martini package (a go package for web development).
+
+    $ go get github.com/go-martini/martini
+
+================================================================================
+
 Sat Oct  3 15:19:30 EDT 2015
 
     Finally solved the "undefined" errors on go. 
