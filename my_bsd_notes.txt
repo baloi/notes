@@ -38,6 +38,16 @@ window manager.
 
 ================================================================================
 
+Sun Nov  1 07:31:56 EST 2015
+
+    I read somewhere that learning programming should not be just from tutorials
+    in the net. But as far as learning Go Martini web, this is a really sweet
+    one:
+
+    http://0value.com/build-a-restful-API-with-Martini
+
+================================================================================
+
 Thu Oct 29 19:40:55 EDT 2015
 
     Trying out martini go with sqlite 3.
