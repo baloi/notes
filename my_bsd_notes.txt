@@ -52,6 +52,12 @@ Mon Nov  2 12:47:50 EST 2015
 
     My code is in ~/go/src/redisko/main.go
 
+    Sample of redis (redigo) and martini:
+
+    https://gist.github.com/peterhellberg/9450839
+
+
+
 ================================================================================
 
 Mon Nov  2 12:19:22 EST 2015
