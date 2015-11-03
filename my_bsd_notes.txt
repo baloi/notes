@@ -56,7 +56,9 @@ Mon Nov  2 12:47:50 EST 2015
 
     https://gist.github.com/peterhellberg/9450839
 
+    Found redis.DialDefaultServer() from here:
 
+    https://github.com/garyburd/redigo/blob/master/redis/conn_test.go
 
 ================================================================================
 
