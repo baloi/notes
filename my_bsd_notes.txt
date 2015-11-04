@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Wed Nov  4 06:39:53 EST 2015
+    
+    My Redis-Martini Go sample is working at:
+
+    ~/go/src/redisko
+
+    Used curl to test:
+    
+    $ curl http://127.0.0.1:3000/set/mykey?value=anyvalue
+
+================================================================================
+
 Mon Nov  2 12:47:50 EST 2015
 
     Trying out the chat example from :
