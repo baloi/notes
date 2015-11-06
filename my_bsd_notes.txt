@@ -38,6 +38,35 @@ window manager.
 
 ================================================================================
 
+Thu Nov  5 19:30:44 EST 2015
+
+    Setting up raspberry pi from scratch:
+
+    Hold "Shift" key during startup and install raspbian.
+
+    Get wifi going by editing /etc/wpa_supplicant/wpa_supplicant.conf
+
+    network={
+        ssid="The SSID of router"
+        psk="Your wifi password"
+    }
+
+    INSTALLING GO:
+
+    Install prerequisites first:
+
+    % sudo apt-get install -y mercurial gcc libc6-dev
+
+    Cloning the source:
+
+    % hg clone -u default https://code.google.com/p/go $HOME/go
+
+    BUILD GO
+
+    % cd $HOME/go
+    % ./all.bash
+================================================================================
+
 Wed Nov  4 06:39:53 EST 2015
     
     My Redis-Martini Go sample is working at:
