@@ -38,6 +38,25 @@ window manager.
 
 ================================================================================
 
+Sat Nov  7 06:58:04 EST 2015
+
+    Update to GO in raspberry pi. Running as per installation instructions
+    below! I just needed to make "sudo apt-get update" work. Then installed
+    vim. Then set go/bin to be in the path. Sweet.
+
+    Using tar and scp to get some C files into raspberry for study:
+
+    Join files:
+    $ tar -cvf joined.tar file1 file2
+
+    Copy to pi:
+    $ scp joined.tar pi@192.343.0.23://home/pi
+
+    Unjoin:
+    $ tar -xvf joined.tar
+
+================================================================================
+
 Fri Nov  6 06:45:45 EST 2015
 
     Code reading simple db to try to implement my own database and calc for c
@@ -58,7 +77,8 @@ Thu Nov  5 19:30:44 EST 2015
         psk="Your wifi password"
     }
 
-    INSTALLING GO:
+    INSTALLING GO: 
+    (from http://dave.cheney.net/2012/09/25/installing-go-on-the-raspberry-pi)
 
     Install prerequisites first:
 
