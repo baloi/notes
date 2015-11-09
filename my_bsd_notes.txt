@@ -38,6 +38,20 @@ window manager.
 
 ================================================================================
 
+Sun Nov  8 20:41:07 EST 2015
+ 
+    Using nmap to find ssh ports:
+
+    $ nmap -p 22 --open -sV 192.168.0.0/24
+
+    -p      = port (in this case 22)
+    --open  = suppress output for clients that are not listening
+    -sV     = display the versio string reported by the scanned server
+    192.168.0.0/24  = target network (/24 specifies a subnet of
+                      255.255.255.0
+
+================================================================================
+
 Sat Nov  7 06:58:04 EST 2015
 
     Update to GO in raspberry pi. Running as per installation instructions
@@ -100,6 +114,7 @@ Thu Nov  5 19:30:44 EST 2015
 Wed Nov  4 06:39:53 EST 2015
     
     My Redis-Martini Go sample is working at:
+    // from https://gist.github.com/peterhellberg/9450839
 
     ~/go/src/redisko
 
