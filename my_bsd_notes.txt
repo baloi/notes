@@ -33,8 +33,22 @@ window manager.
         * No browser
         * Just vim 
         * STUDY SOURCECODE
-        * Write my own tools from scratch, even command line tools.
+        *1 Write my own tools from scratch, even command line tools.
         * Try to use only what is in the default install plus vim and git!
+
+================================================================================
+
+Sun Nov  8 21:59:15 EST 2015
+
+    To make install go packages:
+
+    $ go get github.com/gopackage
+
+    But we have to set $GOPATH in .profile (for raspberry pi)
+
+    GOPATH=$HOME/my_go
+
+    my_go would have src/, bin/ and pkg/
 
 ================================================================================
 
