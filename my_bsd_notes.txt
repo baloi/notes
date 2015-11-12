@@ -38,6 +38,12 @@ window manager.
 
 ================================================================================
 
+Wed Nov 11 21:52:20 EST 2015
+
+    Just playing with dc application right now. Using structs in go. Seems ok.
+
+================================================================================
+
 Sun Nov  8 21:59:15 EST 2015
 
     To make install go packages:
