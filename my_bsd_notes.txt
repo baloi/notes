@@ -44,6 +44,10 @@ Wed Nov 18 06:58:26 EST 2015
 
     http://libmill.org/tutorial.html
 
+    This seems like a good equivalent in go:
+
+    http://loige.co/simple-echo-server-written-in-go-dockerized/
+
 ================================================================================
 
 Wed Nov 11 21:52:20 EST 2015
