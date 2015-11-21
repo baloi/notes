@@ -38,6 +38,29 @@ window manager.
 
 ================================================================================
 
+Sat Nov 21 09:01:52 EST 2015
+    
+        This is a talk from Golang conference UK about security which I should
+        still review:
+
+            https://www.youtube.com/watch?v=ViBRx-F4Z2U&list=PLDWZ5uzn69ezRJYeWxYNRMYebvf8DerHd
+
+        This is linked from a link from: 
+
+            https://blog.golang.org/
+
+        The blog itself is a very good and is good morning material.
+
+        Anyway, the security talk. The resource person, Eleanor McHugh has a
+        book, "A Go Developer's Notebook" which is a great 
+        study-by-hacking-snippets-of-code and putting in in my 
+        ~/my_go/src/snippets, running, modifying and readig the thankfully short
+        but very enlightening explanations from a hacker's collection of code
+        snippets used in her talks through the years. The book can be bought
+        from $6.00 to $24.00 at https://leanpub.com/GoNotebook. Great!
+
+================================================================================
+
 Wed Nov 18 06:58:26 EST 2015
 
     Try this out in go:
@@ -47,6 +70,11 @@ Wed Nov 18 06:58:26 EST 2015
     This seems like a good equivalent in go:
 
     http://loige.co/simple-echo-server-written-in-go-dockerized/
+
+    Tested this go app with netcat and echo:
+
+    $ echo "Hello server" | nc localhost 3333  
+
 
 ================================================================================
 
