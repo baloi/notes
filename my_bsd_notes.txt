@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Wed Dec  9 22:33:37 EST 2015
+
+    Try using these Python libraries:
+
+    "dateutil" and "requests"
+
+================================================================================
+
 Wed Dec  9 22:06:54 EST 2015
 
     Creating Raspberry pi with Kali linux for pentest
