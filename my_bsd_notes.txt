@@ -44,6 +44,10 @@ Wed Dec  9 22:06:54 EST 2015
 
     http://lifehacker.com/how-to-build-a-portable-hacking-station-with-a-raspberr-1739297918
 
+    Bobby tables for preventing SQL injection:
+
+    http://bobby-tables.com/
+
 ================================================================================
 
 Sat Nov 21 09:01:52 EST 2015
