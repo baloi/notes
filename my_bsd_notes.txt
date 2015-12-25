@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Fri Dec 25 07:30:05 EST 2015
+
+    Handmade quake:
+
+    http://philipbuuck.com/announcing-handmade-quake
+
+    Modding doom:
+
+    http://eev.ee/blog/2015/12/19/you-should-make-a-doom-level-part-1/
+
+================================================================================
+
 Thu Dec 24 22:46:56 EST 2015
 
     Detecting wireless cameras:
