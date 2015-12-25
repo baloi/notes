@@ -38,6 +38,38 @@ window manager.
 
 ================================================================================
 
+Thu Dec 24 22:46:56 EST 2015
+
+    Detecting wireless cameras:
+
+    https://julianoliver.com/output/log_2015-12-18_14-39
+
+================================================================================
+
+Sat Dec 19 08:31:25 EST 2015
+
+    flow based programming:
+
+    https://groups.google.com/forum/#!msg/flow-based-programming/iaKhbABJ9fw/XlrMf-dnBgAJ
+
+================================================================================
+
+Sun Dec 13 08:24:28 EST 2015
+
+    "Maximizing" a tmux pane:
+
+    > Ctrl-B z
+
+================================================================================
+
+Thu Dec 10 19:39:06 EST 2015
+
+    Vim plugins to try:
+
+    http://adamdelong.com/5-vim-plugins-helped-switch-sublime/
+
+================================================================================
+
 Wed Dec  9 22:33:37 EST 2015
 
     Try using these Python libraries:
