@@ -1,8 +1,11 @@
 TODO:
-> code C
-> work on GIT code
-> work on ZLIB code
-> unix programming
+ python ctags to have dropdown
+
+
+
+
+> code in go
+> work on notebook go 
 
 > webserver coding
 > interactive (python) encrypted DB (C) console!
