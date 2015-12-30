@@ -1,0 +1,11 @@
+My 100 - 100 Wacky Ideas
+C Database
+Go Database
+Console encryptor/decryptor editor
+Chat server
+Chat client
+Encrypt traffic through HTTP with decrypt
+Plain vi like editor with basic commands
+Code complete from file
+Pet server/tank
+Bootloader mini kernel http://os.phil-opp.com/multiboot-kernel.html
