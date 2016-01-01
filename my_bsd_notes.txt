@@ -33,8 +33,24 @@ window manager.
         * No browser
         * Just vim 
         * STUDY SOURCECODE
-        *1 Write my own tools from scratch, even command line tools.
+        * Write my own tools from scratch, even command line tools.
         * Try to use only what is in the default install plus vim and git!
+
+================================================================================
+
+Tue Dec 29 21:00:34 EST 2015
+    
+    Inspirational technical books that are not technical
+
+    http://blog.fogus.me/2015/07/07/inspirational-technical-books-that-are-not-technical/
+
+================================================================================
+
+Mon Dec 28 20:14:12 EST 2015
+
+    Codewalk: Share Memory By Communicating
+
+    https://golang.org/doc/codewalk/sharemem/
 
 ================================================================================
 
