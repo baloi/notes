@@ -38,6 +38,56 @@ window manager.
 
 ================================================================================
 
+Sat Jan  9 17:23:28 EST 2016
+
+    Learning hard stuff
+
+    https://medium.com/learning-new-stuff/a-simple-technique-to-learn-hard-stuff-ffaa7879bf7c#.hmo5lybld
+
+    1. Use it before you know it. Maybe a video tutorial
+
+       a. Build from day one
+       b. Gives you sample code
+       c. Discover your unknown unknowns
+
+    2. Address your struggles
+
+    3. Build stuff
+
+================================================================================
+
+Wed Jan  6 22:53:47 EST 2016
+    Taken from  
+    Compiling SDL with gcc on Mac (c code):
+    
+    get the linking flags:
+
+    $ sdl-config --cflags --libs
+
+    Which outputs:
+    -I/opt/local/include/SDL -D_GNU_SOURCE=1 -D_THREAD_SAFE -L/opt/local/lib 
+    -lSDLmain -lSDL -Wl,-framework,Cocoa 
+
+    So do this to compile:
+
+    $ gcc -Wall -c main.c -o main.o
+    $ gcc -I/opt/local/include/SDL -D_GNU_SOURCE=1 -D_THREAD_SAFE 
+      -L/opt/local/lib -lSDLmain -lSDL -Wl,-framework,Cocoa  main.o -o c_only
+
+    
+    Answer was found in:
+
+    http://stackoverflow.com/questions/4019892/compiling-sdl-on-a-mac
+
+    Raycasting example taken from:
+
+    https://www.youtube.com/watch?v=HQYsFshbkYw
+    http://bisqwit.iki.fi/jutut/kuvat/programming_examples/portalrendering.html
+
+    Now works!!!
+
+================================================================================
+
 Tue Dec 29 21:00:34 EST 2015
     
     Inspirational technical books that are not technical
