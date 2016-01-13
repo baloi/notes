@@ -38,6 +38,15 @@ window manager.
 
 ================================================================================
 
+Tue Jan 12 20:56:03 EST 2016
+    Listening to Hacking The Overmind Radio in Pandora...
+
+    Uses of netcat "nc", a very powerful tool indeed:
+
+    http://www.catonmat.net/blog/unix-utilities-netcat/
+
+================================================================================
+
 Sat Jan  9 17:23:28 EST 2016
 
     Learning hard stuff
