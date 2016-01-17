@@ -38,12 +38,85 @@ window manager.
 
 ================================================================================
 
+Sun Jan 17 07:28:21 EST 2016
+
+    Hello 0mq !
+
+    Built libsodium and zero mq:
+
+    (https://hintjens.gitbooks.io/scalable-c/content/chapter1.html)
+
+    cd $HOME/projects
+
+    # Install libsodium
+    git clone https://github.com/jedisct1/libsodium
+    cd libsodium
+    ./autogen.sh && ./configure && make -j 4
+    make install
+    cd ..
+
+    # Install libzmq
+    git clone https://github.com/zeromq/libzmq
+    cd libzmq
+    ./autogen.sh && ./configure && make -j 4
+    make install
+    cd ..
+
+    # Build CZMQ again...
+    cd czmq
+    ./configure && make -j 4
+    make install
+    cd ..
+
+    Compiled my first zero mq program:
+
+    $ gcc -Wall hello.c -o hello -L/usr/local/lib -lzmq 
+
+    $ ./hello
+
+    hello: error while loading shared libraries: libzmq.so.5: 
+    cannot open shared object file: No such file or directory
+
+    Found a solution here: 
+
+    http://stackoverflow.com/questions/17275875/zmq-libzmq-so-3-cannot-open-shared-object-file-no-such-file-or-directory
+
+    $ sudo ldconfig
+
+    This will update the system library cache. I had already successfully built
+    libzmq and libsodium.
+
+    It took a couple of hours for the total compile/make times, but it is worth
+    it to have zero mq installed in my raspberry pi! On my Mac it has not
+    successfully been built though due to libzmq build cannot find libsodium...
+    Maybe another time in Mac. Pi for now!
+
+================================================================================
+
+Sat Jan 16 16:20:53 EST 2016
+
+    Scalable C - Writing large-scale Distributed C
+
+    https://hintjens.gitbooks.io/scalable-c/content/index.html
+
+================================================================================
+
 Tue Jan 12 20:56:03 EST 2016
     Listening to Hacking The Overmind Radio in Pandora...
 
     Uses of netcat "nc", a very powerful tool indeed:
 
     http://www.catonmat.net/blog/unix-utilities-netcat/
+
+    ---------------------------------------------------
+
+    Setting bash to 'vi' mode: (http://www.catonmat.net/blog/bash-vi-editing-mode-cheat-sheet/)
+
+    $ set -o vi
+
+    To get back to emacs mode:
+
+    $ set -o emacs
 
 ================================================================================
 

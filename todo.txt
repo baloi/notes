@@ -1,11 +1,13 @@
-TODO:
- python ctags to have dropdown
+Sun Jan 17 07:28:46 EST 2016
 
+> 8 AM workout
 
+> 10 AM church
 
+> 1 - 2 notes while watching netflix
 
-> code in go
-> work on notebook go 
+> 2 - 3 code
 
-> webserver coding
-> interactive (python) encrypted DB (C) console!
+> 3 - 4 family 
+
+> 4 - 6 cook and workout
