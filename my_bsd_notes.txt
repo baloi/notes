@@ -38,6 +38,27 @@ window manager.
 
 ================================================================================
 
+Sun Jan 17 10:01:29 EST 2016
+
+    Coded before breakfast and a little bit more after breakfast trying out
+    zero mq. This is the sort of programming I like! Sockets, client-server,
+    publish - subscribe. Makes the blood go uhm.
+
+    weather_updater.c is a program that just publishes mock weather data. I 
+    tried modifying py_hags/tcp_client.py to listen to port 5556 where it 
+    publishes, but got "garbled" data. Telnet sort of does the same thing:
+
+    $ telnet 192.168.0.11 5556 > response.txt
+
+    Tweaked distributed/src/weather_client.c to print out every single 
+    weather data sent as it is received.
+
+    All working on my raspberry pi.
+
+    Uploaded to git.
+
+================================================================================
+
 Sun Jan 17 07:28:21 EST 2016
 
     Hello 0mq !
