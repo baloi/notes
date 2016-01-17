@@ -38,6 +38,62 @@ window manager.
 
 ================================================================================
 
+Sun Jan 17 14:03:03 EST 2016
+
+    ZeroMQ is really pulling me into programming programs that I find really
+    cool. Messaging across machines, client and server, publish and subscribe.
+    These are what I like. Coded in C. Even the ZeroMQ style of coding really
+    makes sense. Instead of using function pointers and structs to have some-
+    thing like classlike behaviour, 0mq just uses naming conventions and passes
+    pointers to structs, like:
+
+    void *context = zmq_ctx_new();
+    void *requester = zmq_socket(context, ZMQ_REQ);
+    // here's a sample:
+    zmq_connect(requester, "tcp://localhost:5555");
+    // another:
+    char buffer[10];
+    zmq_send(requester, "Hello", 5, 0);
+    zmq_recv(requester, buffer, 10, 0);
+    zmq_close(requester);
+    zmq_ctx_destroy(context);
+    
+    How cool is that!
+
+    After unsuccessfully trying to install zeromq and having a lot of libsodium
+    library not found problems when building zeromq, I almost gave up on it, 
+    until I just did:
+
+    $ brew install zeromq
+
+    ==> Downloading http://download.zeromq.org/zeromq-4.1.2.tar.gz
+    ######################################################################## 100.0%
+    ==> ./configure --prefix=/usr/local/Cellar/zeromq/4.1.2 --without-libsodium
+    ==> make
+    ==> make install
+    /usr/local/Cellar/zeromq/4.1.2: 63 files, 3.3M, built in 107 seconds
+
+    Found it from here: 
+    http://cbcg.net/blog/2011/07/30/getting-zeromq-and-jzmq-running-on-mac-os-x/
+
+    Cloned my distributed applications testbed into ~/projects/distributed and
+    compiled like this:
+
+    $ gcc hello_client.c -L/usr/local/Cellar/zeromq/4.1.2/lib/ -lzmq -o hello_client
+
+    $ ls /usr/local/Cellar/zeromq/4.1.2/lib/
+
+    libzmq.5.dylib
+    libzmq.a
+    libzmq.dylib
+    pkgconfig
+
+    I guess -L prefix points to the "lib/" folder which contains libzmq.a
+    which is used by the -l prefix of gcc.
+
+    Rock on...
+================================================================================
+
 Sun Jan 17 10:01:29 EST 2016
 
     Coded before breakfast and a little bit more after breakfast trying out
