@@ -38,6 +38,15 @@ window manager.
 
 ================================================================================
 
+Mon Jan 18 22:59:07 EST 2016
+
+    Scalable C: https://hintjens.gitbooks.io/scalable-c/content/chapter2.html
+
+    This looks like a very promising piece of work. Includes C style and
+    good programming practices....
+
+================================================================================
+
 Sun Jan 17 14:03:03 EST 2016
 
     ZeroMQ is really pulling me into programming programs that I find really
