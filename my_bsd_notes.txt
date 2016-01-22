@@ -38,6 +38,33 @@ window manager.
 
 ================================================================================
 
+Thu Jan 21 22:07:33 EST 2016
+    
+    $ ./configure
+    $ make
+    $ make check
+    $ sudo make install
+    $ sudo ldconfig
+
+    Trying nanomsg...
+
+    Swap #include <libc.h> with:
+
+    #include <unistd.h>
+    #include <string.h>
+    #include <pthread.h>
+
+    And compiling nanomsg programe like nano_pipe.c for example:
+
+    $ gcc nano_pipe.c /usr/local/lib/libnanomsg.a -o nano_pipe
+   
+    But that was static linking. better dynamic:
+
+    $ gcc nano_pipe.c -L/usr/local/lib/ -lnanomsg -o nano_pipe 
+    
+
+================================================================================
+
 Mon Jan 18 22:59:07 EST 2016
 
     Scalable C: https://hintjens.gitbooks.io/scalable-c/content/chapter2.html
