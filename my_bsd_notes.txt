@@ -38,6 +38,20 @@ window manager.
 
 ================================================================================
 
+Sat Jan 23 07:25:55 EST 2016
+
+    Using valgrind:
+    
+    Compile your program with the -g option:
+
+    $ gcc -Wall -g your_program.c -o your_program
+
+    Then let it run with valgrind:
+
+    $ valgrind --track-origins=yes ./your_program
+
+================================================================================
+
 Thu Jan 21 22:07:33 EST 2016
     
     $ ./configure
