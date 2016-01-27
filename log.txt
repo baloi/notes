@@ -4,10 +4,14 @@
   * display is plain text
   * output is plain text in screen
   * BUT everything is written to file, searched, compared in encrypted form
-  * OR in-memory decryption is done on the fly and then compared to search string
-    (read record, decrypt, compare, process results [keep tab of record id if needed and comment?]
-  * It seems weird or process intensive, but decrypting and then keeping an in memory tab of the 
-    search result will make sure no plain text data is written to file. 'Plain text form' is only
-    done in processing or output to human user, otherwise it is all encrypted.
-  * Would an in-memory plain text decrypted DB be the answer or just run through the whole DB per 
-    process and just edit DB per record as needed? - Maybe just as needed.
+  * OR in-memory decryption is done on the fly and then compared to search 
+    string:
+    (read record, decrypt, compare, process results 
+    [keep tab of record id if needed and comment?])
+  * It seems weird or process intensive, but decrypting and then keeping an in 
+    memory tab of the search result will make sure no plain text data is writte
+    to file. 'Plain text form' is only done in processing or output to human 
+    user, otherwise it is all encrypted.
+  * Would an in-memory plain text decrypted DB be the answer or just run through
+    the whole DB per process and just edit DB per record as needed? - Maybe jus
+    as needed.
