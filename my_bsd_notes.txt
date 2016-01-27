@@ -38,6 +38,16 @@ window manager.
 
 ================================================================================
 
+Wed Jan 27 06:47:22 EST 2016
+
+    Connecting programs together with sound?
+    http://joearms.github.io/2016/01/28/A-Badass-Way-To-Connect-Programs-Together.html
+
+    This is from the speaker of this video, which is also cool (the mess we are
+    in):
+    https://www.youtube.com/watch?v=lKXe3HUG2l4
+================================================================================
+
 Sat Jan 23 07:25:55 EST 2016
 
     Using valgrind:
