@@ -38,6 +38,34 @@ window manager.
 
 ================================================================================
 
+Fri Jan 29 06:03:36 EST 2016
+
+    Taken from my journal with the above date and time:
+
+    I should be writing more on my journal. I have been writing a bit on my BSD
+    notes though. I think is it good to look at my git logs to know home much
+    I have been "working". Right now, notes and some projects have been tracked,
+    but my "projects folder has not been....". Maybe I should log all the 
+    "creative" work I have done and the "freewriting" too. Hmm. just a thought.
+
+    Anyway, looking into doing "go" or "c". Learning to have a rudimentary 
+    database in C. Porting to go or not? Go has encryption, go routines, and
+    networking with it. I have also found a bare tcp server an client sample.
+    Trying to figure out patterns for file access. Maybe I should look into
+    the simple go database implementation with JSON serialization sample and
+    then just change it to the c-style implementation ..... Hmmm. Time to look
+    into some code.
+
+    I am trying out small project samples from other people. Might try to read
+    on medium sized samples later on... But I feel I still have the need to 
+    be grounded on the small snippets of code which I do enjoy doing. I shall
+    do this and maybe bigger projects later on. 0MQ was good for a while then
+    things got complex. I'll go back to 0mq and nanomsg later on when I need
+    a networking stack for my database maybe. Maybe that is....
+
+
+================================================================================
+
 Wed Jan 27 06:47:22 EST 2016
 
     Connecting programs together with sound?
