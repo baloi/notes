@@ -38,6 +38,17 @@ window manager.
 
 ================================================================================
 
+Fri Jan 29 06:47:35 EST 2016
+
+    Gopher academy has a few bit of short projects to tinker with like, a go &
+    JSON database, parser and lexer. It seems one way to start... I have done
+    worse in the past so why not?
+
+    https://blog.gopheracademy.com/
+
+
+================================================================================
+
 Fri Jan 29 06:39:50 EST 2016
 
     Having more time, less money. The upside to more time though is you have
