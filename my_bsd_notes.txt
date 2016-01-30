@@ -38,6 +38,35 @@ window manager.
 
 ================================================================================
 
+Sat Jan 30 11:46:44 EST 2016
+
+    Installing pcap from tcpdump site for packet stuff:
+
+    > Downloaded pcap:
+    $ http://www.tcpdump.org/release/libpcap-1.7.4.tar.gz
+
+    > Unpack
+    $ tar -zxvf libpcap-1.7.4.tar.gz
+
+    > apt-get update
+    $ sudo apt-get update
+
+    > install flex
+    $ sudo apt-get install flex
+
+    > install yacc through bison
+    $ sudo apt-get install bison
+
+    > configure, make, make install
+    $ ./configure
+
+    $ make
+
+    $ sudo make install
+
+
+================================================================================
+
 Fri Jan 29 06:47:35 EST 2016
 
     Gopher academy has a few bit of short projects to tinker with like, a go &
