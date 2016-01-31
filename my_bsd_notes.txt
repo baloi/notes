@@ -38,6 +38,27 @@ window manager.
 
 ================================================================================
 
+Sun Jan 31 15:00:38 EST 2016
+
+    I have been coding the sniffer in C for a couple of hours now. About 250
+    lines with comments explaining some parts of the program. So it could be
+    about 200 lines. I had also some code in there from past pcap library use
+    practice snippets. So it could be close to 150 lines of code. 
+
+    Now, this is just trying to copy and get to understand the sniffer code in
+    C. 
+
+    Method:
+    1. copy a small part of the code (about 1 to 5 lines only)
+    2. compile/run
+    3. understand the code
+
+    4. edit code if needed to fit my liking
+
+    This will be my defacto standard of studying C code from now on...
+
+================================================================================
+
 Sun Jan 31 10:22:24 EST 2016
     I have to read some of these books:
 
