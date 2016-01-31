@@ -38,6 +38,13 @@ window manager.
 
 ================================================================================
 
+Sun Jan 31 10:22:24 EST 2016
+    I have to read some of these books:
+
+    https://sivers.org/book
+
+================================================================================
+
 Sat Jan 30 11:46:44 EST 2016
 
     Installing pcap from tcpdump site for packet stuff:
