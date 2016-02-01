@@ -38,6 +38,25 @@ window manager.
 
 ================================================================================
 
+Sun Jan 31 22:35:49 EST 2016
+
+    Packet capture code using libpcap is working. Nice! Learning more C idioms.
+    The little sniffer program was written in good style. Uses pointer offset
+    locations. 
+    
+    Has callback function. Cool!
+
+    Code is in ~/projects/packet/sniff.c
+
+    The function:
+    
+    int pcap_loop(pcap_t *p, int cnt, pcap_handler callback, u_char *user)
+
+    this is the key to the callback mechanism. So each time a packet is read,
+    the callback function "callback" is called with arguments.
+
+================================================================================
+
 Sun Jan 31 15:00:38 EST 2016
 
     Studying code by typing it in and modifying (one way to learn, a good one).
