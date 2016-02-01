@@ -38,6 +38,35 @@ window manager.
 
 ================================================================================
 
+Sun Jan 31 22:47:56 EST 2016
+
+    This weekend, I was not able to code my planned dayprog planner database,
+    but I had fun with pcap capture library.
+
+    Had pcap installed and running on my raspberry pi by Saturday morning. Had
+    it running in OSX later on. Followed the tutorial in: 
+    http://www.tcpdump.org/pcap.html
+
+    Took it slow. Bit by bit. First compiled with #include <pcap.h>. Then 
+    slowly added functionality. Had visitors saturday afternoon to night so I
+    had a coding stop for a bit but coded again a little more Saturday night.
+
+    Saturday morning more done, afternoon for 2 hours and then finished the
+    whole thing at 10:30 PM tonight after my run.
+
+    Got it done!
+
+    From now on, a tutorial should be done in due time. I will not hurry at all
+    as I will not learn much that way. It was about a 300 + line program with
+    lots of comments for the functions used. Coded in C. Followed the tutorial,
+    but I think I still have to revisit this and code more my own.
+
+    It had a callback function which called printing functions in hex and ascii.
+    
+    Totally rocks!
+
+================================================================================
+
 Sun Jan 31 22:35:49 EST 2016
 
     Packet capture code using libpcap is working. Nice! Learning more C idioms.
