@@ -38,6 +38,32 @@ window manager.
 
 ================================================================================
 
+Thu Feb  4 06:46:06 EST 2016
+
+    fread in C when reading binary files in unix is different when using it in
+    Windows. I opened the file using:
+
+
+        conn->file = fopen(filename, "r+");
+
+    This link 
+    (http://stackoverflow.com/questions/11717120/unexpected-return-value-from-fread)
+    suggests that fopen be used with "rb" flag
+
+        conn->file = fopen(filename, "rb+");
+
+    I will give it a try later, but I am also thinking about using mingw on
+    windows. I just tried TCC last night.
+
+    My little side project is a database that uses structs and write the structs
+    (and read them) in binary format.
+
+    Or I may have to read and write to text files instead, as this may work for
+    my other little project which will parse MDS lists and determine which were
+    done and not done - this tool I need badly.
+
+================================================================================
+
 Sun Jan 31 22:47:56 EST 2016
 
     This weekend, I was not able to code my planned dayprog planner database,
