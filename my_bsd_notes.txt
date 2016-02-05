@@ -38,6 +38,20 @@ window manager.
 
 ================================================================================
 
+Thu Feb  4 19:38:56 EST 2016
+    This might just be what I am looking for...
+
+    Maru is a desktop OS on an Android phone. Switch between phone and Desktop.
+    Connect phone to HDMI and connect Bluetooth keyboard.
+
+    http://maruos.com/#/
+
+    And as a side note, 20 things nice to have:
+
+    http://www.amazon.com/b/ref=sl_gw_topshov_twenty/ref=br_isw_strs-3?_encoding=UTF8&ie=UTF8&node=13630385011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-top&pf_rd_r=02TKBP82ME8RMHSJJFY3&pf_rd_t=36701&pf_rd_p=2402280002&pf_rd_i=desktop
+
+================================================================================
+
 Thu Feb  4 06:46:06 EST 2016
 
     fread in C when reading binary files in unix is different when using it in
