@@ -38,6 +38,20 @@ window manager.
 
 ================================================================================
 
+Sat Feb  6 15:28:12 EST 2016
+    
+    C programming, improving, see Leif Walsh's answer:
+
+    https://www.quora.com/What-is-the-right-way-to-improve-my-practical-programming-in-c
+
+    Definitely someone to follow, coding-wise. A C programmer by trade...
+    
+    Code reading Spinellis:
+
+    http://www.spinellis.gr/codereading/spinellisch02.pdf
+
+================================================================================
+
 Thu Feb  4 19:38:56 EST 2016
     This might just be what I am looking for...
 
