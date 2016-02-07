@@ -38,6 +38,27 @@ window manager.
 
 ================================================================================
 
+Sun Feb  7 13:09:12 EST 2016
+
+    Found a way to read whole file in C in a better way using dynamic alloc-
+    ation here:
+
+    /Users/baloi/projects/c_snippets
+
+    Currently also reading:
+    "The Practice of Programming" by Brian Kernigan and Rob Pike
+    "The Art of Unix Programming" by Eric Raymond
+
+    TPOP has good idioms for C and other languages and a very good regex matcher
+    in a few lines of C.
+
+    TAOUP has some stuff about the Unix approach, good program design, etc.
+
+    Not even a third of the way through both books and already it is giving me
+    much info, enlightenment...
+
+================================================================================
+
 Sat Feb  6 15:28:12 EST 2016
     
     C programming, improving, see Leif Walsh's answer:
