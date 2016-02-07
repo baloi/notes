@@ -38,12 +38,17 @@ window manager.
 
 ================================================================================
 
+
+
+================================================================================
+
 Sun Feb  7 13:09:12 EST 2016
 
     Found a way to read whole file in C in a better way using dynamic alloc-
     ation here:
 
     /Users/baloi/projects/c_snippets
+    (Now implemented in ~/projects/c_snippets/file_open.c 
 
     Currently also reading:
     "The Practice of Programming" by Brian Kernigan and Rob Pike
