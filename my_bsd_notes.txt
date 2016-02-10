@@ -38,6 +38,59 @@ window manager.
 
 ================================================================================
 
+Tue Feb  9 21:35:15 EST 2016
+
+    The tools, the language and the workflow.
+
+    I think that when programming, it is not only the language itself that makes
+    it fun and productive but also the tools available and the workflow... I 
+    like tools that are simple and that I know how to use. I do not like to 
+    install a library/plugin and then later on it does not run (like the
+    nightmare I had with Ruby gems and versions). I did not know why there had
+    to be so many dependencies and then later on they were broken.
+
+    Anyway, the workflow. I will describe mine for this short snippet that did 
+    not work (after I added the scaffolding code):
+
+        #include <time.h> 
+        char *now; 
+        char *date; 
+        /* original snippet starts here */
+        time(&now);
+        strcpy(date, ctime(&now));
+        date[strlen(date)-1] = '\0';
+        /* original snippet ends here */
+
+    So the workflow:
+    1. save file after editing (using vim ":w")
+    2. Ctrl-z to get out of vim temporarily
+    3. gcc -Wall the_art.c -o the_art
+    4. ./the_art (runs the program)
+    5. fg
+    6. back to 1
+
+    Steps 3 and 4 I do not have to type, just use the "up" arrow for command
+    history.
+
+    It had bugs so did not compile yet. Fixed bugs. I ran then had segmentation
+    fault. I decided to use Valgrind to be safe. Oh, my Mac does not have 
+    valgrind. Easy, I have a raspberry pi always on with gcc, valgrind, python
+    and some other good stuff (like vi with tags to C library code).
+
+    scp *.c pi@192.168.0.xx://home/pi/projects/c_snippets
+
+    Used steps 1 - 6 but changed 3 and 4 to use valgrind as follows:
+
+    3. gcc -Wall -g the_art.c -o the_art
+    4. valgrind ./the_art
+
+    Kept doing the same routine, until I found a solution.
+    It takes just a couple of seconds to save(":w"), get out of vim("Ctrl-z")
+    and compile (2-3 up arrows). 
+
+    
+================================================================================
+
 Tue Feb  9 21:26:52 EST 2016
 
     Learning again that C is unreasonably good. Stable, simple, fast, uncompro-
