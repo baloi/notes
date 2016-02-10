@@ -38,7 +38,20 @@ window manager.
 
 ================================================================================
 
+Tue Feb  9 21:26:52 EST 2016
 
+    Learning again that C is unreasonably good. Stable, simple, fast, uncompro-
+    mising. This guy thinks so too:
+
+    http://damienkatz.net/2013/01/the_unreasonable_effectiveness_of_c.html
+
+    I currently reading "The Practice of Programming" by Kernigan and Pike, and
+    find that their are a few bits of of essential tips for programmers and 
+    especially for C programmers. Going through some code about commenting your
+    code, I found a snippet that resulted in a segmentation fault. It compiled
+    but the segmentation fault happened when I ran the code (more aoubt this 
+    later). But I was able to hack a bit and experimented. Used Valgrind and
+    hacking away and read a little bit of the man pages and whalla! It ran...
 
 ================================================================================
 
