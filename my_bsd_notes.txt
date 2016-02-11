@@ -38,6 +38,13 @@ window manager.
 
 ================================================================================
 
+Thu Feb 11 18:45:19 EST 2016
+
+    Using text files...
+    http://lifehacker.com/ten-clever-uses-for-plain-text-files-that-can-increase-1662774267
+
+================================================================================
+
 Thu Feb 11 06:58:34 EST 2016
 
     This is a nice little source of tips about small things someone learned
