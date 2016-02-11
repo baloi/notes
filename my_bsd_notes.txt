@@ -38,6 +38,19 @@ window manager.
 
 ================================================================================
 
+Thu Feb 11 06:58:34 EST 2016
+
+    This is a nice little source of tips about small things someone learned
+    across a variety of languages and tech while working at Hashrocket:
+
+    https://github.com/jbranchaud/til
+
+    Then how to code go to convert "curl" commands to go:
+
+    https://mholt.github.io/curl-to-go/
+
+================================================================================
+
 Tue Feb  9 21:35:15 EST 2016
 
     The tools, the language and the workflow.
