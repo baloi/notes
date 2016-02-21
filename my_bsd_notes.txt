@@ -38,6 +38,27 @@ window manager.
 
 ================================================================================
 
+Sun Feb 21 09:25:19 EST 2016
+    
+    Using zeromq security:
+
+    http://hintjens.com/blog:49
+
+    The scalable C language:
+
+    https://hintjens.gitbooks.io/scalable-c/content/chapter3.html
+    
+
+================================================================================
+
+Sun Feb 14 09:20:55 EST 2016
+
+    Python's killer apps for blogging:
+
+    http://tech.marksblogg.com/website-cdn-with-pelican-and-s3cmd.html
+
+================================================================================
+
 Thu Feb 11 18:45:19 EST 2016
 
     Using text files...
