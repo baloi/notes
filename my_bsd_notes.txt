@@ -38,6 +38,20 @@ window manager.
 
 ================================================================================
 
+Tue Feb 23 21:47:47 EST 2016
+
+http://metal.mit.edu/brief-history-metal:
+
+Metal notes, chronological:
+> Black Sabbath (started it, workman like)
+> Deep Purple   (faster virtouosity)
+> Judas Priest, Hellbent or Leather
+> Iron Maiden , Run to the Hills
+  Motorhead, Iron Fish
+> Metallica
+
+================================================================================
+
 Sun Feb 21 09:25:19 EST 2016
     
     Using zeromq security:
