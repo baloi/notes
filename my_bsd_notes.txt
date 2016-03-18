@@ -38,6 +38,21 @@ window manager.
 
 ================================================================================
 
+Thu Mar 17 21:23:58 EDT 2016
+
+    Database labs (execution is everything) - shows that we can maybe just share
+    the code and then be able to market something somehow. Hmmm, sqlite comes
+    into mind. One great codebase, very much used by a lot of people.
+
+    www.kalzumeus.com - running a software business on 5 hours a week... Or 
+    coding 3 hours a day, everyday no exceptions, forever. Or in my case, coding
+    30 minutes a day...
+
+    Time debt. Make tools to save time... That kind of stuff.
+   
+
+================================================================================
+
 Tue Mar 15 06:50:58 EDT 2016
 
     One more reason for Mac: HAPPINESS...
