@@ -38,6 +38,12 @@ window manager.
 
 ================================================================================
 
+Wed Mar 23 07:54:58 EDT 2016
+
+    Goal is: make simple apps that do simple things.
+
+================================================================================
+
 Wed Mar 23 07:07:47 EDT 2016
 
     I am off work today, just one homecare patient at 9 AM. 
