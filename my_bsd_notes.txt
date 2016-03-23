@@ -38,6 +38,22 @@ window manager.
 
 ================================================================================
 
+Wed Mar 23 07:07:47 EDT 2016
+
+    I am off work today, just one homecare patient at 9 AM. 
+
+    Working on adc project. Writing SQL by hand and coding in C. I think this
+    is what I like better. Leverage what I learned more than ten years ago. 
+    Using the newer tech and deeper understanding. SQL and C still rock today.
+    I used SQL with either Java, PHP or Rails back then. Mapped out CMS data-
+    bases in a big whiteboard until about 2 am and inserted my own tables and
+    tweaked the CMS to do our work. That was a real hack. Makes me feel excited
+    just thinking about it.
+
+    Got to do it.
+
+================================================================================
+
 Wed Mar 23 06:43:49 EDT 2016
 
     Monday and Wednesday I was not able to do much of coding or workouts, 
