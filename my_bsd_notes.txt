@@ -38,6 +38,186 @@ window manager.
 
 ================================================================================
 
+Wed Mar 23 22:39:54 EDT 2016
+
+    Using ssh-agent and ssh-add to use ssh without entering passphrase:
+
+        eval `ssh-agent -s`
+        ssh-add
+
+================================================================================
+
+Wed Mar 23 07:54:58 EDT 2016
+
+    Goal is: make simple apps that do simple things.
+
+================================================================================
+
+Wed Mar 23 07:07:47 EDT 2016
+
+    I am off work today, just one homecare patient at 9 AM. 
+
+    Working on adc project. Writing SQL by hand and coding in C. I think this
+    is what I like better. Leverage what I learned more than ten years ago. 
+    Using the newer tech and deeper understanding. SQL and C still rock today.
+    I used SQL with either Java, PHP or Rails back then. Mapped out CMS data-
+    bases in a big whiteboard until about 2 am and inserted my own tables and
+    tweaked the CMS to do our work. That was a real hack. Makes me feel excited
+    just thinking about it.
+
+    Got to do it.
+
+================================================================================
+
+Wed Mar 23 06:43:49 EDT 2016
+
+    Monday and Wednesday I was not able to do much of coding or workouts, 
+    although I was able to play a little tennis with Janjan in the Kinderhook
+    tennis area last yesterday, Tuesday. Caught up with work in Barnwell and 
+    also with my homecare. I think it is a good idea to devote Sunday PM, Mon-
+    day AM until Tuesday to play catch up and get ahead. Then the rest of the
+    week would be doable. Get ahead of the game. So I have not been getting too
+    much sleep Sunday nights and get to sleep better on Monday. I think this
+    makes sense for me as for so many years in College, I had to travel from
+    Bohol to Cebu (4 hour boat trip) on Sunday night and then sometimes even
+    had to miss some of Monday... That was not a good idea and it was so lone-
+    ly. 
+    But doing it this way:
+    > Get all loose ends done and get ahead of work Sunday PM and Monday am,
+      power through Monday 
+    
+    I use my energy and still be with family. And it is getting ahead, not 
+    being behind. I also am able to just make it through Monday as it is mostly
+    dreary anyway. No more Sunday night boat trip which was one of the least
+    pleasant memories of my College and Cebu working days. 
+
+
+    Sunday - Family and most workout then catchup on all notes.
+    Monday - least workouts and get ahead of work.
+
+================================================================================
+
+Sun Mar 20 19:09:01 EDT 2016
+
+    Sunday 6 PM and up seems to be "my time". I feel that I can tackle stuff
+    like coding, reading, working out and even writing notes for my homecare PT
+    stuff. I seem to be "available" at this time. It is also good or everyone to
+    be home at this time so they can tackle the coming week's challenges. I like
+    to "frontload" my work - I even used to go very early to work on Monday 
+    6:30 AM to do scheduling or even do it Sunday nights at my daytime PT work.
+    Yes, Sunday night or Monday early mornings were spent there. For about 2
+    years of my life.  (Continued at my journal page....). Anyway, if I could do
+    it for work, I could do it for myself....
+
+    Sunday just a little bit after 7 PM. Church at 10:30 AM done. Cooked for 
+    family lunch done. Time with family and a couple of friends and then had a
+    little nap. Decided to get some coffee a while ago, although I have decided
+    to cut on coffee and alcohol for most of the week. Sundays are always the 
+    exception. Now the plan:
+    * Read
+    * Workout
+    * Code
+    * Write on journal
+    * Write PT notes
+
+    Mind is relatively clear. And a little while before this, just did a ritual:
+    cleaned coffee pot and water dispenser - took about 10 minutes. That was my
+    meditation. Also put all my Homecare scheduled visits in my Google calendar.
+    Also some plans for this week. Now I feel that I have planned. Nowadays too
+    I finish all my dayjob notes on time since I do not have the scheduling duty
+    already. Now just the MDS to be on time. I need to write that tool to merge
+    MDS lists and mark what are done and not done (will save me about 30 minutes
+    every day and that will be my morning time which is very important for me).
+
+
+================================================================================
+
+Sat Mar 19 09:26:32 EDT 2016
+
+    Trying to get into coding mindset in 5 minutes.
+
+    .. 4 minutes done. Firing up Pandora
+
+    .. 6 minutes.. Spotify house on
+
+
+================================================================================
+
+Thu Mar 17 21:23:58 EDT 2016
+
+    Database labs (execution is everything) - shows that we can maybe just share
+    the code and then be able to market something somehow. Hmmm, sqlite comes
+    into mind. One great codebase, very much used by a lot of people.
+
+    www.kalzumeus.com - running a software business on 5 hours a week... Or 
+    coding 3 hours a day, everyday no exceptions, forever. Or in my case, coding
+    30 minutes a day...
+
+    Time debt. Make tools to save time... That kind of stuff.
+   
+
+================================================================================
+
+Tue Mar 15 06:50:58 EDT 2016
+
+    One more reason for Mac: HAPPINESS...
+
+================================================================================
+
+Tue Mar 15 06:49:00 EDT 2016
+
+    I am sold: totally going to shop for a Macbook air soon.
+
+FROM freethink.txt:
+
+Time to code:
+  Best would be early in the morning.
+
+Best machine for coding.
+  (mac)
+
+What can I say? Typing in my Macbook is
+  FREAKING AWESOME!!
+  I would not have any other machine at
+    this point to type on...
+  Nor do I have one comparable...
+
+Why is the Macbook awesome:
+  Still has some battery. (2-3 hours)
+  Keyboard rocks
+  Very good "sleep" functionality.
+  Just works.
+
+================================================================================
+
+Tue Mar 15 06:22:03 EDT 2016
+(Taken from my journal entry)
+
+    As I thought, I can program most productively in my Macbook. Planning to buy
+    either a Macbook 11" or an HP Elitebook 12". Elitebook has bigger memory and
+    costs about $300, Macbook Air a minimum of $460. Elitebook 12", Macbook Air
+    11". Macbook has good keyboard, Elitebook might have good keyboard.
+    Macbook has OSX, Elitebook has Windows (I would have to install linux). 
+    Macbook should have good battery life, Elitebook about 3 hours. Macbook has
+    good sleep function, Elitebook depends on linux. Macbook will be easy to 
+    connect to network and has good PDF readers. Elitebook...
+
+    Macbook Air 11", wins even with price. I better buy a good almost like new
+    or new one (OLD version or newest).
+
+    Macbook Air 11" wins!
+
+    John Carmack when Id was in full scale development and when they just 
+    started having money, once went out on a cold day, drove his car to for a
+    bit and came back with a Next Cube. It was his investment. Back then the
+    Next Cube cost about $10,000. That was about 20 years ago. John Carmack
+    coded the game Wolfenstein and Tim Berners Lee used a Next Computer to 
+    "build" the internet. Cool STUFF! Macbook Air wins in my game.
+    
+    Now to look for stickers for my Mac.
+
+================================================================================
+
 Sat Feb 27 09:43:27 EST 2016
 
 http://ewanvalentine.io/why-go-solves-so-many-problems-for-web-developers/
