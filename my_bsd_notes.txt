@@ -40,7 +40,7 @@ window manager.
 
 Wed Mar 23 22:39:54 EDT 2016
 
-    Just trying to figure out how to use ssh-agent and ssh-add.
+    Just trying to figure out how to use ssh-agent and ssh-add .
 
 ================================================================================
 
