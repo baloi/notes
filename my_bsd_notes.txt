@@ -38,6 +38,12 @@ window manager.
 
 ================================================================================
 
+Wed Mar 23 22:39:54 EDT 2016
+
+    Just trying to figure out how to use ssh-agent and ssh-add.
+
+================================================================================
+
 Wed Mar 23 07:54:58 EDT 2016
 
     Goal is: make simple apps that do simple things.
