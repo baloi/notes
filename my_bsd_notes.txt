@@ -38,6 +38,12 @@ window manager.
 
 ================================================================================
 
+Sat Feb 27 09:43:27 EST 2016
+
+http://ewanvalentine.io/why-go-solves-so-many-problems-for-web-developers/
+
+================================================================================
+
 Tue Feb 23 21:47:47 EST 2016
 
 http://metal.mit.edu/brief-history-metal:
