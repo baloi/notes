@@ -38,6 +38,51 @@ window manager.
 
 ================================================================================
 
+Thu Apr  7 11:35:39 EDT 2016
+
+    USE LESS CODE MORE (using less libraries, tools and frameworks work)
+
+    It saves time and energy learning a new framework.
+    It saves time, energy and motivation to not get into bugs and configuration
+    hell from using unfamiliar or unstable libraries, frameworks.
+    Not using ORM to cut down on studying the ORM or configuration and then I
+    end up just testing the basic functionality of the models (CRUD).
+    Now I just code the functionality I need directly. I do not have the time to
+    be a framework expert.
+
+    USE MORE ONLY WHEN IT HELPS.
+
+    Example is I use an python library for reading excel files with a very easy
+    api. Not too powerful but understandable.
+
+
+================================================================================
+
+Thu Apr  7 11:27:43 EDT 2016
+
+    How I code:
+    > Thinkpad with good battery life, keyboard and music
+    > Metal music (Metallica and stuff)
+    > Vim, Python, git (for notes and journal) - see last entry for setup
+    > TV on with something not too interesting (Action series).
+    > Sit and stand.
+    > Workout.
+    > "Easy" testing. Combination of py.test and just manually checking program
+      output. Testing is not formalized.
+    > Used python as I am familiar (get around my head), setup was easy, 
+      libraries - did not have to read up much to code. Fairly powerful, not too
+      low level that you have to code everything yourself and did not have the
+      "configuration hell" with some languages. Readily available in Unix like
+      and windows easily.
+
+    This setup works. Last night I was able to code the script that will compare
+    two files and print out what entries have not yet been done based on the 
+    older (marked) file. Saves me time and a lot of brain cycles at work.
+
+    Coded in one night! I cannot dispute that.
+
+================================================================================
+
 Thu Apr  7 11:18:13 EDT 2016
 
     My new workflow/setup.
