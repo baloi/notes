@@ -38,6 +38,60 @@ window manager.
 
 ================================================================================
 
+Thu Apr  7 11:18:13 EDT 2016
+
+    My new workflow/setup.
+
+    Using my Lenovo Thinkpad 450s exclusively. Using my Macbook as a backup and
+    unix based programming environment. I just turn the Mac on and connect to it
+    via ssh. Using Putty and adjusted screen fonts to Lucida Console 14 pt - way
+    better to have large fonts. My raspberry pi is always on and I connect to it
+    for backup and maybe work on C programming. Currently programming in Python
+    in my Thinkpad. Downloading Microsoft Visual Studio for C programming. I
+    found a tip in "Handmade Hero" video for setting up and console based 
+    environment for C/C++ development.
+
+    Music       : Metal, definitely for programming.
+    Text editor : vim/gvim with larger fonts and dark backround.
+    Browser     : Firefox
+    Console     : cmd with larger fonts
+    Python      : using py.test (painless testing)
+    programming : "data driven" - just basically testing code against real data
+                  and making sure that output is correct. That simple.
+
+================================================================================
+
+Thu Apr  7 11:08:25 EDT 2016
+
+    Coding in Python. Coded last night after dinner. Had Netflix on with 
+    "American Odyssey" on. Also had Metal music running in Spotify. Coded using
+    my Lenovo T450s. 
+
+    Why it makes sense to code in a Thinkpad 450s.
+    > Best keyboard!
+    > Rugged laptop. I am not afraid that I would break anything when I carry
+      this computer in my bag. 
+    > Trackpoint. I never knew that using this feature would really make working
+      in situations with muliple windows, copy paste from gui for data sources,
+      basically replacing the mouse without moving my hands too far from the
+      keyboard.
+    > Battery life! (5 hours at least, just received my 6 cell battery which has
+      even more juice
+    > Weight - something I can really put in my lap.
+    > Size. 14 inch monitor good enough (not small, not big), to be productive 
+      and mobile. Thin - easy to carry around.
+    > Windows makes me get Windows programs running (this is where I get my data
+      from which I can crunch. Although I love OSX, BSD and Linux, I need to 
+      gather my data from Windows based applications so this works.
+    > Blackbox look. Looks like computers I use at work, so I can bring this and
+      use it at work and for coding.
+
+
+    I made the right choice.
+   
+
+================================================================================
+
 Wed Mar 23 22:39:54 EDT 2016
 
     Using ssh-agent and ssh-add to use ssh without entering passphrase:
