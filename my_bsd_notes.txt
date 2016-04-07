@@ -38,6 +38,12 @@ window manager.
 
 ================================================================================
 
+Thu Apr  7 12:29:16 EDT 2016
+
+    And one more thing: Turn of internet at times. Limit surfing..
+
+================================================================================
+
 Thu Apr  7 11:41:49 EDT 2016
 
     Physical/Mental preparation for coding:
