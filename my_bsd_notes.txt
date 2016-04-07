@@ -38,6 +38,21 @@ window manager.
 
 ================================================================================
 
+Thu Apr  7 11:41:49 EDT 2016
+
+    Physical/Mental preparation for coding:
+    > enough sleep
+    > enough exercise
+    > managing notes from work
+    > writing notes on journal, tech notes and on moleskin notebook
+    > using calendar as a personal secretary so no appointments get forgotten.
+      Who to call, appointments, what notes to write, etc.
+    > spending more time with family - Saturdays are homecare light work and
+      Sundays are not work and catch up on notes.
+    > Going to gym with Janjan
+
+================================================================================
+
 Thu Apr  7 11:35:39 EDT 2016
 
     USE LESS CODE MORE (using less libraries, tools and frameworks work)
