@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Sat Apr  9 11:20:45 UTC 2016
+
+    Diving into Emacs. Writing this post currently in Emacs. Got the tutorial
+    from here:
+
+    http://blog.aaronbieber.com/2015/05/24/from-vim-to-emacs-in-fourteen-days.html
+
+================================================================================
 Thu Apr  7 12:29:16 EDT 2016
 
     And one more thing: Turn of internet at times. Limit surfing..
