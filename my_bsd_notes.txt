@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Sun Apr 10 15:00:49 UTC 2016
+
+    Pasting the date from emacs not yet too easy:
+ 
+    C-u M-! date (puts shell command "date" into buffer)
+
+================================================================================
+
 Sat Apr  9 11:20:45 UTC 2016
 
     Diving into Emacs. Writing this post currently in Emacs. Got the tutorial
