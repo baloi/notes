@@ -57,6 +57,8 @@ Mon Apr 11 05:05:47 UTC 2016
 
     I still plan to study emacs and its code though, including lisp.
 
+    At this time, vim and python - I am fastest this way.
+
 ================================================================================
 
 Sun Apr 10 15:00:49 UTC 2016
