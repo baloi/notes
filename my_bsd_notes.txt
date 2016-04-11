@@ -38,6 +38,27 @@ window manager.
 
 ================================================================================
 
+Mon Apr 11 05:05:47 UTC 2016
+
+    I do agree that emacs is a very good programming environment with lots of 
+    stuff to make programming productive, but... I am just in a hurry to finish
+    the Python script I needed to parse files. The old program used a database
+    and I decided that this time, I would go with as little "dependencies". And
+    the script just reads an excel file and then prints it out with data sorted
+    out. It was a pain trying to think of the code, the problem in the
+    algorithm and the use of a new text editor. 
+
+    I just wanted to give emacs a try as I am programming in Windows to be able
+    to extract the data from a windows program.
+
+    Even moving text, even typing speed was affected. At this time, I am in a
+    crunch. Can think faster with the current setup. Can code faster with the 
+    current setup. Familiarity of the coding environment and language. 
+
+    I still plan to study emacs and its code though, including lisp.
+
+================================================================================
+
 Sun Apr 10 15:00:49 UTC 2016
 
     Pasting the date from emacs not yet too easy:
