@@ -38,7 +38,42 @@ window manager.
 
 ================================================================================
 
-Mon Apr 11 05:05:47 UTC 2016
+Mon Apr 11 20:35:41 EDT 2016
+
+    Currently listening to Batman on Spotify.
+
+    I had the python script for turning schedule.xls to caseloads.txt.
+
+    Now get the paysources....
+
+================================================================================
+
+Mon Apr 11 20:34:21 EDT 2016
+
+    Reconfigured data and time in my raspberry pi with:
+
+    $ sudo dpkg-reconfigure tzdata
+
+    This brings you to a couple of menus that lets you specify your timezone.
+
+================================================================================
+
+Mon Apr 11 6:53:20 EDT 2016
+
+    Freeing space in raspberry....
+
+    # du -sh *   
+
+    Doing this from root into /usr/share/doc showed that share used about 800 M
+    of space.
+
+    # apt-get --purge remove text.\*doc$ 
+
+    Removed about 800 M of doc files is share...
+
+================================================================================
+
+Mon Apr 11 01:05:47 EDT 2016
 
     I do agree that emacs is a very good programming environment with lots of 
     stuff to make programming productive, but... I am just in a hurry to finish
