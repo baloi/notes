@@ -38,6 +38,13 @@ window manager.
 
 ================================================================================
 
+Sun Apr 17 02:25:42 EDT 2016
+
+    Kali Linux up and running on flash drive. Configuring Emacs first and try 
+    evil-mode.
+
+================================================================================
+
 Mon Apr 11 20:35:41 EDT 2016
 
     Currently listening to Batman on Spotify.
