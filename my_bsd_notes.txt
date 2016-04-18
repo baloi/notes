@@ -38,6 +38,19 @@ window manager.
 
 ================================================================================
 
+Sun Apr 17 20:45:48 EDT 2016
+
+    This is were my .emacs file is on Windows:
+
+    c:\Users\the_user\AppData\Roaming
+
+    M-x package-install   -> go-mode 
+
+    Now opening a .go file syntax hightlights go source, then using
+    M-x evil-mode is even better.
+
+================================================================================
+
 Sun Apr 17 02:25:42 EDT 2016
 
     Kali Linux up and running on flash drive. Configuring Emacs first and try 
