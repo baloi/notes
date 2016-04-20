@@ -38,6 +38,19 @@ window manager.
 
 ================================================================================
 
+Wed Apr 20 18:40:19 EDT 2016
+
+    Using 4 spaces for tabwidth in emacs:
+
+    (add-hook 'go-mode-hook
+      (lambda ()
+        (setq-default)
+        (setq tab-width 4)
+        (setq standard-indent 4)
+        (setq indent-tabs-mode nil)))
+
+================================================================================
+
 Sun Apr 17 20:45:48 EDT 2016
 
     This is were my .emacs file is on Windows:
