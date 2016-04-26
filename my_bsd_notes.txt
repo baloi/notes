@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Tue Apr 26 04:13:51 EDT 2016
+
+    Being a programmer after 40:
+
+https://medium.com/@akosma/being-a-developer-after-40-3c5dd112210c#.72sk6ew7a
+
+================================================================================
+
 Wed Apr 20 18:40:19 EDT 2016
 
     Using 4 spaces for tabwidth in emacs:
