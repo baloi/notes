@@ -38,6 +38,13 @@ window manager.
 
 ================================================================================
 
+Tue Apr 26 20:37:46 EDT 2016
+
+    Rust tutorial:
+    http://rustbyexample.com/hello.html
+
+================================================================================
+
 Tue Apr 26 20:26:49 EDT 2016
 
     Installing rust-mode in emacs.
