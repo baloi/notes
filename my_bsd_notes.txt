@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Tue Apr 26 20:26:49 EDT 2016
+
+    Installing rust-mode in emacs.
+
+    M-x package-list-packages
+
+    Scroll down to rust-mode then type "i" to mark it for install
+
+    Type "x" to start install packages.
+
+================================================================================
+
 Tue Apr 26 04:13:51 EDT 2016
 
     Being a programmer after 40:
