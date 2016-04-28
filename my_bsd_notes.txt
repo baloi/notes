@@ -38,6 +38,64 @@ window manager.
 
 ================================================================================
 
+Thu Apr 28 06:43:49 EDT 2016
+
+    TWITTER_VOTES PART 3
+
+    So I downloaded nsq binaries from http://nsq.io/deployment/installing.html
+    unpacked and went to directory then 
+    $ sudo cp * /usr/local/bin
+
+    Now these two both work!
+
+    $  nsqlookupd
+
+    $ nsqd --lookupd-tcp-address=localhost:4160
+
+================================================================================
+
+Tue Apr 26 23:36:49 EDT 2016
+
+    TWITTER_VOTES PART 2
+
+    $ nsqlookupd  #does not work
+
+    $ nsqd --lookupd-tcp-address=localhost:4160 # does not work
+
+
+================================================================================
+
+Tue Apr 26 23:16:16 EDT 2016
+    
+    TWITTER_VOTES PART 1
+
+    Trying the Twittervotes app in Go Programming Blueprints:
+
+    $ brew install nsq
+
+    $ sudo chown -R $(whoami) /usr/local
+
+    $ sudo chown -R $(whoami) /Library/Caches/HomeBrew
+
+    $ brew doctor
+
+    $ brew link nsq
+
+    $ nsqlookupd
+
+    Now let's get the go driver for nsq:
+
+    $ go get github.com/bitly/go-nsq
+
+    Now my problem is MongoDB does not install in my old macbook. I will just
+    use sqlite or redis - whichever is easier to get up and running.
+
+    Start nsqlookupd
+    Start nsqd
+    Start whatever datastore... (continued on next post)
+
+================================================================================
+
 Tue Apr 26 20:37:46 EDT 2016
 
     Rust tutorial:
