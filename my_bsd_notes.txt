@@ -38,6 +38,25 @@ window manager.
 
 ================================================================================
 
+Thu Apr 28 22:17:09 EDT 2016
+
+    Got GOPATH set in Windows go. Had to use "GIT cmd" as shell as I only have
+    git runnable from that console. Set my GOPATH to:
+
+    GOPATH
+    C:/Users/user/projects/my_go
+
+================================================================================
+
+Thu Apr 28 06:56:54 EDT 2016
+
+    Downloading mongo for windows... Maybe I can pull this off....
+    Took about 30 seconds on my new internet connection.
+    We'll see how that goes later... Got distracted with router setup
+
+================================================================================
+
+
 Thu Apr 28 06:43:49 EDT 2016
 
     TWITTER_VOTES PART 3
@@ -51,6 +70,9 @@ Thu Apr 28 06:43:49 EDT 2016
     $  nsqlookupd
 
     $ nsqd --lookupd-tcp-address=localhost:4160
+
+    My mongo is still not working. I plan to use either redis or sqlite for this
+    one. This seems like minor, but may be a major fix for me....
 
 ================================================================================
 
