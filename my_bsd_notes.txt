@@ -38,6 +38,21 @@ window manager.
 
 ================================================================================
 
+Fri May 6 06:56:09 EDT 2016
+
+    Just installed Netbeans and JRE on my Windows computer. Trying to get a feel
+    of "continuous delivery" using Gradle. BTW, with the new internet speed
+    at home. 167 MB took less than a minute to download. Sweet!
+
+    Just downloaded Netbeans with the JDK. Trying it out - inspired by this
+    article I found from ycombinator: 
+
+    http://www.nicolasbize.com/blog/30-years-later-qbasic-is-still-the-best/
+    
+    Anyway, whatever language, if it works, it is a go for me.
+    
+================================================================================
+
 Thu Apr 28 22:17:09 EDT 2016
 
     Got GOPATH set in Windows go. Had to use "GIT cmd" as shell as I only have
