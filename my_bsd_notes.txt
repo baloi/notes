@@ -38,6 +38,189 @@ window manager.
 
 ================================================================================
 
+Mon Oct  04 22:23:10 EDT 2016
+
+    Running cgi C program with fastcgi, nginx in Mac OS
+
+    > Install fcgi
+      $ sudo port install fcgi
+      $ sudo port install spawn-fcgi
+        
+    > Install nginx 
+      $ sudo port install nginx
+
+    > create c file
+        #include <stdlib.h>
+        #include <fcgi_stdio.h>
+
+        int main(int argc, char **argv) {
+            while(FCGI_Accept() >= 0) {
+                printf("Content-type: text/html\r\nStatus:200 OK\r\n\r\n"
+                    "Hello world!");
+            }
+            
+            return 0;
+        }
+
+    > build it:
+      $ gcc -o hello hello.c -lfcgi
+
+    > Execute fastcgi program so it is available to respond to connections
+      $ spawn-fcgi -p 3000 -f /path/to/hello
+
+    > edit nginx.conf
+      $ vim /opt/local/etc/nginx/nginx.conf
+
+        location ~ /fcgi/$ {
+            fastcgi_pass 127.0.0.1:3000;
+        }
+
+    > start nginx:
+      $ sudo nginx
+
+    > check:
+      $ curl http://localhost/fcgi/
+================================================================================
+
+Sat Sep  24 13:17:10 EDT 2016
+
+    IPython and matplotlib
+
+    In [1]: %pylab
+
+================================================================================
+
+Sun Aug  7 13:17:10 UTC 2016
+
+    How to get full screen commandline in windows:
+
+    > type cmd and "run as administrator"
+    > maximize 
+    > "exit" wmic
+    > now type "alt-enter"
+
+================================================================================
+
+2016-08-07 08:24:45.1336508 -0400 EDT
+
+   https://github.com/thewhitetulip/web-dev-golang-anti-textbook/blob/master/content/02.3.md
+   
+   Working on this book for "barebones" web development using go...
+
+================================================================================
+
+2016-07-31 10:18:19.4710111 -0400 EDT
+
+        I have decided to create my own Unix like tools to be used in Windows. The
+        current date command I am using is \work\projects\tools\datetime.go
+
+================================================================================
+
+        
+        Uploading notes to server: 
+
+
+pscp -i C:\bin\private-key.ppk *.txt theuser@22.22.22.22://home/theuser/notes/
+
+        Copying to server:
+
+pscp -i C:\bin\private-key.ppk theuser@22.22.22.22://home/theuser/notes/*.txt .
+
+================================================================================
+
+Sun Jun 26 02:17:06 UTC 2016
+
+        Python now.
+
+        Just to have fun. 
+
+        Installed pygame: pip install C:\work\installers\pygame****.whl
+
+        Testing with python:
+
+        py.test
+
+================================================================================
+
+Mon Jun 13 18:53:24 UTC 2016
+
+        Now I can do this: for Unix or unix like machines I will use vim-tmux and 
+        for windows it will have to be emacs as the tooling in windows is not really
+        good.
+
+================================================================================
+
+Wed May 25 20:37:45 EDT 2016
+
+        I was about to stop using Emacs and go back to Vim/Tmux which is what I am
+        using right now while writing this entry in my linode instance, then I just
+        decided to tinker around with Ruby having seen the blog entry: 
+
+    http://solnic.eu/2016/05/22/my-time-with-rails-is-up.html
+
+        That blog entry made me wonder again about Ruby as Merb was mentioned and 
+        how many developers got excited about using a lightweight framework for
+        development. This stirred also some interest in me. What is happening in the
+        Ruby dev community? What is new? What are people getting excited about. I'm
+        still keeping away from Javascript. Trying to develop something fast with 
+        something not Python. Maybe in Go but not yet too skilled in Go. Ruby though
+        is relatively easy, I like closing scope by "end" and not just indentation,
+        and I did have some experience developing in it already. Why not give it a
+        try again?
+
+        So I installed Ruby in my Win machine. Installing easy. Now what web frame-
+        work? Read some documentation. Only Sinatra won. Done. 
+        
+        gem install sinatra
+
+        Then when I tried coding the source in vim, indentation was funky....
+        Tried Emacs in evil-mode. Indentation good. Font good. Finding files -
+        better than Vim. Emacs-evil-mode wins!
+
+================================================================================
+
+Sat May 14 08:23:09 EDT 2016
+
+    Kill a process running on a port (example 1024):
+
+    $ fuser 1024/tcp
+    1184
+ 
+    $ kill 1184
+    
+
+================================================================================
+
+Sat May 14 06:50:09 EDT 2016
+
+    This post inspired me to install go, pathogen and faithvim on my linode:
+
+    http://yieldthought.com/post/31857050698/ipad-linode-1-year-later
+
+    Installed pathogen
+  
+    $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    
+    $ sudo vim /etc/vim/vimrc:
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+" Source a global configuration file if available
+if filereadable("/etc/vim/vimrc.local")
+  source /etc/vim/vimrc.local
+endif
+
+    Install vim-go
+        
+    $ mkdir ~/.vim/bundle
+
+    $ git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+
+    
+================================================================================
+
 Fri May 6 06:56:09 EDT 2016
 
     Just installed Netbeans and JRE on my Windows computer. Trying to get a feel
@@ -1764,7 +1947,7 @@ Sun Jun 28 15:43:32 EDT 2015
     LIBS= -lssl -lcrypto -lz
 
     program_name: program_name.o
-	    $(CC) $(CFLAGS) -o program_name program_name.o $(LIBS)
+            $(CC) $(CFLAGS) -o program_name program_name.o $(LIBS)
 
 
     -lcrypto will include SHA and other cryptographic stuff it seems
