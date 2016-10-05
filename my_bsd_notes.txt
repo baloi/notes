@@ -38,6 +38,17 @@ window manager.
 
 ================================================================================
 
+
+Tue Oct  4 22:45:59 EDT 2016
+
+    New C links for coding ncurses, sudoku (with pointers), web devel in C 
+    with Moba Development:
+https://www.youtube.com/watch?v=ipQPEoGztAM  - nethack
+https://www.youtube.com/watch?v=9aMUyoYDI-0  - sudoku
+https://www.youtube.com/watch?v=BZtSwBIaZyI  - Moba web programming in C
+
+================================================================================
+
 Tue Oct  4 22:43:59 EDT 2016
 
     Running cgi C program with fastcgi, nginx in Mac OS
