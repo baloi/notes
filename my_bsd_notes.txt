@@ -38,6 +38,55 @@ window manager.
 
 ================================================================================
 
+Sun, Oct 23, 2016  8:04:47 AM
+
+    I can't believe how slow my machine runs Go programs for the first time. A
+    simple "hello world" application actually took about 10 seconds to start and
+    print. A similar program in C took less than a second to compile and then
+    even less to run. Even a similar program in Ruby took about to a second or
+    less to run. 
+
+    Why?
+
+    I am using Cygwin under windows right now, but I have had the same problem
+    in my Go installation in Windows. I used Visual Studio "cl" for C and the
+    Ruby installation from ruby-lang.org. In Cygwin, Go, gcc, and Ruby were all
+    installed by default (I did check a few more options during the install
+    process).
+
+    This is the reason why I left Go. I know, I may seem to be such a demanding
+    programmer. But, I program only in my free time to "relax" myself. I like
+    using console tools. I do like to idea of Go being able to compile it and it
+    has a lot of things going for it like much simpler syntax than C, easy net-
+    working, concurrency, go tools... Not to mention built by Rob Pike and Ken
+    Thompson.
+
+    I have to say though that after the first run or compile, the Go program 
+    runs much faster. In my Mac installation it also is a little bit faster
+    even on the first run.
+
+    But here is the thing. When I develop, I edit in vim, save, Ctrl-z and then
+    compile/run program and see if there is any problem or feature I want to add
+    then go back to vim "fg". So the first run could be the only execution for
+    that version of my program. 10 seconds seems like a very, very long time to
+    wait for the program to run. Being a mortal, I may have even lost my train
+    of thought already. Whereas even if it is a C compilation, I just need to 
+    use the arrow keys for bash history (even windows console has this) for the
+    compilation and execution commands which both take a split second, even
+    feels instantaneous which I find really cool. It's like my computer saying -
+    "Master I am here to serve you. I will drop doing anything to do your
+    command." I guess I just want to be in control when I program and do not
+    want to be kept waiting. 
+
+    Another thing was it with the default Vim install, Go code formatting and
+    syntax highlighting is not my favorite. C tops the list of being formatted
+    by Vim nicely in plain vim installs with the least amount of tweaking.
+
+    I know there are better ways to tweak my installation, but I just want my
+    tools to run, and run fast.
+
+================================================================================
+
 Tue, Oct 11, 2016  9:26:11 PM
 
     Copy paste in Cygwin:
