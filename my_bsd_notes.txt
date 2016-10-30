@@ -38,6 +38,27 @@ window manager.
 
 ================================================================================
 
+Sat, Oct 29, 2016  5:10:04 PM
+
+    I opened my old Macbook last night and charged it after doing a little bit 
+    of late night surfing. I've destroyed the USB wireless from use as it jutt
+    out a little bit to the side of the mac, but miraculously, the wireless is
+    now working again. I put it in a corner of the room turned of and when I
+    started it, it just did and still a fast boot time. My main machine now is
+    this Lenovo Thinkpad T450s with Cygwin installed as I got tired of using
+    Windows command line tools. Unix like always works.
+
+    Fullscreen iTerm with vim just looks much better. Keyboard is not like the 
+    Thinkpad, but also very good - both are. Got to fix that part of it - fonts
+    and even the colorscheme. But still, the Macbook for development kicks ass.
+
+    Fullscreen iTerm in the Mac though is distraction free.    
+
+    I just bought the Lenovo as it was getting harder to install newer software
+    on my old Mac. 
+
+================================================================================
+
 Sun, Oct 23, 2016  8:04:47 AM
 
     I can't believe how slow my machine runs Go programs for the first time. A
