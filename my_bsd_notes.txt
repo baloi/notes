@@ -59,6 +59,130 @@ Sat, Oct 29, 2016  5:10:04 PM
 
 ================================================================================
 
+Mon, Oct 31, 2016  8:16:12 PM
+
+    Code I used, structured with C++ style structures (different from C as the
+    C++ struct can have methods). This is a style I got from Bisqwit -
+
+    https://www.youtube.com/watch?v=kdlIlIIHCz0 
+    (C++ for C programmers-Lesson1)
+
+    This program now compiles and runs properly.
+
+-------- CODE START -----------
+/* window.cpp */
+#include <SDL.h>
+#include <stdio.h>
+
+struct AG_Game {
+    static const int WinWidth = 1024;
+    static const int WinHeight = 768;
+    SDL_Window  * Window = NULL;
+    SDL_Renderer * Renderer = NULL;
+    SDL_Surface * PrimarySurface = NULL;
+
+    void Cleanup() {
+        if (Renderer) { SDL_DestroyRenderer(Renderer); Renderer = NULL; }
+        if (Window) { SDL_DestroyWindow(Window); Window = NULL; }
+    }
+
+    void OnEvent(SDL_Event * Event) {
+        /* code here */
+    }
+
+    void Loop() {
+        /* code here */
+    }
+
+    void Render() {
+        SDL_RenderClear(Renderer);
+        SDL_RenderPresent(Renderer);
+    }
+
+    bool Init() {
+        if(SDL_Init(SDL_INIT_VIDEO) < 0) { fprintf(stderr, "Unable to Init SDL: %s", SDL_GetError()); return false; }
+        if(!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1")) { printf("Unable to Init hinting: %s", SDL_GetError()); }
+        if((Window = SDL_CreateWindow("AG_Game", SDL_WINDOWPOS_UNDEFINED, 
+                        SDL_WINDOWPOS_UNDEFINED, WinWidth, WinHeight, SDL_WINDOW_SHOWN)) == NULL) {
+            fprintf(stderr, "Unable to create SDL Window: %s", SDL_GetError()); return false; 
+        }
+        PrimarySurface = SDL_GetWindowSurface(Window); 
+        if((Renderer = SDL_CreateRenderer(Window, -1, SDL_RENDERER_ACCELERATED)) == NULL) { 
+            fprintf(stderr, "Unable to create renderer"); return false; 
+        }
+        SDL_SetRenderDrawColor(Renderer, 0x00, 0x00, 0x00, 0xFF);
+        return true;
+    }
+};
+
+int main(int argc, char * argv[]) {
+    bool Quit = false;
+    AG_Game game;
+
+    if(!game.Init()) 
+        fprintf(stderr, "Unable to Initialize game\n");
+
+    SDL_Event Event;
+    while(!Quit) {
+        while(SDL_PollEvent(&Event) != 0) {
+            game.OnEvent(&Event); // User defined event-handling
+            if(Event.type == SDL_QUIT) Quit = true;
+        }
+        game.Loop();     // User loop
+        game.Render();   // Now we render
+
+        SDL_Delay(1); // Breath
+    }
+    game.Cleanup();
+    return 0;
+}
+
+-------- CODE END   -----------
+
+compile.bat:
+
+g++ window.cpp   \
+-IC:\cygwin64\home\coder\libs\SDL2-2.0.5\x86_64-w64-mingw32\include\SDL2   \
+-LC:\cygwin64\home\coder\libs\SDL2-2.0.5\x86_64-w64-mingw32\lib -w         \
+-Wl,-subsystem,windows -lmingw32 -lSDL2main -lSDL2 -o window
+
+================================================================================
+
+Mon, Oct 31, 2016  8:01:22 PM
+
+    Spend the whole day tinkering first with SFML on windows trying to get it
+    set up. Could not make it link properly using TDM Gcc toolset for Unix like
+    gcc and the like. Spent almost an hour and kept looking through google. I
+    even connected to the irc channel and maybe muster the courage to ask, but
+    never did. Not even familiar enough of irc etiquette. Gave up and then 
+    decided to try SDL. 
+    This tutorial helped me with the setup:
+
+    http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/mingw/index.php
+
+    The compile command used was:
+
+    g++ 01_hello_SDL.cpp -IC:\mingw_dev_lib\include\SDL2
+    -LC:\mingw_dev_lib\lib -w -Wl,-subsystem,windows -lmingw32 -lSDL2main
+    -lSDL2 -o 01_hello_SDL
+
+    But that did not work for me so I used this one: 
+
+
+    g++ board.cpp   \
+    -IC:\cygwin64\home\coder\libs\SDL2-2.0.5\x86_64-w64-mingw32\include\SDL2 \
+    -LC:\cygwin64\home\coder\libs\SDL2-2.0.5\x86_64-w64-mingw32\lib -w       \
+    -Wl,-subsystem,windows -lmingw32 -lSDL2main -lSDL2 -o board
+
+    Of course I used different paths for includes and libraries.
+
+    The sample code in the site did crash though, although it did compile and 
+    run.
+    
+    Code to follow...
+
+================================================================================
+
 Sun, Oct 23, 2016  8:04:47 AM
 
     I can't believe how slow my machine runs Go programs for the first time. A
