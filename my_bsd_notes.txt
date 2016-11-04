@@ -38,24 +38,18 @@ window manager.
 
 ================================================================================
 
-Sat, Oct 29, 2016  5:10:04 PM
+Thu, Nov 03, 2016  9:57:32 PM
 
-    I opened my old Macbook last night and charged it after doing a little bit 
-    of late night surfing. I've destroyed the USB wireless from use as it jutt
-    out a little bit to the side of the mac, but miraculously, the wireless is
-    now working again. I put it in a corner of the room turned of and when I
-    started it, it just did and still a fast boot time. My main machine now is
-    this Lenovo Thinkpad T450s with Cygwin installed as I got tired of using
-    Windows command line tools. Unix like always works.
+    I was off on Monday so I was able to figure out how to setup and code basic
+    things in SDL. I was just at the library before dinner and read advice 
+    somewhere saying that you should just code all the time - or it was put as
+    don't stop coding. It is the way to be continually able to fluently code.
+    It did not say read, study or copy code. Just write code.
 
-    Fullscreen iTerm with vim just looks much better. Keyboard is not like the 
-    Thinkpad, but also very good - both are. Got to fix that part of it - fonts
-    and even the colorscheme. But still, the Macbook for development kicks ass.
-
-    Fullscreen iTerm in the Mac though is distraction free.    
-
-    I just bought the Lenovo as it was getting harder to install newer software
-    on my old Mac. 
+    Everyday I have to code. If I want to code something that I do not know how
+    to then I will read a little and try to code it myself again, until I have
+    a solution. These should then be just small snippets to be doeable and not
+    too difficult as to get me stuck in coding paralysis.
 
 ================================================================================
 
@@ -180,6 +174,27 @@ Mon, Oct 31, 2016  8:01:22 PM
     run.
     
     Code to follow...
+
+================================================================================
+
+Sat, Oct 29, 2016  5:10:04 PM
+
+    I opened my old Macbook last night and charged it after doing a little bit 
+    of late night surfing. I've destroyed the USB wireless from use as it jutt
+    out a little bit to the side of the mac, but miraculously, the wireless is
+    now working again. I put it in a corner of the room turned of and when I
+    started it, it just did and still a fast boot time. My main machine now is
+    this Lenovo Thinkpad T450s with Cygwin installed as I got tired of using
+    Windows command line tools. Unix like always works.
+
+    Fullscreen iTerm with vim just looks much better. Keyboard is not like the 
+    Thinkpad, but also very good - both are. Got to fix that part of it - fonts
+    and even the colorscheme. But still, the Macbook for development kicks ass.
+
+    Fullscreen iTerm in the Mac though is distraction free.    
+
+    I just bought the Lenovo as it was getting harder to install newer software
+    on my old Mac. 
 
 ================================================================================
 
