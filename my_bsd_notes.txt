@@ -38,6 +38,29 @@ window manager.
 
 ================================================================================
 
+Sun Nov  6 16:37:51 EST 2016
+
+    I have now installed Linux (Ubuntu distro) on my Lenovo Thinkpad. Instead of
+    trying to buy a Raspberry Pi or use my Mac as the development machine/server
+    it was easy to just use one of the partitions in my Lenovo as the Ubuntu
+    drive...
+
+    Anyway, for zeromq which I have been struggling with for 2 days and not
+    being able to code much because of just trying to configure it to run in
+    gcc tdm in windows, cygwin on windows or even a visual studio project which
+    was the only one that compiled, but crashed anyway. No more of that
+    nonsense!
+
+    Downloaded Posix sources for zeromq, untarred, ./configure, make, make
+    install and whala! It is running.
+
+    I even have vim running, git now setup with keys of this machine for my 
+    github page, vimrc updated from my Windows setup and enjoying coding without
+    syntax highlighting.
+
+    Now back to that snippet. One snippet a day at least...
+================================================================================
+
 Sun, Nov 06, 2016  4:15:30 PM
 
     Some contents of my vimrc:
