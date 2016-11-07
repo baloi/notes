@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Sun Nov  6 17:01:36 EST 2016
+
+    Hibernating in Ubuntu:
+
+    $ sudo pm-hibernate
+
+================================================================================
+
 Sun Nov  6 16:37:51 EST 2016
 
     I have now installed Linux (Ubuntu distro) on my Lenovo Thinkpad. Instead of
