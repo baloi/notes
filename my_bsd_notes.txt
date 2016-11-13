@@ -38,6 +38,22 @@ window manager.
 
 ================================================================================
 
+Sun Nov 13 17:20:52 EST 2016
+
+    Checking IP:
+
+    $ wget http://ipinfo.io/ip -qO -
+
+================================================================================
+
+Sun Nov 13 16:59:59 EST 2016
+
+    $ expressvpn activate
+    $ expressvpn connect United\ States
+    $ expressvpn disconnect
+
+================================================================================
+
 Sun Nov  6 17:01:36 EST 2016
 
     Hibernating in Ubuntu:
