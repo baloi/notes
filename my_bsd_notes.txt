@@ -38,6 +38,15 @@ window manager.
 
 ================================================================================
 
+Mon Nov 14 22:22:59 EST 2016
+
+    Just finished the C practice code for sqlite inserts. Found a page that
+    explains how to make really fast inserts - starting from the worst case
+    scenario of about 85 inserts per second to 96,700 inserts per second.
+
+
+================================================================================
+
 Sun Nov 13 17:20:52 EST 2016
 
     Checking IP:
