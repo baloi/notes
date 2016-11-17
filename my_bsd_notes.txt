@@ -66,6 +66,18 @@ Wed Nov 16 21:26:41 EST 2016
 
 ================================================================================
 
+Wed Nov 16 13:03:53 EST 2016
+
+    Reading pflogs http://man.openbsd.org/pflogd
+
+    # tcpdump -n -e -ttt -r /var/log/pflog
+
+    In realtime
+    
+    # tcpdump -n -e -ttt -i pflog0
+
+================================================================================
+
 Mon Nov 14 22:22:59 EST 2016
 
     Just finished the C practice code for sqlite inserts. Found a page that
