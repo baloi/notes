@@ -38,6 +38,34 @@ window manager.
 
 ================================================================================
 
+Wed Nov 16 22:33:58 EST 2016
+
+    Add user in BSD with su privs:
+
+    # adduser
+
+      -> then invite to group "wheel"
+
+    Install something like tmux:
+
+    # cd /usr/ports/sysutils/tmux/
+    # make install clean
+    # rehash
+
+================================================================================
+
+Wed Nov 16 21:26:41 EST 2016
+
+    Finding usb stick dev name from linux commandline:
+
+    # ls -l /dev/disk/by-id/usb*
+
+    And then writing a FreeBSD*.img to it:
+
+    # dd if=FreeBSD-11.0-RELEASE-i386-memstick.img of=/dev/sdc bs=1M conv=sync
+
+================================================================================
+
 Mon Nov 14 22:22:59 EST 2016
 
     Just finished the C practice code for sqlite inserts. Found a page that
