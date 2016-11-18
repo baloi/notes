@@ -38,6 +38,61 @@ window manager.
 
 ================================================================================
 
+Thu Nov 17 23:06:23 EST 2016
+
+    I will put down firewall and tcpdump tinkering for now and go back to 
+    writing and coding every day. That was a nice off time, but have to keep
+    focused on what I do though... Which are coding, writing and living a full
+    life. I almost shutdown my linode account for an NQ hosting as I was really
+    intrigued by an article regarding Linux or FreeBSD servers. But, I know that
+    after getting the server up, I am not the type to keep asking support. Or
+    maybe it will be worth it. Anyway, FreeBSD on a laptop, Linux on my main
+    machine and may switch to FreeBSD hosting as soon as I figure out the 
+    payment method I want to do. I just feel that I don't want to spend time at
+    this time learning how to keep another new server, now in FreeBSD, can be
+    kept secure without eating up my whole nights - sleep is also another thing
+    I value these times.
+    
+================================================================================
+
+Thu Nov 17 22:48:43 EST 2016
+    
+    And oh, I forgot to mention - I just ditched my OpenBSD installation... Just
+    did it a couple of days ago. Replacing it is FreeBSD. I decided on FreeBSD
+    due to an itch to play with firewalls, namely IPFW, but did not go too deep
+    into it. It took me three installation tries with FreeBSD excluding trying
+    to find the correct BSD image for my machine and writing the image on a USB
+    stick. I first wrote the image from windows, but I had used a 64-bit image,
+    forgetting that I had an old machine. Downloaded the i386 one and wrote it
+    again from windows a couple of times but this time the usb stick would not
+    boot properly. Considered using my Mac to write the image but that would
+    again entail "researching" the right commands... Maybe it is in this file 
+    though... Yes it is here somewhere, but to save on time (which is a very
+    important commodity nowadays to be able to enjoy life more), I decided to
+    just write the image with "dd" in Linux... And it worked like a charm. Sort
+    of. 
+
+    What happened next was 3 installation tries. As being the impatient me, I
+    would move my laptop around while the installation was going on and then an
+    error would occur. I understood this so the third time, I did not move the
+    laptop during the install process at all (I had the thought that some 
+    laptops are build like superman). But I did have a couple of surprises 
+    with this FreeBSD install.
+
+    > The startup screen had nice contrasting fonts in white/gray.
+    > Wifi was configured during install without a hitch.
+    > Close the laptop lid, open it again and everything works again, even
+      wifi.
+    > The installation fit the 40 gig hardrive easily - 8% used only even after
+      tmux, vim, python, ruby and all other dependencies were installed.
+    > Vim has the "dropdown" list for intellisense.
+    > Vim has the C lib tagged already.
+    > Running a couple of days without restarts, although I do close the lid...
+    > Easy to install software. 
+    > Just works fine.
+    
+================================================================================
+
 Wed Nov 16 22:33:58 EST 2016
 
     Add user in BSD with su privs:
