@@ -38,6 +38,15 @@ window manager.
 
 ================================================================================
 
+Thu Nov 17 23:19:34 EST 2016
+
+    Coming to think of it. If I have a weekend available, I might consider 
+    hosting a text blog on a FreeBSD server... Hosted on a cheaper host (below
+    $10) monthly.
+    Got to go back to zeromq and C coding the rc4 thing.
+
+================================================================================
+
 Thu Nov 17 23:06:23 EST 2016
 
     I will put down firewall and tcpdump tinkering for now and go back to 
