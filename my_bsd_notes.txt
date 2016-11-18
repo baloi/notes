@@ -38,6 +38,32 @@ window manager.
 
 ================================================================================
 
+Fri Nov 18 07:50:07 EST 2016
+
+    Installing a port
+    # cd /usr/ports/<category>/<portname>
+    # make install && make clean
+
+
+    Uninstall:
+    # cd /usr/ports/<category>/<portname>
+    # make deinstall
+
+================================================================================
+
+Fri Nov 18 07:56:07 EST 2016
+
+    Update ports
+    # portsnap fetch
+    # portsnap extract
+
+    After above has been done, /usr/ports can be upgraded as needed by:
+    # portsnap fetch
+    # portsnap update
+    
+
+================================================================================
+
 Fri Nov 18 00:44:11 EST 2016
 
     And also when coding, always have music on... Metal preferrably.
