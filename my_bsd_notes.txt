@@ -38,6 +38,37 @@ window manager.
 
 ================================================================================
 
+Fri Nov 18 20:04:01 EST 2016
+
+    Installing vim-lite for less dependencies (2 instead of 72 in FreeBSD):
+
+    # pkg install vim-lite
+
+================================================================================
+
+Fri Nov 18 19:41:28 EST 2016
+
+    Preparing pkg package management in FreeBSD
+
+    Bootstrap system:
+
+    # /usr/sbin/pkg
+
+================================================================================
+
+Fri Nov 18 13:01:11 EST 2016
+
+    Install pip on FreeBSD and then Flask:
+
+    # python -m ensurepip
+
+    Upgrade pip
+    # pip install --upgrade pip 
+
+    # pip install flask
+
+================================================================================
+
 Fri Nov 18 07:50:07 EST 2016
 
     Installing a port
