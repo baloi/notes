@@ -38,6 +38,40 @@ window manager.
 
 ================================================================================
 
+Sat Nov 19 07:58:55 EST 2016
+
+    Install py-supervisord to monitor web application and restart it if needed:
+
+    # pkg py-supervisord
+
+================================================================================
+
+Fri Nov 18 23:08:14 EST 2016
+
+    Getting nginx running.
+
+    Install
+
+    # pkg install nginx
+
+    Configure autostart
+    
+      - edit /etc/rc.conf
+      - add nginx_enable="YES"
+
+    Start nginx
+
+    # service nginx start 
+
+    or
+
+    # service nginx onestart
+
+    Can be configured: /usr/local/etc/nginx/
+    Default pages: /usr/local/www/nginx/
+
+================================================================================
+
 Fri Nov 18 20:04:01 EST 2016
 
     Installing vim-lite for less dependencies (2 instead of 72 in FreeBSD):
