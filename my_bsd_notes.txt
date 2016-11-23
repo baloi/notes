@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Wed Nov 23 07:50:08 EST 2016
+
+    Lint in linux
+
+    $ sudo apt-get install splint
+
+    $ splint anything.c
+
+    This will do a static code analysis.
+
+================================================================================
+
 Sat Nov 19 07:58:55 EST 2016
 
     Install py-supervisord to monitor web application and restart it if needed:
