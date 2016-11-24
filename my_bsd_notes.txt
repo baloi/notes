@@ -229,11 +229,13 @@ Wed Nov 16 22:33:58 EST 2016
 
 Wed Nov 16 21:26:41 EST 2016
 
-    Finding usb stick dev name from linux commandline:
+    How to prepare a usb stick as installation media for FreeBSD from Linux
+
+    Find usb stick dev name from linux commandline:
 
     # ls -l /dev/disk/by-id/usb*
 
-    And then writing a FreeBSD*.img to it:
+    And then write a FreeBSD*.img to it:
 
     # dd if=FreeBSD-11.0-RELEASE-i386-memstick.img of=/dev/sdc bs=1M conv=sync
 
