@@ -38,6 +38,44 @@ window manager.
 
 ================================================================================
 
+Sun Nov 27 09:26:21 EST 2016
+
+    I have been delving into assembly language this week since middle of the
+    week. Bought the book HTAOE (Hacking the Art of Exploitation). It has some
+    examples of disassembling programs in gdb. A lot of C coding. Back to basics
+    and really studying how it all works. Sweet! This seems to be worth at least
+    a month's study in itself.
+
+    Started with a tutorial in asm compiling with "as", but got go find one in
+    "nasm". Tried coding in Linux and FreeBSD. The linux sample puts values in
+    registers (edx, ecx, ebx) and FreeBSD sample does "push dword val" right 
+    away. Both call 'mov eax, syscall' and then 'int 0x80' to call kernell.
+    The '.data' section both have the strings "stringname db 'the string'".
+
+    Here is an example code (any text proceeding ';' are ignored)
+
+; hello.asm
+; compile with:
+; nasm -f elf hello.asm (add -g option for debug)
+; ld -m elf_i386 -s -o hello hello.o (remove -s option for debug)
+
+section .data
+    msg db 'Hello ,world na!', 0xa ; string to be printed
+    len equ $-msg
+section .text
+    global _start
+_start:
+    mov     edx, len
+    mov     ecx, msg
+    mov     ebx, 1      ; file descriptor for stdout is 1
+    mov     eax, 4      ; system call (write)
+    int     80h         ; call kernel  "int 0x80" (would work too)
+
+    mov     eax, 1      ; sytem call (exit)
+    int     0x80
+
+================================================================================
+
 Wed Nov 23 07:50:08 EST 2016
 
     Lint in linux
