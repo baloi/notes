@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+wed Dec 07:36:16 EST 2016
+
+    Starting emacs in terminal (no window):
+
+    $ emacs -nw
+
+================================================================================
+
 Tue Dec 13 23:19:16 EST 2016
 
     Disable syntax hightlighting in emacs:
