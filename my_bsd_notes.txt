@@ -38,6 +38,19 @@ window manager.
 
 ================================================================================
 
+Tue Dec 13 23:19:16 EST 2016
+
+    Disable syntax hightlighting in emacs:
+
+    M-x font-lock-mode
+
+    Print date and time on current emacs buffer (write shell command result):
+
+    C-u M-! [command]
+  
+
+================================================================================
+
 Sun Nov 27 09:26:21 EST 2016
 
     I have been delving into assembly language this week since middle of the
