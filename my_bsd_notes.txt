@@ -38,11 +38,34 @@ window manager.
 
 ================================================================================
 
-wed Dec 07:36:16 EST 2016
+Wed Dec 07:36:16 EST 2016
 
     Starting emacs in terminal (no window):
 
     $ emacs -nw
+
+    I am a little bit getting the hang of using spacemacs. My vim keys work (the
+    little that I know). I like the screen contrast and the font itself which is
+    very comfortable. This itself is a reason enough to learn some emacs and
+    keep my old keybindings. Opening files is also easy with spacemacs:
+
+    SPC - f - j
+
+    which opens dired and you can navigate with 'kl' vim navigation keys.
+
+    Also this same display is consistent in my FreeBSD remote server which has
+    I log into with ssh.
+
+    Things I need to figure out:
+    > inserting shell command output in current buffer (like date)
+    > adjusting shiftwidth/tabstop to 4 characters
+    > better autocomplete for C code.
+
+    And I can even split windows easily with SPC - w - and then navigate windows
+    with vim keybindings (Ctrl-w [hjkl]). Sold!
+
+    Another caveat. The contrast and line highlight changes if emacs is run
+    under tmux.
 
 ================================================================================
 
