@@ -38,7 +38,19 @@ window manager.
 
 ================================================================================
 
-Wed Dec 07:36:16 EST 2016
+Wed Dec 14 22:18:16 EST 2016
+
+    Emacs/spacemacs is really working out right now. I do not care for learning
+    too much new editing keys. I just like the font, the background and the
+    directory opening. So far it works for me. Let us see more what will happen.
+
+    Eye candy is winning me over.
+
+    And org mode in emacs look very slick.
+
+================================================================================
+
+Wed Dec 14 07:36:16 EST 2016
 
     Starting emacs in terminal (no window):
 
