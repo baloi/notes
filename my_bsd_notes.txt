@@ -38,6 +38,13 @@ window manager.
 
 ================================================================================
 
+Sat Nov 26 20:40:35 EST 2016
+
+    Tinkering with assembly language programming. Using nasm to compile and then
+    ld. Works in linux. Going to try on my Mac what goes...
+
+================================================================================
+
 Wed Nov 23 07:50:08 EST 2016
 
     Lint in linux
