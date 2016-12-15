@@ -38,6 +38,100 @@ window manager.
 
 ================================================================================
 
+Wed Dec 14 22:18:16 EST 2016
+
+    Emacs/spacemacs is really working out right now. I do not care for learning
+    too much new editing keys. I just like the font, the background and the
+    directory opening. So far it works for me. Let us see more what will happen.
+
+    Eye candy is winning me over.
+
+    And org mode in emacs look very slick.
+
+================================================================================
+
+Wed Dec 14 07:36:16 EST 2016
+
+    Starting emacs in terminal (no window):
+
+    $ emacs -nw
+
+    I am a little bit getting the hang of using spacemacs. My vim keys work (the
+    little that I know). I like the screen contrast and the font itself which is
+    very comfortable. This itself is a reason enough to learn some emacs and
+    keep my old keybindings. Opening files is also easy with spacemacs:
+
+    SPC - f - j
+
+    which opens dired and you can navigate with 'kl' vim navigation keys.
+
+    Also this same display is consistent in my FreeBSD remote server which has
+    I log into with ssh.
+
+    Things I need to figure out:
+    > inserting shell command output in current buffer (like date)
+    > adjusting shiftwidth/tabstop to 4 characters
+    > better autocomplete for C code.
+
+    And I can even split windows easily with SPC - w - and then navigate windows
+    with vim keybindings (Ctrl-w [hjkl]). Sold!
+
+    Another caveat. The contrast and line highlight changes if emacs is run
+    under tmux.
+
+================================================================================
+
+Tue Dec 13 23:19:16 EST 2016
+
+    Disable syntax hightlighting in emacs:
+
+    M-x font-lock-mode
+
+    Print date and time on current emacs buffer (write shell command result):
+
+    C-u M-! [command]
+  
+
+================================================================================
+
+Sun Nov 27 09:26:21 EST 2016
+
+    I have been delving into assembly language this week since middle of the
+    week. Bought the book HTAOE (Hacking the Art of Exploitation). It has some
+    examples of disassembling programs in gdb. A lot of C coding. Back to basics
+    and really studying how it all works. Sweet! This seems to be worth at least
+    a month's study in itself.
+
+    Started with a tutorial in asm compiling with "as", but got go find one in
+    "nasm". Tried coding in Linux and FreeBSD. The linux sample puts values in
+    registers (edx, ecx, ebx) and FreeBSD sample does "push dword val" right 
+    away. Both call 'mov eax, syscall' and then 'int 0x80' to call kernell.
+    The '.data' section both have the strings "stringname db 'the string'".
+
+    Here is an example code (any text proceeding ';' are ignored)
+
+; hello.asm
+; compile with:
+; nasm -f elf hello.asm (add -g option for debug)
+; ld -m elf_i386 -s -o hello hello.o (remove -s option for debug)
+
+section .data
+    msg db 'Hello ,world na!', 0xa ; string to be printed
+    len equ $-msg
+section .text
+    global _start
+_start:
+    mov     edx, len
+    mov     ecx, msg
+    mov     ebx, 1      ; file descriptor for stdout is 1
+    mov     eax, 4      ; system call (write)
+    int     80h         ; call kernel  "int 0x80" (would work too)
+
+    mov     eax, 1      ; sytem call (exit)
+    int     0x80
+
+================================================================================
+
 Sat Nov 26 20:40:35 EST 2016
 
     Tinkering with assembly language programming. Using nasm to compile and then
@@ -216,6 +310,14 @@ Thu Nov 17 22:48:43 EST 2016
     > Easy to install software. 
     > Just works fine.
     
+================================================================================
+
+Mon Dec  5 21:52:45 EST 2016
+
+    Get list of subfolders sorter by their size
+
+    du --max-depth=1 /home/yourdir/ | sort -n -r
+
 ================================================================================
 
 Wed Nov 16 22:33:58 EST 2016
