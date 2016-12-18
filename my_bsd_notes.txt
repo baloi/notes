@@ -38,6 +38,22 @@ window manager.
 
 ================================================================================
 
+Sun Dec 18 11:39:36 EST 2016
+
+    Using pry:
+
+    $ sudo gem install pry
+    $ pry
+
+    pry(main)> s="something"
+    pry(main)> show-doc s 
+
+    pry(main)> ls 
+
+    Can use 'ls', 'cd', 'gem-cd'
+
+================================================================================
+
 Sun Dec 18 09:35:56 EST 2016
 
     Adding shell command output to buffer in spacemacs:
