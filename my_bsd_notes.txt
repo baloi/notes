@@ -51,6 +51,11 @@ Sun Dec 18 11:39:36 EST 2016
     pry(main)> ls 
 
     Can use 'ls', 'cd', 'gem-cd'
+    'nesting' shows where you are: use '..' to get out of that context
+
+    How to use screencast found here:
+
+    http://pryrepl.org/ (used SHIFT-middle_mouse in linux to paste)
 
 ================================================================================
 
