@@ -1,5 +1,10 @@
 MY PROJECT -*- mode: org -*-
 
+** coding hags
+** yang
+** cook
+** finish eddy notes
+** call for refinancing
 ** Barnwell notes
 ** do barnwell MDS
 ** code a little (algorhithms)
@@ -10,13 +15,10 @@ MY PROJECT -*- mode: org -*-
 ** Plan a vacation 
 *** figure out where to get money
 *** budget
-** workout
+** DONE workout
 *** today at Clublife
     + bring whole family
-** go to church
-** cook
-** call for refinancing
-** finish eddy notes
+** DONE go to church
 ** DONE get Buddy
 ** DONE Copy books from Mac
 *** open an charge up mac
