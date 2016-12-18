@@ -38,6 +38,21 @@ window manager.
 
 ================================================================================
 
+Sun Dec 18 09:35:56 EST 2016
+
+    Adding shell command output to buffer in spacemacs:
+
+    SPC-u SPC-! [shell command]
+
+    In emacs it is
+
+    C-u M-x ! [shell command]
+
+    But C-u does not work in my installation of spacemacs.
+
+
+================================================================================
+
 Sun Dec 18 09:22:16 EST 2016
 
     Studying snippets from the book "The Practice of Programming" by Kernigan
