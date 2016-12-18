@@ -38,6 +38,28 @@ window manager.
 
 ================================================================================
 
+Sun Dec 18 09:22:16 EST 2016
+
+    Studying snippets from the book "The Practice of Programming" by Kernigan
+    and Pike. Had trouble making lookup function work, but finally did:
+
+    int lookup (char *word, char *array[]) {
+        int i;
+        for (i = 0; array[i] != NULL; i++) {
+            if (strcmp (word, array[i]) == 0) {
+               return i;
+            }
+        }
+        return -1;
+    }
+
+    use like:
+
+    char *flab[] = {"something", "another", "aword", NULL}; // NULL terminate
+    int found = lookup (word, flab);
+
+================================================================================
+
 Wed Dec 14 22:18:16 EST 2016
 
     Emacs/spacemacs is really working out right now. I do not care for learning
