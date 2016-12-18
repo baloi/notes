@@ -38,6 +38,22 @@ window manager.
 
 ================================================================================
 
+Sun Dec 18 12:31:42 EST 2016
+
+    Running shellcode example:
+
+    int main() {
+        unsigned char code[] = "\x45\x31\xd2.....";
+        void (*ret) () = (void(*)()) code;
+        ret();
+        // ( *( void( * ) ()) code) ();
+    }
+
+    compile with:
+
+    $ gcc -z execstack test_shellcode.c -o test_shellcode
+================================================================================
+
 Sun Dec 18 11:39:36 EST 2016
 
     Using pry:
