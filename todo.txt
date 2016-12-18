@@ -1,1 +1,21 @@
 MY PROJECT -*- mode: org -*-
+
+** code a little (algorhithms)
+*** focus on algorithms
+*** code it in C
+** Plan a vacation 
+*** figure out where to get money
+*** budget
+** workout
+*** today at Clublife
+    + bring whole family
+** go to church
+** cook
+** do barnwell MDS
+** call for refinancing
+** finish eddy notes
+** DONE get Buddy
+** DONE Copy books from Mac
+*** open an charge up mac
+*** find network address of Mac
+*** ssh to mac and copy
