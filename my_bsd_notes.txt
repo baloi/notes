@@ -38,6 +38,24 @@ window manager.
 
 ================================================================================
 
+Sun Dec 18 22:06:07 EST 2016
+
+    Having multiple terminals filling up the screen is how I am working right
+    now. Gives me a view of four things that I may be working at once. Not using
+    tmux for now as I am using emacs and tmux changes the look (font, background
+    and highlighting. Spacemacs is a comfortable and pleasing environment to
+    work on. I've got some basic shortcuts down and the vim bindings for editing
+    just work. Quite a workable setup.
+    Installing spacemacs just involved installing a newer version of emacs and
+    then just downloading the spacemacs configuration:
+
+    $ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+    Then on first run, spacemacs asks for defaults. I chose the vim bindings
+    with it and then it just works!
+
+================================================================================
+
 Sun Dec 18 12:31:42 EST 2016
 
     Running shellcode example:
