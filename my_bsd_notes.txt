@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Mon Dec 26 21:45:13 EST 2016
+
+    What would really be nice to work on nowadays.
+    > C programming
+    > TLS, encryption schemes using mbed TLS
+
+================================================================================
+
 Sun Dec 18 22:06:07 EST 2016
 
     Having multiple terminals filling up the screen is how I am working right
