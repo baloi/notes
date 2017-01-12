@@ -38,11 +38,27 @@ window manager.
 
 ================================================================================
 
+Wed Jan 11 22:20:55 EST 2017
+
+    How do I get rid of the ugly green h-line in emacs when run in terminal or
+    terminator? I need fullscreen or something like that which would have split
+    panes with editor(s) and at least one terminal.
+
+    Now if I could only find a solution, it would really make life much better.
+
+================================================================================
+
 Mon Dec 26 21:45:13 EST 2016
 
     What would really be nice to work on nowadays.
     > C programming
     > TLS, encryption schemes using mbed TLS
+
+================================================================================
+
+Wed Jan 11 22:11:56 EST 2017
+
+    I might have some free time soon
 
 ================================================================================
 
