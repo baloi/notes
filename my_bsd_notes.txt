@@ -38,6 +38,26 @@ window manager.
 
 ================================================================================
 
+Sun Jan 15 17:49:13 EST 2017
+
+    Resizing panes in tmux:
+
+    ctrl-b : resize-pane (-D, -U, -L, -R)
+
+    Example
+
+    ctrl-b : resize-pane -D 5  (resizes current pane downward by 5)
+
+================================================================================
+
+Sun Jan 15 17:41:29 EST 2017
+
+    Install build-essential equivalent in Fedora linux:
+
+    $ sudo yum install make automake gcc gcc-c++ kernel-devel
+
+================================================================================
+
 Sun Jan 15 17:17:10 EST 2017
 
     Generating ssh key:
