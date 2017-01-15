@@ -38,6 +38,17 @@ window manager.
 
 ================================================================================
 
+Sun Jan 15 11:24:15 EST 2017
+
+> preparing thinkpad for battery saving
+
+https://itsfoss.com/reduce-overheating-laptops-linux/
+
+http://www.webupd8.org/2014/04/prevent-your-laptop-from-overheating.html
+
+
+================================================================================
+
 Wed Jan 11 22:20:55 EST 2017
 
     How do I get rid of the ugly green h-line in emacs when run in terminal or
@@ -45,6 +56,8 @@ Wed Jan 11 22:20:55 EST 2017
     panes with editor(s) and at least one terminal.
 
     Now if I could only find a solution, it would really make life much better.
+
+    It would actually make life the best!
 
 ================================================================================
 
