@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Sun Jan 15 17:17:10 EST 2017
+
+    Generating ssh key:
+
+    $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    Adding your ssh key to the ssh-agent:
+
+    $ eval "$(ssh-agent -s)"
+
+================================================================================
+
 Sun Jan 15 11:25:52 EST 2017
 
 > hibernate.sh:
