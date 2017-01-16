@@ -38,6 +38,17 @@ window manager.
 
 ================================================================================
 
+
+Sun Jan 15 22:55:00 EST 2017
+
+    I am now running Fedora on my Lenovo Thinkpad 450s entirely. Deleted Windows
+    as I was resizing partitions and made a mess of it.
+
+    I originally had only 7 gig for Ubuntu plus 7 gig swap. Now I have about 168
+    Gig available.
+
+================================================================================
+
 Sun Jan 15 17:49:13 EST 2017
 
     Resizing panes in tmux:
@@ -111,12 +122,6 @@ Mon Dec 26 21:45:13 EST 2016
     What would really be nice to work on nowadays.
     > C programming
     > TLS, encryption schemes using mbed TLS
-
-================================================================================
-
-Wed Jan 11 22:11:56 EST 2017
-
-    I might have some free time soon
 
 ================================================================================
 
