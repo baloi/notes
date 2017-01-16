@@ -38,6 +38,15 @@ window manager.
 
 ================================================================================
 
+Mon Jan 16 17:58:16 EST 2017
+
+    Installing vim on fedora properly:
+
+    $ sudo yum update vim-minimal
+    $ sudo yum install vim  
+    
+================================================================================
+
 Mon Jan 16 17:47:37 EST 2017
 
     Installing an rpm with "dnf" in fedora
