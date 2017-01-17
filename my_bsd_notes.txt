@@ -38,12 +38,24 @@ window manager.
 
 ================================================================================
 
+Mon Jan 16 22:37:54 EST 2017
+
+    Emacs tips:
+
+    > Undo    Ctrl-/ or Ctrl-u
+    > Save    Ctrl-x Ctrl-s
+    > Open    Ctrl-x Ctrl-f
+    > Quit    Ctrl-x Ctrl-c
+
+
+================================================================================
+
 Mon Jan 16 17:58:16 EST 2017
 
     Installing vim on fedora properly:
 
     $ sudo yum update vim-minimal
-    $ sudo yum install vim  
+    $ sudo yum install vim
     
 ================================================================================
 
