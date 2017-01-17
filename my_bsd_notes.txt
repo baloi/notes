@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Mon Jan 16 23:11:50 EST 2017
+
+    Install sqlite development
+
+    $ sudo yum install sqlite sqlite-devel
+
+================================================================================
+
 Mon Jan 16 22:37:54 EST 2017
 
     Emacs tips:
