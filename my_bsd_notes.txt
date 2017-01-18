@@ -38,6 +38,33 @@ window manager.
 
 ================================================================================
 
+Tue Jan 17 19:50:47 EST 2017
+
+    Spacemacs in emacs has been driving me a little bit crazy these last few 
+    days.
+
+    I add the "line" (==============) before and after every entry. Copy and
+    paste using the vim bindings goes ok. Then I have to move the cursor up with
+    'k' in command mode. This just seems to delete something. I usually have to
+    do a Ctrl-{ and then C-g to first enter command mode in vim then undo 
+    command sequences in emacs. This usually works - "usually", and usually not
+    always does not work for me. Sometimes "usually" works becomes even 
+    "sometimes" which drives me crazy.
+
+    Back to vim for now. I will miss space-f or finding files with C-x C-f in
+    emacs which has autocomplete when looking for files. Time to find this in
+    vim. 
+
+    The plus though is that even with tmux the background in vim using terminal
+    in Fedora is the same background as using emacs non gui.
+
+    Now for highlighting in vim:
+
+    set cursorline
+    hi CursorLine term=bold cterm=bold guibg=Grey40
+
+================================================================================
+
 Mon Jan 16 23:11:50 EST 2017
 
     Install sqlite development
