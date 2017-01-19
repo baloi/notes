@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Wed Jan 18 20:46:55 EST 2017
+
+    Check swap size in linux:
+
+    # grep SwapTotal /proc/meminfo
+
+================================================================================
+
 Tue Jan 17 19:50:47 EST 2017
 
     Spacemacs in emacs has been driving me a little bit crazy these last few 
