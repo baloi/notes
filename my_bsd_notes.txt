@@ -38,6 +38,13 @@ window manager.
 
 ================================================================================
 
+Sat Feb  4 07:48:12 EST 2017
+
+    My budgetting list in journal/budget.txt is really helping me out. I need to
+    make an application to do the numbers for me though...
+
+================================================================================
+
 Wed Jan 18 20:46:55 EST 2017
 
     Check swap size in linux:
