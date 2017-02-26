@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Sun Feb 26 10:53:53 EST 2017
+
+    Going into full screen terminal:
+
+    f11
+
+================================================================================
+
 Sat Feb  4 07:48:12 EST 2017
 
     My budgetting list in journal/budget.txt is really helping me out. I need to
