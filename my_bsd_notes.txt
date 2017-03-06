@@ -38,6 +38,21 @@ window manager.
 
 ================================================================================
 
+Sat Mar  4 18:38:20 EST 2017
+
+    Install Mosh on client (Fedora):
+    $ sudo dnf install mosh 
+
+    Install on Freebsd
+    $ pkg install net/mosh
+
+    Using mosh:
+
+    $ mosh user@domain
+    (use ssh credentials)
+
+================================================================================
+
 Sun Feb 26 10:53:53 EST 2017
 
     Going into full screen terminal:
