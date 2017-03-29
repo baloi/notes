@@ -38,6 +38,44 @@ window manager.
 
 ================================================================================
 
+Wed Mar 29 19:33:26 EDT 2017
+
+    From : https://direnv.net/
+
+    Setting up direnv to just have an ".envrc" in your path and not clutter the
+    .profile or .bashrc.
+
+    $ git clone https://github.com/direnv/direnv
+    $ cd direnv
+    $ make install
+
+    Then add this to .bashrc:
+
+    eval "$(direnv hook bash)"
+
+================================================================================
+
+Mon Mar 27 19:32:57 EDT 2017
+
+    So CURL is supposed to:
+    > make reliable data transfers with internet protocols
+    > code is given away for free for anyone to use...
+    > was started when Daniel Stenberg wanted to create an IRC bot for currency
+      conversion, downloading updated conversion data over HTTP. He found
+      "HttpGet" and Daniel had taken over the maintenance of HttpGet. Then
+      functionality was added and evolved: HttpGet 1.0, urlget 2.0, curl 4.
+
+
+    Internet protocols:
+    > Internet Protocol (IP) is the principal communications protocol in the
+      Internet Protocol Suite for relaying datagrams accross the network
+      boundaries. Its routing function enables internetworking and essentially
+      establishes the internet
+    > IP has the task of delivering packets from the source host to the
+      destination host
+
+================================================================================
+
 Sun Mar 26 13:26:27 EDT 2017
 
     Installing spacevim:
