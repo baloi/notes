@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Mon Apr  3 23:01:26 EDT 2017
+
+    Install direnv Mac:
+
+    $ brew install direnv
+
+    Add to .profile if using bash“
+
+    $ eval "$(direnv hook bash)"
+
+================================================================================
+
 Sun Mar 26 13:26:27 EDT 2017
 
     Installing spacevim:
