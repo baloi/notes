@@ -38,6 +38,21 @@ window manager.
 
 ================================================================================
 
+Thu Apr  6 06:39:58 EDT 2017
+
+    Great tutorials:
+
+    > interpreter:
+    http://www.craftinginterpreters.com/scanning.html
+
+    > Main page for learning them:
+    http://viewsourcecode.org/snaptoken/
+
+    > I was looking for this:
+    http://viewsourcecode.org/snaptoken/kilo/
+
+================================================================================
+
 Wed Apr  5 22:11:51 EDT 2017
 
     Insert tab in vim:
