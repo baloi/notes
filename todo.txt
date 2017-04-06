@@ -1,5 +1,11 @@
 MY PROJECT -*- mode: org -*-
 
+** interpreter skeleton using go
+** budget file read in go...
+
+
+++++++++++++++++++++++++++++++++
+
 ** call for refinancing
 ** coding hags
 ** yang
@@ -7,19 +13,7 @@ MY PROJECT -*- mode: org -*-
 ** code a little (algorhithms)
 *** focus on algorithms
 *** code it in C
-*** Barnwell notes
 ** Plan a vacation 
 *** figure out where to get money
 *** budget
-** DONE do barnwell MDS
-** DONE Barnwell notes
-** DONE finish eddy notes
-** DONE workout
-*** today at Clublife
-    + bring whole family
-** DONE go to church
-** DONE get Buddy
-** DONE Copy books from Mac
-*** open an charge up mac
-*** find network address of Mac
-*** ssh to mac and copy
+*** workout

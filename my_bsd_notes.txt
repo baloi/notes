@@ -38,6 +38,41 @@ window manager.
 
 ================================================================================
 
+Thu Apr  6 06:39:58 EDT 2017
+
+    Great tutorials:
+
+    > interpreter:
+    http://www.craftinginterpreters.com/scanning.html
+
+    > Main page for learning them:
+    http://viewsourcecode.org/snaptoken/
+
+    > I was looking for this:
+    http://viewsourcecode.org/snaptoken/kilo/
+
+================================================================================
+
+Wed Apr  5 22:11:51 EDT 2017
+
+    Insert tab in vim:
+
+    Ctrl-v Tab
+
+================================================================================
+
+Mon Apr  3 23:01:26 EDT 2017
+
+    Install direnv Mac:
+
+    $ brew install direnv
+
+    Add to .profile if using bash“
+
+    $ eval "$(direnv hook bash)"
+
+================================================================================
+
 Wed Mar 29 19:33:26 EDT 2017
 
     From : https://direnv.net/
@@ -87,7 +122,6 @@ Sun Mar 26 13:26:27 EDT 2017
     Ctrl - shift - v
 
 ================================================================================
-
 
 Sat Mar  4 18:38:20 EST 2017
 
