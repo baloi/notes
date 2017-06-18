@@ -44,6 +44,18 @@ Sun Jun 18 17:09:15 EDT 2017
 
     $ httpd -n
 
+    A thing about /etc/httpd.conf
+
+    ext_addr="{your_ip}"
+
+    server "localhost" {
+        listen on $ext_addr port 80
+        location "cgi-bin/*" {
+            fastcgi
+            root "/"
+        }
+    }
+
 ================================================================================
 
 Thu Apr  6 06:39:58 EDT 2017
