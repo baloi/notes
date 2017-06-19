@@ -41,6 +41,7 @@ window manager.
 Mon Jun 19 07:14:15 EDT 2017
 
     Allow root to run commmands without a password using "doas":
+    (http://www.tedunangst.com/flak/post/doas-mastery)
 
     /etc/doas.conf:
 
