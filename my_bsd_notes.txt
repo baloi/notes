@@ -38,13 +38,52 @@ window manager.
 
 ================================================================================
 
+Sun Jun 18 21:51:45 EDT 2017
+
+    Install vim on OpenBSD
+    # echo $PKG_PATH
+
+    # export PKG_PATH=http://ftp.openbsd.org/pub/OpenBSD/`uname -r`/packages/`arch -s`
+    # echo $PKG_PATH
+    # pkg_add vim
+
+================================================================================
+
+Sun Jun 18 21:37:44 EDT 2017
+
+    The BCHS stack: BSD (OpenBSD, C, httpd, SQLite).
+
+    1. Have OpenBSD (I just scratched my OS in vultr.com to OpenBSD).
+    2. Have httpd. It is in OpenBSD by default. You just have to configure
+       it:
+       * edit /etc/httpd.conf (read previous post).
+    3. Write your cgi script:
+       * https://learnbchs.org/easy.html
+    4. setup doas (how about just do everything):
+       /etc/doas.conf
+
+       {just empty file}
+
+    4. setup:
+
+        #! /bin/sh
+        cc -static -g -W -Wall -o your_prog your_prog.c
+        doas install -o www -g www -m 0500 cgi /var/www/cgi-bin
+        doas rcctl enable slowcgi
+        doas rcctl start slowcgi
+        doas rcctl check slowcgi
+        doas rcctl restart httpd
+
+
+================================================================================
+
 Sun Jun 18 17:09:15 EDT 2017
 
     Checking httpd.conf
 
     $ httpd -n
 
-    A thing about /etc/httpd.conf
+    A thing about /etc/httpd.conf:
 
     ext_addr="{your_ip}"
 
