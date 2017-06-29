@@ -31,10 +31,21 @@ window manager.
         * No internet by default.
         * No emails
         * No browser
-        * Just vim 
+        * Just vim
         * STUDY SOURCECODE
         * Write my own tools from scratch, even command line tools.
         * Try to use only what is in the default install plus vim and git!
+
+================================================================================
+
+Wed Jun 28 23:45:06 EDT 2017
+
+    Checking log files for errors:
+
+    # cd /var/log
+    # ls -alt|head -4
+
+    # tail messages
 
 ================================================================================
 
@@ -240,14 +251,14 @@ Tue Jan 17 19:50:47 EST 2017
     I add the "line" (==============) before and after every entry. Copy and
     paste using the vim bindings goes ok. Then I have to move the cursor up with
     'k' in command mode. This just seems to delete something. I usually have to
-    do a Ctrl-{ and then C-g to first enter command mode in vim then undo 
+    do a Ctrl-{ and then C-g to first enter command mode in vim then undo
     command sequences in emacs. This usually works - "usually", and usually not
-    always does not work for me. Sometimes "usually" works becomes even 
+    always does not work for me. Sometimes "usually" works becomes even
     "sometimes" which drives me crazy.
 
     Back to vim for now. I will miss space-f or finding files with C-x C-f in
     emacs which has autocomplete when looking for files. Time to find this in
-    vim. 
+    vim.
 
     The plus though is that even with tmux the background in vim using terminal
     in Fedora is the same background as using emacs non gui.
@@ -285,7 +296,7 @@ Mon Jan 16 17:58:16 EST 2017
 
     $ sudo yum update vim-minimal
     $ sudo yum install vim
-    
+
 ================================================================================
 
 Mon Jan 16 17:47:37 EST 2017
@@ -526,7 +537,7 @@ Tue Dec 13 23:19:16 EST 2016
     Print date and time on current emacs buffer (write shell command result):
 
     C-u M-! [command]
-  
+
 
 ================================================================================
 
@@ -725,13 +736,13 @@ Thu Nov 17 22:48:43 EST 2016
     though... Yes it is here somewhere, but to save on time (which is a very
     important commodity nowadays to be able to enjoy life more), I decided to
     just write the image with "dd" in Linux... And it worked like a charm. Sort
-    of. 
+    of.
 
     What happened next was 3 installation tries. As being the impatient me, I
     would move my laptop around while the installation was going on and then an
     error would occur. I understood this so the third time, I did not move the
-    laptop during the install process at all (I had the thought that some 
-    laptops are build like superman). But I did have a couple of surprises 
+    laptop during the install process at all (I had the thought that some
+    laptops are build like superman). But I did have a couple of surprises
     with this FreeBSD install.
 
     > The startup screen had nice contrasting fonts in white/gray.
