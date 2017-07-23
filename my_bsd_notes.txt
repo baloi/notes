@@ -38,6 +38,24 @@ window manager.
 
 ================================================================================
 
+Sun Jul 23 07:59:43 EDT 2017
+
+    How to see in pages like wait(2):
+
+    $ man 2 wait
+
+================================================================================
+
+Sun Jul 16 18:37:02 EDT 2017
+
+        Changing nickname in irc:
+
+        /nick [your nickname]
+        /msg NickServ REGISTER password youremail@example.com
+        /msg NickServ identify [your password]
+
+================================================================================
+
 Wed Jun 28 23:45:06 EDT 2017
 
     Checking log files for errors:
