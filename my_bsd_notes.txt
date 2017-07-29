@@ -38,6 +38,20 @@ window manager.
 
 ================================================================================
 
+Sat Jul 29 02:04:55 EDT 2017
+
+    Address already in use error (when binding to port fails):
+
+    - Find open file using tcp port:
+
+    $ lsof -i tcp:<port>
+
+    - Kill process
+    
+    $ kill -9 <PID>
+
+================================================================================
+
 Sun Jul 23 07:59:43 EDT 2017
 
     How to see in pages like wait(2):
