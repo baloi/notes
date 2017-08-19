@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Sat Aug 19 03:12:34 EDT 2017
+
+    Using netcat as client
+
+    $ nc <ip> <port>
+
+    Using netcat in server mode
+
+    $ nc -l -p <port>
+
+================================================================================
+
 Sat Jul 29 02:04:55 EDT 2017
 
     Address already in use error (when binding to port fails):
