@@ -38,6 +38,17 @@ window manager.
 
 ================================================================================
 
+Fri Sep  1 08:33:26 EDT 2017
+
+    Revert to the latest git commit (HEAD), and delete any local changes:
+
+    $ git reset --hard HEAD
+
+    This will bring you back to the last commit and take out any changes
+    you have made to the files.
+
+================================================================================
+
 Sat Aug 19 03:12:34 EDT 2017
 
     Using netcat as client
