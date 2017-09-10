@@ -44,6 +44,15 @@ Sun Sep 10 11:19:43 EDT 2017
 
     $ ps -ef | grep sshd
 
+    Now run:
+
+    $ sudo service sshd status
+
+    $ sudo service sshd stop
+
+    $ sudo service sshd start
+
+
 ================================================================================
 
 Sat Sep  2 23:52:28 EDT 2017
