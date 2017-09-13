@@ -38,6 +38,17 @@ window manager.
 
 ================================================================================
 
+Tue Sep 12 23:50:24 EDT 2017
+
+    Coding using terminal and vim works now for me with the fonts VERY LARGE...
+
+    Solved a coding bug just having the fonts large and seeing a limited number
+    of lines of code.
+
+    Less distraction. Actually seeing the text... Maybe that is it.
+
+================================================================================
+
 Sun Sep 10 11:19:43 EDT 2017
 
     Check if ssh running:
@@ -51,7 +62,6 @@ Sun Sep 10 11:19:43 EDT 2017
     $ sudo service sshd stop
 
     $ sudo service sshd start
-
 
 ================================================================================
 
