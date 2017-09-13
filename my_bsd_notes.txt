@@ -6,18 +6,18 @@
 
 Mon Jan 26 23:10:09 EST 2015
 
-        I will log everything I did in this file. This entry will be the main 
+        I will log everything I did in this file. This entry will be the main
 page and all other entries will be from the newest to the oldest. If my goals
 change then the main page will also change. Minimize size of main pages.
 
-        I am creating a development machine from scratch using BSD, OpenBSD in 
-this case. I plan to have a good configuration for vim, Python and C development 
-for my needs. I need to be able to run my scheduling scripts from this machine. 
-I need internet from LAN at least and from wifi optimally. It would be nice to 
-have a nice working Gnome window manager if ever. Or I will just use tmux as my 
+        I am creating a development machine from scratch using BSD, OpenBSD in
+this case. I plan to have a good configuration for vim, Python and C development
+for my needs. I need to be able to run my scheduling scripts from this machine.
+I need internet from LAN at least and from wifi optimally. It would be nice to
+have a nice working Gnome window manager if ever. Or I will just use tmux as my
 window manager.
 
-        Needed: 
+        Needed:
         * vim
         * good vim configuration
         * letter count in vim
