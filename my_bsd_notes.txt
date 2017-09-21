@@ -24,7 +24,7 @@ window manager.
         * syntax highlighting in vim
         * git?
         * internet connection           - fw_update and ifconfig solved this
-        * file transfer 
+        * file transfer
 
         If not, I will write all my tools from scratch in C and in shell script. 
         Maybe this is what I will do.
@@ -35,6 +35,54 @@ window manager.
         * STUDY SOURCECODE
         * Write my own tools from scratch, even command line tools.
         * Try to use only what is in the default install plus vim and git!
+
+================================================================================
+
+Wed Sep 20 19:59:29 EDT 2017
+
+    Third post today. BTW, I am off work tomorrow, just have one homecare PT 
+    eval.
+
+    Installing pip on my OpenBSD with python 2.7.13
+
+    # curl --remote-name https://bootstrap.pypa.io/get-pip.py
+
+    -----------------
+
+    Checking Redis auth/security simple:
+
+    $ telnet [ip address] 6379
+
+================================================================================
+
+Wed Sep 20 19:47:19 EDT 2017
+
+    Now that I have redis running on my OpenBSD server, the next question was:
+    what project could I do? Maybe a blog? Tried installing hiredis first, but
+    it had a couple of errors while building and then also the question of will
+    the C program be accessible through CGI? My CGI with sqlite access did not
+    work when accessed via web.
+    Hmm, how about do something in between? Redis on the server and a python or
+    ruby or go frontend then a C program in my local computer that just
+    connects to the redis server to upload each article... Now we are talking.
+    When I checked my OpenBSD server, of Ruby, Go or Python - only Python was
+    installed. Good! Narrow it down and let's not deal with installation hell
+    this week...
+
+================================================================================
+
+Wed Sep 20 16:37:02 EDT 2017
+
+    Installing redis on OpenBSD:
+
+    > install gmake
+    $ sudo pkg_add gmake
+
+    > go into redis-stable
+    $ cd redis-stable
+    $ gmake
+    $ sudo gmake install
+
 
 ================================================================================
 
