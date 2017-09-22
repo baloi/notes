@@ -1496,12 +1496,12 @@ Fri May 6 06:56:09 EDT 2016
     at home. 167 MB took less than a minute to download. Sweet!
 
     Just downloaded Netbeans with the JDK. Trying it out - inspired by this
-    article I found from ycombinator: 
+    article I found from ycombinator:
 
     http://www.nicolasbize.com/blog/30-years-later-qbasic-is-still-the-best/
-    
+
     Anyway, whatever language, if it works, it is a go for me.
-    
+
 ================================================================================
 
 Thu Apr 28 22:17:09 EDT 2016
@@ -1528,7 +1528,7 @@ Thu Apr 28 06:43:49 EDT 2016
     TWITTER_VOTES PART 3
 
     So I downloaded nsq binaries from http://nsq.io/deployment/installing.html
-    unpacked and went to directory then 
+    unpacked and went to directory then
     $ sudo cp * /usr/local/bin
 
     Now these two both work!
@@ -1554,7 +1554,7 @@ Tue Apr 26 23:36:49 EDT 2016
 ================================================================================
 
 Tue Apr 26 23:16:16 EDT 2016
-    
+
     TWITTER_VOTES PART 1
 
     Trying the Twittervotes app in Go Programming Blueprints:
@@ -1630,7 +1630,7 @@ Sun Apr 17 20:45:48 EDT 2016
 
     c:\Users\the_user\AppData\Roaming
 
-    M-x package-install   -> go-mode 
+    M-x package-install   -> go-mode
 
     Now opening a .go file syntax hightlights go source, then using
     M-x evil-mode is even better.
