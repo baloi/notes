@@ -38,6 +38,69 @@ window manager.
 
 ================================================================================
 
+Sat Sep 23 14:45:51 EDT 2017
+
+    Developing with less pain.
+
+    Developing for fun stays fun when you do not have to get into a couple
+    of things:
+    > To steep a learning curve for a technology
+    > Being stuck in "configuration hell" when trying to install the tools
+      you need.
+
+    A simple example happened today. I have been able to delve a bit into
+    Redis now, which is such a cool way to store data. I have done a some small
+    utility programs in C which helped me learn how to use the 'hiredis' library
+    which is client for redis in C. Files are in:
+
+    ~/c_me/add_event.c
+    ~/c_me/delete_event.c
+    ~/c_me/edit_event.c
+    ~/c_me/hiredis_test.c
+    ~/c_me/list_events.c
+    ~/c_me/store_and_query.c
+
+    store_and_query.c shows the basics. I was able to figure out the C part and
+    the redis part from just tutorials from redis.io... Redis: great piece of 
+    code, great idea.
+
+    Setting everything up in Fedora and learning techniques from just event the
+    sample program provided in the redis source distribution was enough to get
+    me started.
+
+    Now I wanted a web front-end. In my OpenBSD server, redis was easy to
+    install, hiredis I got a bunch of errors though trying to install. So I
+    tried Python with Redis as I also feel comfortable with Python. The Redis
+    Python client redis-py https://redislabs.com/lp/python-redis/ was also very
+    easy to install in OpenBSD which had Python by default. I just had to also
+    install pip first.
+
+    Now in OpenBSD I had: Redis, redis-py (which I tested and worked), then
+    uwsgi. Used uwsgi to run a 'foobar.py' that accesses redis. This is the
+    run-server script:
+
+        #!/bin/ksh
+        uwsgi --fastcgi-socket 127.0.0.1:3031 --wsgi-file foobar.py --processes 4 --threads 2 --stats 127.0.0.1:9191
+
+    Then I just edited httd.conf to listen to port 3031 on localhost to expose
+    foobar.py's output through uwsgi/fastcgi:
+
+        ext_addr="[your_ip]"
+        server "localhost" {
+            listen on $ext_addr port 80
+            location "/foo/*" {
+                fastcgi socket ":3032"
+            }
+        }
+
+    Now it runs!
+
+    Next step: send a "post" request containing the encrypted data to server
+    which will be decrypted in server and saved on redis if proper credentials
+    have been given.
+
+================================================================================
+
 Sat Sep 23 11:17:52 EDT 2017
 
     Sodium (NaCL encryption more readily available):
