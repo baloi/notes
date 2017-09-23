@@ -38,6 +38,22 @@ window manager.
 
 ================================================================================
 
+Sat Sep 23 11:17:52 EDT 2017
+
+    Sodium (NaCL encryption more readily available):
+
+    Install in OpenBSD:
+    $ sudo pkg_add libsodium
+
+    Install in Fedora
+    $ sudo dnf install libsodium libsodium-devel
+
+    Compiling programs with <sodium.h>
+
+    $ cc sodium_program.c -L/usr/local/lib -I/usr/local/include -lsodium
+
+================================================================================
+
 Wed Sep 20 19:59:29 EDT 2017
 
     Third post today. BTW, I am off work tomorrow, just have one homecare PT 
@@ -3922,5 +3938,5 @@ is plugged in during boot.
 
         Am I in trouble or what? "!!date command in vi works though for 
         timestamping so I am doing something right.
-        
+
 ================================================================================
