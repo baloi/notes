@@ -38,6 +38,32 @@ window manager.
 
 ================================================================================
 
+Thu Sep 28 08:36:58 EDT 2017
+
+    A few things I learned:
+    * code snippets that are simple and named after their function are very
+      useful as I use them now all the time to code my newer work - building up
+      a "knowledge base" - snippets and projects/prototypes are all in the
+      same directory (c_me or python_me), and are just in their own
+      subdirectories.
+    * include compilation process in the code or a shell script for compilation
+      so you don't have to waste time and focus trying to figure out how the
+      hell to compile the stuff.
+    * Having a technical log like this "my_bsd_notes.txt" and keeping things
+      like: setup in different OS's, firewalling, installation notes, tools and
+      how to get them up an running are really VERY helpful - again it saves you
+      time. These are things you need, but you really do not need to be an
+      expert in (meaning you don't need to spend all your time in these areas).
+    * Research just a little, build code, log and forget - free your mind to
+      think of the problem at hand and be more creative. If you want to be
+      "proficient" in coding, try just coding "snippets", even re-coding your
+      own snippets.
+    * Do other things in life. You can only do this if you are not afraid to
+      lose your knowledge/skill. So code, archive and expand your knowledge.
+    * Build yourself up in all aspects and that includes sleep.
+
+================================================================================
+
 Thu Sep 28 08:25:39 EDT 2017
 
     I have made some progress with my client-server encryption program. Used C
