@@ -38,6 +38,45 @@ window manager.
 
 ================================================================================
 
+Thu Sep 28 08:25:39 EDT 2017
+
+    I have made some progress with my client-server encryption program. Used C
+    and python. I now have python-zmq app on my server, mainly using python in
+    the server as libsodium in C did not compile easily and
+
+    "I did not want to waste my time or focus"
+
+    trying to figure out a way to make the library run. Python installation for
+    both zmq and libsodium were easy on the OpenBSD server so I went with it.
+    I got to practice coding the server and the client on my machine in both
+    Python and C. I also was able to "debug" it just by running and seeing
+    results (including just print statements at various end points). Prototyping
+    was faster and more focused. No need to figure out how to setup a test
+    environment. No need to study the latest testing craze. No time to waste
+    time. I could spend my time on useful life stuff like tennis, working out,
+    earning money through PT, cooking for my family and spending time with my
+    family and dog.
+
+    But, this is what has been done:
+    > encryption test using libsodium
+    > client server protypes in both C and Python (coding in both languages was
+      really a kick - I will do this much more often).
+    > figuring out the bare minimum of server and client and knowing the
+      weaknesses of the prototypes
+      * process has to be server waits and client sends out request then server
+        responds
+      * you cannot cut connection in between or else the server cannot accept
+        the next client (it has to be a clean finish)
+    > future plans:
+      * include encryption (pass private keys after auth then pass encrypted
+        message)
+      * decrypted message will be saved in redis
+      * auth process
+      * "smart" server start/restart and be more robust, run even with cut
+        connections.
+
+================================================================================
+
 Mon Sep 25 17:34:27 EDT 2017
 
     PF firewall:
