@@ -38,6 +38,16 @@ window manager.
 
 ================================================================================
 
+Thu Oct  5 11:38:56 EDT 2017
+
+    Install iPython
+
+    $ sudo dnf install python-devel
+
+    $ sudo pip install ipython
+
+================================================================================
+
 Sun Oct  1 11:39:13 EDT 2017
 
     Install ruby and ruby-gems in OpenBSD:
