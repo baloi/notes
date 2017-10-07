@@ -38,6 +38,19 @@ window manager.
 
 ================================================================================
 
+Fri Oct  6 22:37:29 EDT 2017
+
+    Checking out the original git commit:
+
+    First clone git
+    $ git clone https://github.com/git/git.git
+
+    Then checkout the version you need
+    $ cd git
+    $ git checkout e83c5163316f89bfbde7d9ab23ca2e25604af290
+
+================================================================================
+
 Thu Oct  5 11:38:56 EDT 2017
 
     Install iPython
@@ -45,6 +58,10 @@ Thu Oct  5 11:38:56 EDT 2017
     $ sudo dnf install python-devel
 
     $ sudo pip install ipython
+
+    $ sudo pip install jupyter 
+
+    Jupyter is for data science stuff.
 
 ================================================================================
 
