@@ -59,6 +59,24 @@ Sun Oct  8 13:25:26 EDT 2017
     implementing "elementary" data structures. Got to get the basics down and
     then build from it.
 
+    Now here is the code that I did to test redis' adlist.c.
+
+    list *l;
+    listNode *ln;
+    listIter li;
+    l = listCreate();
+    listAddNodeHead(l, "one");
+    listAddNodeHead(l, "two");
+    listRewind(l, &li);
+    while((ln = listNext(&li))) {
+        printf(">>%s<<\n", listNodeValue(ln));
+    }
+    listRelease(l);
+
+    I checked this with valgrind:
+    $ cc -g adlist_test.c
+    $ valgrind --tool=memcheck --leak-check=yes -v ./a.out
+
 ================================================================================
 
 Sun Oct  8 12:06:43 EDT 2017
