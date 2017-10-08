@@ -38,6 +38,16 @@ window manager.
 
 ================================================================================
 
+Sun Oct  8 13:25:26 EDT 2017
+
+    That was a long previous post about my "study" into lists. I should not
+    worry too much about the mathematical part of it, just the practical parts
+    and try to incorporate it into my projects. Anyway, I am just at the part of
+    implementing "elementary" data structures. Got to get the basics down and
+    then build from it.
+
+================================================================================
+
 Sun Oct  8 12:06:43 EDT 2017
 
     Learning through programming.
