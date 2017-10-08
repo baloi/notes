@@ -38,6 +38,100 @@ window manager.
 
 ================================================================================
 
+Sun Oct  8 12:06:43 EDT 2017
+
+    Learning through programming.
+
+    I have on my desk (dining table) right now a copy of "Algorithms in C++,
+    3rd edition" by Sedgewick with the plan to make a final implementation of
+    lists in C. The plan was to incorporate the C code in "Algorithms in C" from
+    O'Reily as I wanted an implementation of lists that was easier to use.
+    This is how it looks like:
+
+    List        list;
+    ListElmt    *element;
+
+    int         *data, i;
+
+    list_init(&list, free);
+    element = list_head(&list);
+
+    //printf("list size = %d\n", list->size);
+    for (i = 10; i > 0; i--) {
+        if ((data = (int *)malloc(sizeof(int))) == NULL) {
+            fprintf(stderr, "Error creating data\n");
+            return 1;
+        }
+        *data = i;
+
+        if (list_ins_next(&list, NULL, data) != 0) {
+            fprintf(stderr, "Error inserting next data\n");
+            return 1;
+        }
+    }
+
+    I needed a more intuitive and "battle tested" list implementation. Scanned
+    through the book, but then first, the implementation is in C++, second was
+    that I wanted something that was used in the "real world". Came the idea:
+    what would be more battle tested than a list implementation used in
+    something like Doom 3. Yes! Battle tested, readable, but in C++.
+    I tried searching the sources for SQLite, ZMQ ... both very nice sources,
+    but I could not "free" the list implementation from the dependencies in
+    their projects. BTW, SQLite and ZMQ code and the projects themselves are
+    really very, very good. I used both with good results: fast, easy to use
+    API and very well thought of design.
+    Came Redis. Started by one developer. Now it is quite widely used in lots of
+    systems (battle tested), nice code/great actually. And... I just took both
+    adlist.h and adlist.c - took out the cmq dependencies (basically just the
+    use of zmalloc() and zfree()) and was able to compile! The code is also very
+    readable. Got to go with this!
+    Anyway, I am still quite interested in Doom 3. It's use of intrusive lists
+    and the game structure:
+
+    https://gpfault.net/posts/intrusive-lists-doom3.txt.html
+    http://fabiensanglard.net/doom3_bfg/DooM_Classic.php
+
+    Which just sums it up to: I learn more by tinkering with code than reading
+    from a book. Will have to spend some time to do formal study when in the
+    correct mindset though... But coding is still much more fun!
+
+    I did this whole search because of Bisqwit's youtube video about C++ for C
+    programmers where he implements a list from C and improved C then C++ and
+    each time the implementation gets more "readable". I have the source in
+    c_me/algo/ (list.c list1.c and list2.cpp). This got me started a few months
+    ago and just came back to it.
+
+    https://www.youtube.com/watch?v=kdlIlIIHCz0
+
+================================================================================
+
+Sun Oct  8 10:20:20 EDT 2017
+
+    Using spacemacs/vim is really what I want but I still have trouble with
+    figuring out the basic file stuff.
+
+    I like my vim keybindings. Will have to try editing C files with this.
+
+    NOT. Vim it is still.
+
+    I do not want:
+    > to break my train of thought
+    > to spend more time studying an editor when I can just have time to code
+      a little (less than I would want)
+    > to learn more search functionality, when I could just use grep, more,
+      find...
+    > to decrease my productivity when I have been more productive than I have
+      been in a year or two
+
+    Just sticking to Vim and C, and a little python if needed.
+
+    No time for fluff and flashy stuff for now...
+
+    I am also enjoying programming in C and learning through programming (more
+    on the next post).
+
+================================================================================
+
 Fri Oct  6 22:37:29 EDT 2017
 
     Checking out the original git commit:
@@ -59,7 +153,7 @@ Thu Oct  5 11:38:56 EDT 2017
 
     $ sudo pip install ipython
 
-    $ sudo pip install jupyter 
+    $ sudo pip install jupyter
 
     Jupyter is for data science stuff.
 
