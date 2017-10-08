@@ -38,6 +38,19 @@ window manager.
 
 ================================================================================
 
+Sun Oct  8 17:30:35 EDT 2017
+
+    Compiling multiple C programs.
+    Example: main.c (has main), util.c
+
+    $ cc -c util.c
+    (produces util.o)
+
+    $ cc util.o main.c -o main
+    (produces the executable "main")
+
+================================================================================
+
 Sun Oct  8 13:25:26 EDT 2017
 
     That was a long previous post about my "study" into lists. I should not
