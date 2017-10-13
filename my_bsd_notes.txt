@@ -38,6 +38,47 @@ window manager.
 
 ================================================================================
 
+Wed Oct 11 08:03:43 EDT 2017
+
+    Open and write to file in C (appending if file exists and creating if
+    file does not exist):
+
+    int fd;
+    char *filename;
+    char *buffer;
+    filename = malloc(MAX_SIZE_OF_FILENAME);
+    buffer = malloc(MAX_SIZE_OF_CONTENT);
+    strcpy(filename, "thefile.txt");
+    strcpy(buffer, "the content you want to append to file");
+    // append newline
+    strncat(buffer, "\n", 1);
+    // open file
+    fd = open(filename, O_WRONLY, O_CREAT, O_APPEND, S_IRUSR, S_IWUSR);
+    if (fd == -1) error();
+    if (write(fd, buffer, strlen(buffer)) == -1)
+        error();
+    if (close(fd) == -1)
+        error();
+    free(buffer);
+    free(filename);
+
+================================================================================
+
+
+Tue Oct 10 08:20:45 EDT 2017
+
+    Capstone installed:
+
+    Download from github.
+
+    run make.sh
+    $ ./make.sh
+
+    install
+    $ sudo ./make.sh install
+
+================================================================================
+
 Sun Oct  8 17:30:35 EDT 2017
 
     Compiling multiple C programs.
