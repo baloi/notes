@@ -38,6 +38,15 @@ window manager.
 
 ================================================================================
 
+Wed Oct 18 06:53:06 EDT 2017
+
+    A good place for basics of algorithms and a C resource also. Based on notes 
+    on Data Structures and Programming Techniques from Stanford:
+
+    http://cs.yale.edu/homes/aspnes/classes/223/notes.html#abstractDataTypes
+
+================================================================================
+
 Wed Oct 11 08:03:43 EDT 2017
 
     Open and write to file in C (appending if file exists and creating if
