@@ -38,6 +38,33 @@ window manager.
 
 ================================================================================
 
+Wed Oct 25 08:31:03 EDT 2017
+
+    I have been logging some of my work in:
+
+    https://github.com/baloi/learning_from
+
+    It is mostly about learning from an OSS project and learning the code or
+    techniques. I did it first with the redis list data structure and the code
+    really inspired me as it is not only clean and to the point but also
+    reusable and it is even in heavy use in a lot of systems (as redis is used a
+    lot nowadays).
+    Now I am tinkering with the urlget.c code which is already teaching me a few
+    things. Logging everything I do in a file does make me more productive and
+    more "adventurous" - it gives me courage to make mistakes.
+
+    Onward we go?
+
+================================================================================
+
+Sun Oct 22 07:01:52 EDT 2017
+
+    Using Clojure:
+
+    Installed lein.
+
+================================================================================
+
 Wed Oct 18 06:53:06 EDT 2017
 
     A good place for basics of algorithms and a C resource also. Based on notes 
