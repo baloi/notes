@@ -38,6 +38,24 @@ window manager.
 
 ================================================================================
 
+Mon Oct 30 22:27:54 EDT 2017
+
+    My repository learning_from is growing. I am now going into TDD in C. Now
+    reading the book "Test-Driven Development for Embedded C". It has a good
+    example explaining the gist of TDD and using the Unity test framework for C
+    testing. Enjoying it. It does say:
+    > Make short succint test first, testing a very small functionality
+    > Test will fail so make it pass even just with "stubs" or hardwired code.
+    > Use hardwired code as long as you can, final code will come, just make
+      sure that the tests are correct.
+    > Do not implement code, make tests first.
+    > Make tests first! Fail, success then make another test. This way your test
+      will be your safety net. If you refactor, tests will show what breaks.
+    > Just make your test pass, do not implement anything else...
+    More of this in: https://github.com/baloi/learning_from
+
+================================================================================
+
 Wed Oct 25 08:31:03 EDT 2017
 
     I have been logging some of my work in:
