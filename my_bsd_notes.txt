@@ -38,6 +38,30 @@ window manager.
 
 ================================================================================
 
+Sun Dec 17 14:40:57 EST 2017
+
+    I can't believe that the last entry I had for learning_from repository has
+    been October. I checked the git logs though and I have been commiting from
+    that repo Nov 5, I and that was when I was starting to think - where do I go
+    next? And then looking into code of zmq, namosg, then back to redis. Nov 7
+    in Chapter1 is "build your own lisp" and just basically getting an repl 
+    console without any functionality....
+
+    Nov 8 - listTestRunner.c and then I had the segmentation fault...
+    Nov 12 - listTest.c of Stanford algo samples...
+    Nov 15 - Java coding using IntelliJ Idea for an MDS list page scraping...
+    Nov 16 - Placing the filename in a config file...
+    Those two days I was very productive with IntelliJ Idea and C...
+
+    Nov 19 - Programming in Go using GoLand EAP from Jetbrains, it is  very nice
+    but it is not free and my Early Access Program pass will end on Dec 15...
+
+    From then on I tried programming in Go using vim with syn on but I just did
+    not feel right with it... Then I just did this week for programming in Go 
+    using vim: "syn off". I feel I am back again.
+
+================================================================================
+
 Mon Oct 30 22:27:54 EDT 2017
 
     My repository learning_from is growing. I am now going into TDD in C. Now
