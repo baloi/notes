@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Sun Dec 31 13:18:49 EST 2017
+
+    Removing spacevim:
+
+    Remove link .vimrc -> ~/.space-vim/init.vim
+
+================================================================================
+
 Mon Oct 30 22:27:54 EDT 2017
 
     My repository learning_from is growing. I am now going into TDD in C. Now
