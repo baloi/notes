@@ -38,6 +38,18 @@ window manager.
 
 ================================================================================
 
+Thu Jan  4 20:04:13 EST 2018
+
+    Installing vim-go:
+
+    $ git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
+
+    Then from vim:
+
+    :GoInstallBinaries
+
+================================================================================
+
 Sun Dec 31 13:18:49 EST 2017
 
     Removing spacevim:
