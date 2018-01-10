@@ -38,6 +38,20 @@ window manager.
 
 ================================================================================
 
+Wed Jan 10 06:56:40 EST 2018
+
+    SCons: a new kind of build tool.
+    Install SCons.
+    Create 'SConstruct' file:
+
+    Program(['firstfile.c', 'otherfile.c'])
+
+    Run:
+    
+    $ scons
+
+================================================================================
+
 Thu Jan  4 20:04:13 EST 2018
 
     Installing vim-go:
