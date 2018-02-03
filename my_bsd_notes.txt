@@ -38,6 +38,16 @@ window manager.
 
 ================================================================================
 
+Sat Feb  3 12:16:30 EST 2018 (Copied from ~/journal/entries.txt)
+
+    I am now in my coding terminal and writing in my journal.
+    Just having "MMA workout" music in Spotify to keep the flow of thoughts
+    going.
+    Works for me.
+
+
+================================================================================
+
 Wed Jan 10 06:56:40 EST 2018
 
     SCons: a new kind of build tool.
