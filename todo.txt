@@ -1,19 +1,4 @@
-MY PROJECT -*- mode: org -*-
 
-** interpreter skeleton using go
-** budget file read in go...
-
-
-++++++++++++++++++++++++++++++++
-
-** call for refinancing
-** coding hags
-** yang
-** cook
-** code a little (algorhithms)
-*** focus on algorithms
-*** code it in C
-** Plan a vacation 
-*** figure out where to get money
-*** budget
-*** workout
+Sat Feb  3 12:02:14 EST 2018
+> getdelim.c from db_tuts to snips
+  - now tinkering with this thing
