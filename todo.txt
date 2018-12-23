@@ -1,8 +1,4 @@
-MY PROJECT -*- mode: org -*-
-
-** interpreter skeleton using go
-** budget file read in go...
-
+* budget file read in Whatever...
 
 ++++++++++++++++++++++++++++++++
 
@@ -13,6 +9,7 @@ MY PROJECT -*- mode: org -*-
 ** code a little (algorhithms)
 *** focus on algorithms
 *** code it in C
+
 ** Plan a vacation 
 *** figure out where to get money
 *** budget
