@@ -50,6 +50,17 @@ Mon May 27 14:21:07 EDT 2019
     Both pry and ipython seem to be great. I code in both so....
     I like ipython colors more (yes, it now comes to that, shiny things!)
 
+    Funny, but Golang is supposed to be very good and made web projects in 
+    ruby to golang cut server cost by 90%, response times 10X faster. 
+    Javascript's 2 top devs have moved to Go 2 years ago...
+
+    I still can't get myself to program in Go right now. Don't like the 
+    compile cycle. OMG, I like instant gratification right now? Oh boy.
+
+    I am really thinking of teaching people to setup computers that are cheap,
+    have linux, ruby or python and then teach them how to program and solve
+    some of their problems...
+
 ================================================================================
 
 Tue Jan  1 10:47:33 EST 2019
