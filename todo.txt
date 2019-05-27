@@ -1,16 +1,16 @@
-* budget file read in Whatever...
 
-++++++++++++++++++++++++++++++++
+> voodoo child 
+  chords / tabs / video
 
-** call for refinancing
-** coding hags
-** yang
-** cook
-** code a little (algorhithms)
-*** focus on algorithms
-*** code it in C
+> c coding
+  project that is existing?
+============
+    Need to be able to:
+    > calculate total expense for a period from a file
 
-** Plan a vacation 
-*** figure out where to get money
-*** budget
-*** workout
+    > parse period data
+    > may edit file or not
+      - edit file only to write next period
+    > ignore any * done * items
+
+

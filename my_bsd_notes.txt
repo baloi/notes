@@ -38,6 +38,33 @@ window manager.
 
 ================================================================================
 
+Mon May 27 14:21:07 EDT 2019
+    
+    > Install python3, ipython and pip3:
+    $ brew install python3
+    $ pip3 install ipython 
+
+    > install pry for ruby
+    $ gem install pry
+
+    Both pry and ipython seem to be great. I code in both so....
+    I like ipython colors more (yes, it now comes to that, shiny things!)
+
+================================================================================
+
+Tue Jan  1 10:47:33 EST 2019
+
+    The one tool that I could use right now. My life budgetting app.
+
+    Need to be able to:
+    > calculate total expense for a period from a file
+    > parse period data
+    > may edit file or not
+      - edit file only to write next period
+    > ignore any * done * items
+
+================================================================================
+
 Fri Oct 19 06:15:19 EDT 2018
 
     Finding files in linux by name:
