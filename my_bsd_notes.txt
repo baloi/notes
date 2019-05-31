@@ -38,6 +38,49 @@ window manager.
 
 ================================================================================
 
+Wed May 29 09:45:21 EDT 2019
+
+    Installing go on my Mac:
+    $ brew install go
+
+    Setup GOPATH ...
+    Check environment vars in MAC:
+    $ printenv
+================================================================================
+
+Mon May 27 15:17:41 EDT 2019
+
+    "Simple Made Easy" talk by the creator of Clojure - Rich Hickey.
+
+    Choose simpler stuff: choose values (immutable?), functions, neospaces,
+    DATA!
+    
+    "Programs just manipulate data. Data is simple. The essence of the stuff -
+    data. We should just manipulate the essence of the stuff."
+
+    "Just use data"
+
+    Polymorphism a la cart: 
+    "I have data structures, I have definitions of sets of functions and I can
+    connect them together" and those are 3 independent operations.
+
+================================================================================
+
+Mon May 27 14:41:40 EDT 2019
+
+    It will have to be like chess right now, I have to have a balance of 
+    "tactical play" and fast results and then "positional play" with very
+    reliable, error resistant, but slower to build and understand (hard to 
+    setup - needing a lot of forethought?)
+
+    Gambit openings and positional openings...
+
+    Fast and slow
+    
+    Think fast (split second) and think slow (code slow, build...)
+
+================================================================================
+
 Mon May 27 14:21:07 EDT 2019
     
     > Install python3, ipython and pip3:
