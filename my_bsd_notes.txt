@@ -38,6 +38,47 @@ window manager.
 
 ================================================================================
 
+Thu Jun  6 06:15:13 EDT 2019
+
+    Now I have an OLD Lenovo Thinkpad running FreeBSD. It has installed:
+    > Ruby
+    > Python
+    > Go (Yes!)
+    > vim
+    > git (now that computer I can use in the morning for budget and 
+      programming)
+    > tmux 
+   
+    I like the fonts of it as it has large ones (I am writing right now on my
+    Mac which I changed the font on the terminal to a larger one.... Having only
+    a terminal is very focusing..
+    My Mac goes to Janjan when he needs it...
+
+    The FreeBSD machine also now is a committer on my github account.
+
+    Currently programming in Go as it makes sense. Easier to program than C in
+    terms of garbage collection and pointers. Has types so less prone to errors
+    from typeless languages. I did a program in python for parsing scheduling
+    data. When passing data structures to functions, I do not automatically
+    control what type of data structure is passed. It was easy to program fast,
+    but at the same time, you have to have in your mind what a function does 
+    and what it receives especially if there are many data structures. I redid
+    the program in Java, which I am still fluent programming especially with an
+    IDE. I did the program and it was more readable with no errors creeping in
+    for incompatible types being passed to functions....
+    Go is the way to go for now. I felt "power" with C, but that is a lot of
+    work right there. I also like the fact that Go does not go for the OOP
+    bullshit. Yes I call it BS now. Learning from mistakes, and also a talk from
+    the very insightful, non-BS, creator of clojure, Rich Hickey, "Simple Made
+    Easy": 
+    https://www.infoq.com/presentations/Simple-Made-Easy
+
+    I am not just yet trying to relearn Clojure right now. Golang is enough for
+    now as I'll try to explore goroutines, channels and data structs in Go.
+    A little bit a day....
+
+================================================================================
+
 Wed May 29 09:45:21 EDT 2019
 
     Installing go on my Mac:
