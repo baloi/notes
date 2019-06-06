@@ -77,6 +77,8 @@ Thu Jun  6 06:15:13 EDT 2019
     now as I'll try to explore goroutines, channels and data structs in Go.
     A little bit a day....
 
+    (15 minute rant..)
+
 ================================================================================
 
 Wed May 29 09:45:21 EDT 2019
