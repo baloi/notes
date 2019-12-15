@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Sun Dec 15 09:54:15 EST 2019
+
+    This is a java implementation of a database system:
+
+    http://www.cs.bc.edu/~sciore/simpledb/intro.html
+
+================================================================================
+
 Thu Jun  6 06:15:13 EDT 2019
 
     Now I have an OLD Lenovo Thinkpad running FreeBSD. It has installed:
