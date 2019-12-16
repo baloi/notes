@@ -38,6 +38,17 @@ window manager.
 
 ================================================================================
 
+Mon Dec 16 09:01:41 EST 2019
+
+    Compile multiple c files
+
+    Messing with sqlite clone to study programming a database system from 
+    scratch. Firt roadblock since I have not been programming C in a while.
+
+    $ cc first.c main.c
+
+================================================================================
+
 Sun Dec 15 09:54:15 EST 2019
 
     This is a java implementation of a database system:
