@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Tue Dec 17 06:29:17 EST 2019
+
+    This is good reading for tech and how it is in a specific niche:
+
+    http://rachelbythebay.com/w/2018/04/22/sauce/
+
+================================================================================
+
 Mon Dec 16 09:01:41 EST 2019
 
     Compile multiple c files
