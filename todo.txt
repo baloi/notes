@@ -1,4 +1,7 @@
 
+> study database systems:
+  redis, simpleDB, sqlite, git
+
 > voodoo child 
   chords / tabs / video
 
