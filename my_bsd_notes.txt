@@ -38,6 +38,14 @@ window manager.
 
 ================================================================================
 
+Sun Dec 15 16:40:29 EST 2019
+
+    Redis' first git commit:
+
+    https://github.com/antirez/redis.git
+
+================================================================================
+
 Sun Dec 15 09:54:15 EST 2019
 
     This is a java implementation of a database system:
