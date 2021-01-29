@@ -37,6 +37,160 @@ window manager.
         * Try to use only what is in the default install plus vim and git!
 
 ================================================================================
+================================================================================
+
+Fri Jan 29 08:07:45 EST 2021
+
+    To install commandline tools for Mac type:
+
+    xcode-select --install
+
+    A software update popup will appear and you can install command line 
+    developer tools.
+================================================================================
+
+Sun Jan 24 17:05:44 EST 2021
+
+    Copy contents of id_ed25519.pub file to clipboard:
+
+    pbcopy < ~/.ssh/id_ed25519.pub
+
+================================================================================
+
+Sun Jan 24 13:54:01 EST 2021
+
+    Uninstalled Firefox and reinstalled, deleted search apps popping up, renewed
+    my ssh in github. Back in business.
+
+================================================================================
+
+Fri Jan 22 06:55:43 EST 2021
+    
+    Doing my morning routine of cleaning up and getting my morning coffee with
+    butter. Then notes and workout. Early mornings have helped me free up some
+    time to myself then since I start work at around 10 AM, I can still make
+    calls to friends and family, pay bills, call banks and figure out 
+    financials. That in itself is pretty much worth it. I guess, I do a lot of
+    things in the morning for life balance...
+
+================================================================================
+
+Mon Jan  4 11:20:07 EST 2021
+    
+    Just finished shoveling a couple of inches show accumulation in the driveway
+    for about 45 minutes or so. Yesterday did a 30 minute kettlebell low rep
+    "grooving" workout. Drank 2 glasses of water when I woke up today. Had very
+    good pasta with seafood (mussels and shrimp) last night made by Julia. Have
+    been drinking black coffee with butter every morning and now breakfast 
+    usually. Fasting now and maybe tonight too. Definitely no coffee today.
+    Monday fasting includes no coffee to reset my system every week. Got to get
+    my first of the week workout Sundays to make my week go productively. And 
+    one more thing: clean the kitchen or even just dishes every morning would be
+    good enough as a morning routine for Task Completion (includes oral hygiene,
+    making the bed, 2 glasses of salted water, take a cold ended shower).
+
+================================================================================
+
+Thu Dec 24 01:00:04 EST 2020
+    
+    Got the interactive prompt for "Building your own Lisp in C" running. I just
+    needed the -ledit directive when compiling and then include only 
+    editline/readline.h and not editline/history.h...
+
+    http://www.buildyourownlisp.com/chapter4_interactive_prompt#an_interactive_prompt
+
+    This is working....
+
+================================================================================
+
+Wed Dec 23 09:56:22 EST 2020
+
+    Planning to separate this document with a blog page. Technical from 
+    everything else... Thinking of processing the document to be more HTML
+    friendly and changing the tag delimiters in this document with probably a
+    go or a C program...
+    Probably a C program as a challenge. Getting into SQLite clone source and
+    learning from it.
+
+
+
+================================================================================
+
+Tue Dec 22 06:15:10 EST 2020
+
+    One thing that I have learned. The time I spent configuring my environment:
+    installing OS, compilation bugs - these things just bogged down the process
+    and looking back, I did not produce much from those. I was reminded of the
+    time one winter, when I was both installing different OS because I could not
+    get an interpreted language to run with newer libraries or a compiled system
+    to compile-link my program. An IDE is an idea, but I have always had this
+    preference of writing things from console and vim... Well the things I have
+    been coding lately have not been for production.
+    Looking back, my longest streak of coding was in C.
+    I have given up on some things that took too much of my time to get better
+    at like chess. But it might not hurt if I keep writing, journaling, and
+    coding some. This seems to be a good outlet. I do still have other things
+    that I use my time for outside of family: tennis, working out, guitar, Buddy
+    my dog, snow shoveling/lawn mowing, building a workout for the common man to
+    be able to function well.
+    I know that it has been worthwhile to do the physical activity needed for 
+    lawn mowing, shoveling, cleaning up the yard - that will be my "farming"
+    movements. I have had it in my mind that later in life I will have to do
+    some farming-gardening to keep my body and mind working good.
+    Coding/writing/journaling I think should still continue. I am learning a lot
+    from looking back at what I have been doing over the past 5 or more years 
+    and trying to make sense of it all..
+
+================================================================================
+
+Fri Dec 18 08:05:39 EST 2020
+
+I got this line in my blockchain example program:
+
+#include <openssl/sha.h>
+
+Got an error compiling but was solved with this:
+
+ln -s ../opt/openssl/include/openssl/ .
+
+Googled:
+"If you have come across this sha.h not found error on a Mac, it is because Apple dropped support for openssl."
+
+Solved?
+
+================================================================================
+
+Tue Dec 15 17:35:18 EST 2020
+
+    It is amazing how OpenBSD has the crypto libs in it already..
+
+#include <stdio.h>
+#include <crypto/ssh2.h>
+
+struct block {
+    unsigned char hash[SHA256_DIGEST_LENGTH];
+    //int data;
+    //struct block *link;
+};
+
+void init_ssl() {
+    return;
+}
+int main() {
+    init_ssl();
+    printf("Hello there!\n");
+
+    return 0;
+}
+
+    Now all I had to do was:
+    $ gcc -o main main.c
+
+    I did not even have to do
+    gcc -o main main.c -lssl -lcrypto
+
+    Amazing!
+================================================================================
 
 Tue Dec 17 06:29:17 EST 2019
 
