@@ -39,6 +39,159 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun Jan  9 23:59:41 EST 2022
+
+    This spurt of programming happened as I am recovering from my possible gout
+    attack. I attribute my energy and clearheadedness from taking time off from
+    work and eating probiotics from saurkraut, yogurt and overall good eating:
+    > eggs and goat cheese or yogurt as a base
+    > blue berries
+    > cabbage and carrots
+    > chicken
+    Drinking lots of water!
+
+    Archery exercises. Being out more even in the cold with my accumulated cheap
+    cold weather gear (military winter boots, camo jacket surplus, cheap Chinese
+    ski pants, wool socks, mittens (can be opened for fingers), base layer and
+    layered upper clothing depending on temp. Once or every other week wash of
+    hunting clothes with non-fragrant detergent. 
+
+    Clear mind. Walking.
+
+================================================================================
+
+Sun Jan  9 12:26:16 EST 2022
+
+    Using maven?
+
+    ls /usr/local/opt/apache-maven-3.8.4/bin/
+
+    export PATH=$PATH:/usr/local/opt/apache-maven-3.8.4/bin
+
+    Make a startup script containing only the above line then:
+
+    $ chmod 744 [yourscript]
+
+    Permissions tutorial https://kb.iu.edu/d/abdb
+
+    Create maven project:
+    mvn archetype:generate 
+	-DgroupId={project-packaging}
+	-DartifactId={project-name}
+	-DarchetypeArtifactId={maven-template} 
+	-DinteractiveMode=false
+
+    Taken from https://mkyong.com/maven/how-to-create-a-java-project-with-maven/
+
+    Sample:
+    mvn archetype:generate -DgroupId=com.baloi -DartifactId=baloiblog -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+    Maven templates {archetypeArtifactId}:
+    https://maven.apache.org/guides/introduction/introduction-to-archetypes.html
+
+    Go to your project directory where pom.xml is found:
+    
+    $ cd {project-directory}
+
+    Update pom.xml
+        <dependency> ..... </dependency>
+    
+    Build with:
+    $ mvn package
+
+    Errors. Java compiler..... Check java version
+
+    $ mvn -version
+
+Maven home: /usr/local/opt/apache-maven-3.8.4
+Java version: 11.0.1, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.13.6", arch: "x86_64", family: "mac"
+
+    [openjdk-11.0.1.jdk]
+    
+    So add this to pom.xml:
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.0</version>
+            <configuration>
+                <source>11</source> -- Using JDK 11 to compile
+                <target>11</target> -- Using JDK 11 as target
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+    Now works!
+    
+    $ mvn package
+
+    Can't run just yet with
+
+    $ java -jar target/{your-package}.jar
+
+    "No main manifest."
+
+    Add main in pom.xml
+
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.2.4</version>
+        <configuration>
+          <!-- put your configurations here -->
+        </configuration>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+
+            <configuration>
+                <transformers>
+                    <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                        <mainClass>com.baloi.App</mainClass>
+                    </transformer>
+                </transformers>
+            </configuration>
+
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+    $ java -jar target/{your-package}.jar
+
+================================================================================
+
+Fri Jan  7 23:16:35 EST 2022
+
+    Java development with a commandline build tool like Gradle...
+
+    $ brew doctor
+    $ brew update
+    $ brew install gradle
+
+    brew did not install...
+
+    Download the gradle zip and
+    $ unzip -d /usr/local/opt/gradle/ gradle-7.3.3-all.zip
+    $ export PATH=$PATH:/usr/local/opt/gradle/gradle-7.3.3/bin
+
+    Go to your project folder and 
+    $ gradle init
+    
+    $ ./gradlew run
+    $ ./gradlew test
+
+================================================================================
+
 Sun Jan 31 17:32:10 EST 2021
 
     Now using VPN and Bitdefender to make my setup a little more secure....
@@ -117,7 +270,6 @@ Wed Dec 23 09:56:22 EST 2020
     go or a C program...
     Probably a C program as a challenge. Getting into SQLite clone source and
     learning from it.
-
 
 
 ================================================================================
