@@ -39,6 +39,42 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed Jan 12 08:29:40 EST 2022
+
+    If you want to use something like SQLite, add this:
+
+   <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.7.2</version>
+   </dependency>
+
+
+   Then in code:
+    import java.sql.*;
+
+   And something like this:
+
+    Connection c = null;
+        
+    try {
+            Class.forName("org.sqlite.JDBC");
+            c = DriverManager.getConnection("jdbc:sqlite:test.db");
+    } catch (Exception e) {
+            System.err.println(e.getClass().getName() + ": " + e.getMessage());
+            System.exit(0);
+    }   
+
+    Compile and create jar
+
+    $ mvn package
+
+    Run 
+
+    $ java -jar target/{your_artifact_id}.jar
+
+================================================================================
+
 Sun Jan  9 23:59:41 EST 2022
 
     This spurt of programming happened as I am recovering from my possible gout
@@ -165,6 +201,8 @@ OS name: "mac os x", version: "10.13.6", arch: "x86_64", family: "mac"
         </executions>
       </plugin>
     </plugins>
+
+    The use of the shade plugin allows for making an executable jar
 
     $ java -jar target/{your-package}.jar
 
