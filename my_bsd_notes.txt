@@ -39,6 +39,55 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sat Jan 15 13:38:00 EST 2022
+
+    Make sure you have gradle in path, example:
+ 
+    $ export PATH=$PATH:/usr/local/opt/gradle/gradle-7.3.3/bin
+
+    Make project directory
+
+    $ mkdir web
+    $ cd web
+
+    Initialize
+    $ gradle init
+
+    Make sure package name is correct like:
+
+    com.baloi.examples.web 
+    
+    run 
+    
+    $ ./gradlew run
+
+    create jar
+    $ ./gradlew jar
+
+    Run jar
+    $ java -jar app/build/libs/{your-app}.jar
+
+    "No main manifest" error...
+
+    Add to app/build.gradle
+
+    plugins {
+        id 'java'
+    }
+
+    jar {
+        manifest {
+            attributes (
+                'Main-Class': 'com.baloi.examples.web.App'
+            )
+        }
+    } 
+    
+    Run jar
+    $ java -jar app/build/libs/{your-app}.jar
+
+
+================================================================================
 Wed Jan 12 08:29:40 EST 2022
 
     If you want to use something like SQLite, add this:
