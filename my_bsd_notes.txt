@@ -39,6 +39,62 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun Jan 16 06:34:30 EST 2022
+
+    Using Spark web framework with Gradle:
+    Add this to build.gradle
+
+    dependencies {
+        implementation 'com.sparkjava:spark-core:2.3'
+    }
+
+    Main class:
+    
+    public class {Your_App} { 
+        public static void main(String[] args) { 
+            get("/hello", (req, res) -> "Hello World"); 
+        } 
+    }
+
+    $ ./gradlew run
+
+    Go to: http://127.0.0.1:4567/hello
+
+    Now, any file you want to read can be put in app/ directory...
+
+================================================================================
+
+Sun Jan 16 05:01:23 EST 2022
+
+    How to add ssh keys from your machine to the remote:
+    
+    ssh-copy-id -i ~/.ssh/id_ed.pub root@{ip_address}
+
+    Installing java on my remote server
+
+    # apt-update
+    # apt-install default-jre
+
+    Whoah, 300+ mb.... I 512 mb available so what the heck anyway. I need it.
+
+    That was done in just a few seconds too...
+
+    # javac
+    
+    Command not found error...
+
+    # apt install default-jdk
+
+    What the heck? 200+ mb? I only have 512? Checked. 512 memory, 10 G space...
+    This is a deal..
+
+    There is a way in Debian to add path for like example install Gradle, but in 
+    my Macbook, just edit ~/.bash_profile and add:
+
+    export PATH=$PATH:/usr/local/opt/gradle/gradle-7.3.3/bin
+
+================================================================================
+
 Sat Jan 15 13:38:00 EST 2022
 
     Make sure you have gradle in path, example:
