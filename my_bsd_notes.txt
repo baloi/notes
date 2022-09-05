@@ -64,6 +64,18 @@ Sun Jan 16 06:34:30 EST 2022
 
 ================================================================================
 
+Mon Sep  5 14:04:48 EDT 2022
+
+    Neovim on windows init file:
+    \Users\[you]\AppData\Local\nvim\init.vim
+
+    set tabstop=4
+    set softtabstop=4
+    set expandtab
+    set shiftwidth=4
+
+================================================================================
+
 Sun Jan 16 05:01:23 EST 2022
 
     How to add ssh keys from your machine to the remote:
