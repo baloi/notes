@@ -39,6 +39,26 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sat Oct  1 15:22:32 EDT 2022
+
+    Vim and Python:
+    https://realpython.com/vim-and-python-a-match-made-in-heaven/
+
+    Using mvim:
+    https://dev.to/trisha114/updating-vim-macos-797
+	
+    Install cmake for install.py:
+    $ pip3 install cmake
+
+================================================================================
+
+Sat Sep 10 08:07:19 EDT 2022
+
+    Search unread messages in gmail:
+    type "is:unread" in gmail search box
+
+================================================================================
+
 Sun Jan 16 06:34:30 EST 2022
 
     Using Spark web framework with Gradle:
