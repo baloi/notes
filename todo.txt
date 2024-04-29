@@ -1,3 +1,22 @@
+--->  Some of the ports you installed have notes:
+  lzma has the following notes:
+    The LZMA SDK program is installed as "lzma_alone", to avoid conflict with
+    LZMA Utils
+  neovim has the following notes:
+    If you want to share your existing Vim configuration with Neovim, you can
+    add these symlinks:
+        ln -s ~/.vim ~/.config/nvim
+        ln -s ~/.vimrc ~/.config/nvim/init.vim
+    For possible incompatible changes and differences to Vim check ':help
+    nvim-intro' in nvim.
+  python312 has the following notes:
+    To make this the default Python or Python 3 (i.e., the version run by the
+    'python' or 'python3' commands), run one or both of:
+    
+        sudo port select --set python python312
+        sudo port select --set python3 python312
+
+==================
 
 > study database systems:
   redis, simpleDB, sqlite, git

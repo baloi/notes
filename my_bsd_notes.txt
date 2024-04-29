@@ -39,6 +39,36 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri Apr 26 16:29:07 EDT 2024
+
+    Create a blog powered by Python and Pelican
+
+    $ pip install pelican
+
+================================================================================
+
+Fri Apr 26 16:20:04 EDT 2024
+
+    Get Python virtual environment going to have a python working environment
+    in a folder isolated from others:
+
+    $ python -m venv env
+
+    Got to activate: 
+
+    $ source env/bin/activate
+
+    Deactivate environment:
+
+    $ deactivate
+
+    Save a list of requirements for this whole app to run:
+
+    $ pip freeze > requirements.txt
+    (Required stuff now listed in requirements.txt)
+
+================================================================================
+
 Fri Apr 26 06:43:32 EDT 2024
 
     The Rsync algorithm in Python (to study):
