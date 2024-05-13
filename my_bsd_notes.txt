@@ -39,6 +39,44 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun May 12 16:00:25 EDT 2024
+
+    To heck with it. Just use Vim, no autocomplete and Python....
+    
+    My Mac OS version is too old to be supported and I am not able to install
+    stuff or just could not figure out how to install stuff like YouCompleteMe
+    for Vim. There is a way to configure NVIM I guess, but it is a long process
+    and would be a pain to do it in any other machine that I have to install it
+    on so here we are... Back to vim and basic Python. Although using Python 
+    virtual environment is pretty cool:
+
+    $ python -m venv env
+    Got to activate: 
+    $ source env/bin/activate
+    Deactivate environment:
+    $ deactivate
+
+    I should not start to complain at all.
+
+================================================================================
+
+Wed May  1 20:57:15 EDT 2024
+
+    Nvim config for python autocomplete:
+
+    Backup current nvim config:
+
+    $ mv ~/.config/nvim ~/.config/nvim.bak
+
+    Clear Cache:
+
+    $ rm -rf ~/.local/share/nvim
+
+    Clone NvChad:
+
+    $ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+============================================================================
+
 Fri Apr 26 16:29:07 EDT 2024
 
     Create a blog powered by Python and Pelican
@@ -99,7 +137,7 @@ Sat Oct  1 15:22:32 EDT 2022
     Vim and Python:
     https://realpython.com/vim-and-python-a-match-made-in-heaven/
 
-    Using mvim:
+    Using nvim:
     https://dev.to/trisha114/updating-vim-macos-797
 	
     Install cmake for install.py:
