@@ -39,6 +39,39 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed May 15 19:47:37 EDT 2024
+
+    (Duplicate entry in ~/journal/entries.txt)
+
+    Actually coding now. Started with Python. Tried to set up a development
+    environment using nvim with autocomplete and all that stuff, but did not
+    pan out as it takes too much effort to setup something. So stuck with vim
+    as there is not really time or energy to invest in IDE tinkering. Also just
+    went with the simplest web Framework in Python that I found "Bottle" and
+    just focused on coding my idea. I do take breaks of days in between
+    coding sometimes hence finding the easiest way to develop is really needed.
+
+    Now coding stuff in Golang and was actually able to reinstall golang with:
+    $ brew remove go
+
+    # port install go
+
+    No nonsense is ever needed.
+
+================================================================================
+
+Wed May 15 19:30:14 EDT 2024
+
+    Find out go environment variables:
+
+    $ go env
+
+    Get a golang package:
+
+    $ go get package_site.com/full_package_name
+
+================================================================================
+
 Wed May 15 07:31:08 EDT 2024
 
     A good Python quick reference:
