@@ -39,6 +39,13 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed May 15 07:31:08 EDT 2024
+
+    A good Python quick reference:
+    https://quickref.me/python.html#python-lists
+
+================================================================================
+
 Sun May 12 16:00:25 EDT 2024
 
     To heck with it. Just use Vim, no autocomplete and Python....
