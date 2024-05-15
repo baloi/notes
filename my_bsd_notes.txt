@@ -39,6 +39,16 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed May 15 19:57:05 EDT 2024
+
+    In the evenings, read or just try code that is copied and learn some
+    syntax, tricks in the programming language of choice. In the morning,
+    create in the language (more ideas). Plan what to do the night before for a 
+    planned flow the next day even if it is just 30 minutes in the morning of
+    the first 2 hours.
+
+================================================================================
+
 Wed May 15 19:47:37 EDT 2024
 
     (Duplicate entry in ~/journal/entries.txt)
