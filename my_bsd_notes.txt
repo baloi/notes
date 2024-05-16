@@ -39,6 +39,16 @@ window manager.
 ================================================================================
 ================================================================================
 
+Thu May 16 08:24:06 EDT 2024
+
+    Install go in Ubuntu via snap:
+
+    $ snap install go --classic
+
+    This gets a new version of golang.
+
+================================================================================
+
 Wed May 15 19:57:05 EDT 2024
 
     In the evenings, read or just try code that is copied and learn some
