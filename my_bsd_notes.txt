@@ -39,6 +39,18 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri May 17 08:04:36 EDT 2024
+
+    Using vim-go to go to declaration of something.
+    
+    :GoDef
+ 
+    or just be on the word and type 'gd' 
+
+    Jump back out with 'ctrl-t'
+
+================================================================================
+
 Thu May 16 08:39:40 EDT 2024
 
     Generate a nice vimrc:
