@@ -39,6 +39,22 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun May 19 09:59:19 EDT 2024
+
+    Things can do with vim-go
+
+    :GoDef or 'gd'
+    :GoDefBrowser
+
+    'ctrl-t' to jump out of tagstack
+
+    :GoRun
+    :GoInstall
+   
+    Good stuff!
+
+================================================================================
+
 Fri May 17 21:40:40 EDT 2024
 
     3 things to get sqlite and go working:
