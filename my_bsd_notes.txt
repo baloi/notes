@@ -41,10 +41,14 @@ window manager.
 
 Sun May 19 10:16:44 EDT 2024
 
-    Create .vimrc via bootstrap
+    Fix vim-go annoying 8 space indent for go
+    Go to /.vim/pack/plugins/start/vim-go/ftplugin
 
-    https://vim-bootstrap.com
-
+    edit go.vim
+    
+    setlocal tabstop=4
+    setlocal softtabstop=4
+    setlocal expandtab
 ================================================================================
 
 Sun May 19 09:59:19 EDT 2024
@@ -96,6 +100,9 @@ Thu May 16 08:39:40 EDT 2024
     Generate a nice vimrc:
 
     https://blog.logrocket.com/using-vim-go-development/
+
+    Next plug.vim should be in autoload directory....
+
 
 ================================================================================
 
