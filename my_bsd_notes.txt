@@ -39,6 +39,29 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun May 26 12:13:11 EDT 2024
+
+    Making go run with modules imported and no $GOPATH
+
+    Create go.mod
+    $ go mod init [module name] 
+    or just copy go.mod from somewhere
+
+    go.mod:
+    module [modulename]
+    go [version]
+    require github.com/module_name [version]
+
+    Need to get the package:
+    $ go mod download github.com/[modulename]
+
+    Get package
+    $ go git github.com/gorilla/websocket@v1.5.1
+
+    $ go run main.go
+
+================================================================================
+
 Sun May 19 10:16:44 EDT 2024
 
     Fix vim-go annoying 8 space indent for go
