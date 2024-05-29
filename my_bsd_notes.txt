@@ -39,6 +39,15 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed May 29 08:48:46 EDT 2024
+
+    This is how you disable gofmt in vim if you did generate.vim
+
+    let g:go_fmt_fail_silently = 1
+    let g:go_fmt_autosave = 0
+
+================================================================================
+
 Sun May 26 12:13:11 EDT 2024
 
     Making go run with modules imported and no $GOPATH
