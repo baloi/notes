@@ -39,6 +39,14 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed May 29 20:35:19 EDT 2024
+
+    Installing golang in Debian:
+
+    https://www.redswitches.com/blog/how-to-install-go-on-debian/
+
+================================================================================
+
 Wed May 29 08:48:46 EDT 2024
 
     This is how you disable gofmt in vim if you did generate.vim
