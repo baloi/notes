@@ -39,6 +39,77 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri May 31 18:23:50 EDT 2024
+
+    Delving into network programming and just stumbled into using netcat to 
+    listen to port:
+
+    $ nc -l -p 8888 (the server?)
+
+    The client?
+    $ netcat 127.0.0.1 8888
+
+    And just chat away
+
+================================================================================
+
+Thu May 30 09:27:20 EDT 2024
+
+    Continued from previous...
+    "
+    Thinking about it, but I will have to preserve my oldest Mac in its current
+    state as all three Mac's os are currently out of support for their age, but
+    only the oldest Mac runs the Ruby that powers my blog."
+
+    And EVERYTIME I just put it on sleep. Left it TWICE in a corner for 1 or 2
+    years and everytime I plug it in. IT RUNS! IT LIVES! I almost cried the
+    second time this happend. It also contains files that I have had since I
+    moved here to America. I will back them up, but keep this Mac running as it
+    has proven it's worth. 
+
+    This Mac is from 2011 bought used:
+
+================================================================================
+
+Thu May 30 09:18:05 EDT 2024
+
+    Just received my Edimax wifi USB ordered from Amazon for about $10 which is
+    compatible with Debian. Just bought this as I plan to install linux or BSD
+    to one of my older computers and I have tried several times to configure
+    wifi with default hardware on Macs and Linux and BSD have been a pain and
+    not yet working. $10 is nothing compared to hours of my time I could spend
+    on other things like working out, guitar, finishing work reports, family,
+    Buddy, etc... Hours of time also configuring my old Macs to run Go, vim 
+    with function declaration search (very good for learning the language) and
+    Ruby. The best distro I have tried so far and boots fastest from live USB
+    is Debian. Tried Linux Mint (3 flavors of desktop), Redhat, FreeBSD and 
+    Debian seems to be the best - although I still remember from years back my
+    frustration at trying to install the Ruby versions and Gems I wanted. I 
+    will just go with a version of Ruby not latest but good enough to run my
+    blog living in my oldest Mac. It's code has been copied to the newest 
+    Macbook (pro but still old although fast with a big drive). Golang seems
+    ok.
+    Thinking about it, but I will have to preserve my oldest Mac in its current
+    state as all three Mac's os are currently out of support for their age, but
+    only the oldest Mac runs the Ruby that powers my blog.
+
+================================================================================
+
+Thu May 30 09:12:34 EDT 2024
+
+    Migrating old go code from my oldest Mac and merging it with the code from
+    my other Mac (both have non charging batteries). And then I have 2 versions
+    of reading file both in file_read.go and read_file.go. One uses "ioutil"
+    ReadFile() and the other uses "os" package ReadFile. I gues the one that 
+    uses os.ReadFile is better as the other is being depreciated.
+    
+    "The ioutil package is deprecated and may be removed from future versions of 
+    Go. The ioutil functions can be inefficient, especially when reading or 
+    writing large files. The standard library functions are more flexible and 
+    can be used in a wider range of situations."
+
+================================================================================
+
 Wed May 29 20:35:19 EDT 2024
 
     Installing golang in Debian:
