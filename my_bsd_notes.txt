@@ -39,6 +39,17 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri May 31 22:47:33 EDT 2024
+
+    Enable ssh on Debian.
+    > Install ssh server
+        $ sudo apt install openssh-server
+    
+    > check if ssh server is running
+        $ systemctl status ssh
+
+================================================================================
+
 Fri May 31 18:23:50 EDT 2024
 
     Delving into network programming and just stumbled into using netcat to 
