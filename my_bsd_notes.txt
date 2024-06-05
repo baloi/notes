@@ -39,6 +39,25 @@ window manager.
 ================================================================================
 ================================================================================
 
+Tue Jun  4 14:22:23 EDT 2024
+
+    Trying to get a "raw" client to work with my websockets server example.
+
+    This curl command works if I connect to a remote address 
+    (https://ws.ifelse.io): 
+        
+    $ curl -H 'Upgrade: websocket' \
+       -H "Sec-WebSocket-Key: `openssl rand -base64 16`" \
+       -H 'Sec-WebSocket-Version: 13' \
+       --http1.1 \
+       -sSv \
+       https://ws.ifelse.io
+
+    but fails if I use http://localhost:8080/echo where my server is listening
+    on port 8080 and a handler for /echo is also coded....
+
+================================================================================
+
 Sun Jun  2 09:03:20 AM EDT 2024
 
 	One difference between the program Telnet and Netcat is Telnet is only TCP
