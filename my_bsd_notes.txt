@@ -39,6 +39,26 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed Jun  5 07:55:45 EDT 2024
+
+    Spent a good 2-3 hours yesterday at the auto shop to get my car fixed so
+    some downtime to code with abandon. Decided to start first how to figure
+    out a golang terminal client for websockets. To make a long story short, 
+    the "solutions" I found were either using javascript or using a wrapper 
+    go library. Although I did find a cool messaging library in go but that was
+    not what I was looking for. Did not want to constrain study to just 
+    websockets. Was realy more interested in raw network programming so just
+    decided to code the sample webserver in my "snips" directory and 
+    communicated to it using just a Println statement in go to form the request
+    string and piped it to netcat to handle the network part of it as I did not
+    want to code it via the http library and have wrappers on the request
+    string and not know. I really just wanted how to communicate to the web
+    server via netcat or telnet.... and be barebones about it. Code is below.
+    Maybe a next thing would be to use TCP sockets to communicate to the web
+    server..... That's an idea actually....
+
+================================================================================
+
 Wed Jun  5 07:17:42 EDT 2024
 
     Got a simple webserver (webserver.go) in gofirst/snips directory with this
@@ -117,7 +137,7 @@ Wed Jun  5 07:17:42 EDT 2024
     as I did not have a reliable internet (surfing the web for answers also
     distracts your mind to other things and I would not have been using my own
     thinking). And another thing that is weird is the basic HTTP protocol
-    specific 'text' to send (comminication) is harder to search on the internet
+    specific 'text' to send (communication) is harder to search on the internet
     now as most of the time answers in the internet are focused on using 
     programs or tools the shield us from the raw data and wraps it in
     abstraction. Maybe this is now a problem in today's internet. So many 
