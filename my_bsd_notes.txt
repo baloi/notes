@@ -39,6 +39,97 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed Jun  5 07:17:42 EDT 2024
+
+    Got a simple webserver (webserver.go) in gofirst/snips directory with this
+    code:
+
+    webserver.go
+    -----------------------------------------------------------
+    package main
+
+    import (
+            "fmt"
+            "log"
+            "net/http"
+    )
+
+    func main() {
+        fmt.Println("starting server..")
+        http.HandleFunc("/", handleIndex)
+        log.Fatal(http.ListenAndServe("localhost:8080", nil))
+    }
+
+    func handleIndex(w http.ResponseWriter, r *http.Request) {
+        fmt.Fprintf(w, "Hello %s\n", "baloi")
+    }
+    -----------------------------------------------------------
+
+    Now did a simple program to just print a get request to the server after
+    reading a stack overflow answer to a question on "How to send an http
+    request using telnet":
+
+    script
+    -----------------------------------------------------------
+    printf "%s\r\n" \
+        "GET /questions HTTP/1.1" \
+        "Host: stackoverflow.com" \
+        "" |
+    nc --ssl stackoverflow.com 443
+    -----------------------------------------------------------
+
+    This can be run on the terminal....
+
+    So created a go program to do something similar: just print the request
+    string and then pipe the output to netcat:
+
+    print_to_netcat_connect.go
+
+    -----------------------------------------------------------
+    package main
+
+    // this program just prints out an
+    // HTTP 1.1 request for "/"
+    // usage with netcat:
+    // $ go run printf_to_netcat_connect.go | nc [host] [port]
+    // [host] and [port] will depend on where your webserver
+    // is listening....
+    import "fmt"
+
+    func main() {
+        // notice no space in between headers, just \n then \r\n\r\n
+        // on the end
+        content := "GET / HTTP/1.1\n" +
+             "Host: myhost.com\r\n\r\n" // we need Host: for HTTP/1.1
+        fmt.Printf("%s", content)
+    }
+    -----------------------------------------------------------
+
+    This now runs, but it took me a good hour yesterday trying to figure out
+    how to make it work. First was concatinating strings properly in go. Then
+    figuring out we needed '\n' to replace '\' from the script. Then figuring
+    out that we needed '\r\n\r\n' and not just '\r\n' from the script. Then
+    last was realizing that for this program to work with netcat to connect to
+    the above simple server, no spaces after the GET line or the headers:
+        "GET / HTTP/1.1\n" 
+        "Host: myhost.com\r\n\r\n"
+    Figured it out. No RFC or searching for the specific HTTP protocol details
+    as I did not have a reliable internet (surfing the web for answers also
+    distracts your mind to other things and I would not have been using my own
+    thinking). And another thing that is weird is the basic HTTP protocol
+    specific 'text' to send (comminication) is harder to search on the internet
+    now as most of the time answers in the internet are focused on using 
+    programs or tools the shield us from the raw data and wraps it in
+    abstraction. Maybe this is now a problem in today's internet. So many 
+    abstractions and things are not understood or explained in it's essence.
+
+    I specifically used netcat or telnet for my 'experiments' yesterday as I 
+    wanted to really know more about the underlying process and not how to use
+    a tool. I need to know how things work to be able to program a solution to 
+    a problem. Time used. Curiousity was raised. Found a solution.
+
+================================================================================
+
 Tue Jun  4 14:22:23 EDT 2024
 
     Trying to get a "raw" client to work with my websockets server example.
