@@ -39,6 +39,16 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri Jun  7 19:39:16 EDT 2024
+
+    If using something like vim-go plugin, we can still set colorschem just in 
+    ~/.vimrc
+
+    syntax enable
+    colorscheme your_colorscheme
+
+================================================================================
+
 Wed Jun  5 07:55:45 EDT 2024
 
     Spent a good 2-3 hours yesterday at the auto shop to get my car fixed so
