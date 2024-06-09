@@ -39,6 +39,24 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun Jun  9 09:27:23 EDT 2024
+
+    Set colorscheme in Debian even with vim-go plugin installed and not mess up
+    the whole vim-go functions....
+
+    Add "colorscheme my_colors" in /etc/vim/vimrc
+
+    in /etc/vim/vimrc:
+    colorscheme my_colors
+
+    And that is it!!!
+
+    Wasted so much time trying to grep stuff and tinker with .vim/ folder. Not
+    the right idea. Should have just gone directly to /etc/vim/vimrc! Go the
+    direct route first!
+
+================================================================================
+
 Fri Jun  7 22:28:24 EDT 2024
 
     Get Debian ip address:
