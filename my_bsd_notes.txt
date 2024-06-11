@@ -39,6 +39,25 @@ window manager.
 ================================================================================
 ================================================================================
 
+Tue Jun 11 09:46:13 EDT 2024
+
+    Used Netbeans and created a database app using maven and sqlite. It was
+    quite surprising that when the project was set up already, it was fast to
+    build and run the app. Very surprising. And Netbeans editor with the Vi
+    plugin worked in terms of autocomplete... Autocomplete and lookup is always
+    welcome even in golang.
+    Compared and made a golang db app. Golang was coded/configured faster. With
+    Java it almost started the configuration hell with jar files inclusion...
+    It is just weird that it takes a long time for the first run of the golang
+    app, but otherwise it ran much quicker after.... Also "Exec()" function or
+    golang's sql functions for executing statements seems to work better when
+    only one execution of a statement is done per method in golang??? Got to
+    know about this. We can always wrap each call to "Exec()-defer Close()" call
+    in a function.    
+    
+
+================================================================================
+
 Sun Jun  9 09:27:23 EDT 2024
 
     Set colorscheme in Debian even with vim-go plugin installed and not mess up
