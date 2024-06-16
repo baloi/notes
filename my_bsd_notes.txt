@@ -58,6 +58,23 @@ Tue Jun 11 09:46:13 EDT 2024
 
 ================================================================================
 
+Sun Jun 16 11:41:51 EDT 2024
+
+    Getting a dip into zig. Now have 9 snippets in Github in less than a week
+    although it contains even a snippet of a hello world app. Still. It's got
+    already stuff like for loop with the '|item|' thing, pointer, struct sample
+    memory allocation and even a tcp server. Feels easier than C. Feels as fast
+    as C. No weird headers unlike C. More baremetal than Go and maybe that is 
+    why I like to code with this more than Go. Less installation hassle than Go
+    without need to set environment variables. Lightweight. Portable. Less 
+    language and abstract ideas to learn. I dig it. And that is why I find 
+    making the snippets quite enjoyable than creating snippets in Go. Creating
+    snippets in C was actually quite enjoyable too as I remembered, but it was
+    hard to create more complex apps and a pain to link libraries...
+    I don't know, but Zig wins today.
+
+================================================================================
+
 Sun Jun  9 09:27:23 EDT 2024
 
     Set colorscheme in Debian even with vim-go plugin installed and not mess up
