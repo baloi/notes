@@ -39,6 +39,33 @@ window manager.
 ================================================================================
 ================================================================================
 
+Mon Jun 17 17:27:56 EDT 2024
+
+    Adding colors to bash. Edit .bashrc:
+
+    # You may uncomment the following lines if you want `ls' to be colorized:
+    # export LS_OPTIONS='--color=auto'
+    # eval "`dircolors`"
+    # alias ls='ls $LS_OPTIONS'
+    # alias ll='ls $LS_OPTIONS -l'
+    # alias l='ls $LS_OPTIONS -lA'
+
+================================================================================
+
+Mon Jun 17 16:41:58 EDT 2024
+
+    Now will be doing fulltime in Zig for at least a year a little at a time 
+    even. Like C but better. Installing on my remote shell. To find out the 
+    architecture of that Linux machine:
+
+    $ uname -m
+
+    Zig is just the way to go. No garbage collection. Barebones library. Small
+    fast executables. Fast compilation. Simplified language, not a lot of 
+    abstractions at all.... 
+
+================================================================================
+
 Tue Jun 11 09:46:13 EDT 2024
 
     Used Netbeans and created a database app using maven and sqlite. It was
