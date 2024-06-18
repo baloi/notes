@@ -39,6 +39,24 @@ window manager.
 ================================================================================
 ================================================================================
 
+Tue Jun 18 09:57:54 EDT 2024
+
+    It just seems Zig is making a good effect on productivity. Maybe of the 
+    'gusto' because it has no surprises and not a lot of libraries to learn. It
+    is definitely low level but can be used to express ideas easier than C.
+    Easier and faster to compile. Easier and faster to test. Syntax is clean.
+    These things really matter. From mind to design to code.
+
+================================================================================
+
+Mon Jun 17 21:21:22 EDT 2024
+
+    Tiger style:
+    > design, iterate, simmer as it is cheap
+    > testing
+
+================================================================================
+
 Mon Jun 17 17:27:56 EDT 2024
 
     Adding colors to bash. Edit .bashrc:
