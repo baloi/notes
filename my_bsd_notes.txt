@@ -39,6 +39,32 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri Jun 21 07:56:31 AM EDT 2024
+
+    Really being more productive using Zig due to the language and the toolchain
+    and this time I just unzipped the binary version of Zig and added the 
+    directory to my $PATH variable. Zig just worked! zls was not a problem too.
+    Switched temporarily or permanently to Helix from Vim as Helix is much 
+    easier to configure autocomplete and go to a function declaration. 
+
+    Configuration time matters as it seems to suck the most time from my coding
+    pursuits. Time spent on configuration in my case is just a waste of time.
+    That is why I am just switching to Fedora full time as even network worked
+    out of the box (using a USB network dongle) and in Debian, I had to find out
+    and download the wifi driver.... Too much time on configuration... Less time
+    coding and doing other things like maintaining the journal, notes, guitar
+    and just general life itself. Decided to spend less on learning to configure
+    stuff and just have things that work and like:
+    > Terminal editor with Vim bindings (fun to code with vim bindings)
+    > Linux OS (Fedora works and in faster than Debian) and my laptop runs on 
+      battery now, unlike when I had MacOS installed - something was hogging
+      the battery.
+    > Languages like Zig, C, Go?, Java?
+      (Java has been very surprising due to speed of compilation and running, 
+      but not liking the idea of no executable)
+
+================================================================================
+
 Tue Jun 18 09:57:54 EDT 2024
 
     It just seems Zig is making a good effect on productivity. Maybe of the 
