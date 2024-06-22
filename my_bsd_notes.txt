@@ -39,6 +39,24 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sat Jun 22 08:11:17 AM EDT 2024
+
+    Call me crazy, but Fedora (currently Fedora 40 Workstation) is really fast
+    running Zig, Go, Java... Much faster on this Macbook Pro8 with i5  (Intel 
+    Core i5, 13", 2011?) which used to have the latest Debian and the old MacOS.
+    Both Debian and MacOS where beaten in terms of speed. MacOS was not even
+    supported for updates anymore - a dead end... Compared to Debian too, 
+    Fedora had networking working out of the box. Go, Java and Zig actually run
+    faster here than on my Lenovo Yoga 11th Gen Intel i5, with RAM 12 GB. This
+    computer only has 4 GB RAM. Both computers (Macbook and Lenovo) have 
+    2.4 GHz processors... Th Lenovo runs on Windows 11 Home and this Macbook
+    runs on Fedora 40 fully updated. I don't know. This thing just works.    
+    So I agree. Fedora right now is the best distro/OS I have come upon 
+    recently. This is just from my limited experience and ability to buy or not
+    buy an OS.
+
+================================================================================
+
 Fri Jun 21 07:56:31 AM EDT 2024
 
     Really being more productive using Zig due to the language and the toolchain
