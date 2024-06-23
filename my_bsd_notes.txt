@@ -39,6 +39,53 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun Jun 23 09:06:44 AM EDT 2024
+
+    I got stuck for a good hour at least trying to figure out a way to read a
+    file. I wanted a function to receive a filename and allocator (of course I 
+    wanted to allocate memory to read the file into) and then return something
+    like a slice. I found several examples and with Zig still evolving it was 
+    not easy to find one that fits. And I tried a couple at least. Then ran 
+    into errors...
+
+    "error: cannot format error union without a specifier (i.e. {!} or {any})"
+
+    This and other versions kept popping up.... This was my initial main:
+
+    pub fn main() !void {
+        const allocator = std.heap.page_allocator;
+        const filename = "test.txt";
+        const buff = readFile(allocator, filename);
+        std.debug.print(">>>{s}<<<\n", .{buff});
+    }
+
+    And the readFile function was like this:
+     
+    fn readFile(allocator: std.mem.Allocator, filename: []const u8) ![]const u8
+
+    I ended up using code for the my readFile()function from:
+    https://www.huy.rocks/everyday/zig-using-zig-for-advent-of-code
+
+    It is good code in the function as I tried just pasting the function 
+    contents into main itself just to see if the problem was how I returned
+    from the function.... And good thing I tried it as the errors disappeared.
+    Notice that main returned !void:
+    
+    pub fn main() !void {
+    
+    So error can be returned by main.... So I just tried putting back the code
+    into readFile() again and just changing the call to readFile from:
+
+    const buff = readFile(allocator, filename);
+
+    to:
+
+    const buff = try readFile(allocator, filename);
+
+    And it works now! It is alive!
+
+================================================================================
+
 Sat Jun 22 08:11:17 AM EDT 2024
 
     Call me crazy, but Fedora (currently Fedora 40 Workstation) is really fast
