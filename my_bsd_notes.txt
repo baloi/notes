@@ -39,6 +39,23 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri Jun 28 05:58:29 PM EDT 2024
+
+    I am really on the fence whether to proceed implementing my budget 
+    application (revisited so often for 13 years now) in either Golang or Zig.
+    Go definitely would be "easier", but can I feel that I am doing "low level"
+    enough? Maybe if I just program the thing in plain Go without really using
+    libraries outside of the standard... Zig might take longer to develop? But
+    Zig "feels" good to develop. It has been said that if you plan you system
+    design well (iteratively) and also put tests and assertions in place then
+    maybe it will work, even with Zig. I don't know....
+
+    Let's try just making code comments and layout functions and assertions...
+    I am getting bogged down with Zig's memory management right now, but soon.
+    Got to see if testing in Go is easily "plugged in".
+
+================================================================================
+
 Thu Jun 27 06:25:45 AM EDT 2024
 
     Oh boy - my OpenSuse installation in the other Mac is actually looking good.
