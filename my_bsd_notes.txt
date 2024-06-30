@@ -39,6 +39,17 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun Jun 30 08:06:46 AM EDT 2024
+
+    Multiple file go project:
+    $ go mod init github.com/baloi/[projectname]
+
+    $ go build
+
+    $./[projectname]
+
+================================================================================
+
 Fri Jun 28 05:58:29 PM EDT 2024
 
     I am really on the fence whether to proceed implementing my budget 
