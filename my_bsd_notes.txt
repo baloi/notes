@@ -39,6 +39,12 @@ window manager.
 ================================================================================
 ================================================================================
 
+    I guess this was missing for my Nvim and Lazy vim setup:
+	
+    $ git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+================================================================================
+
 Sun Jun 30 08:06:46 AM EDT 2024
 
     Multiple file go project:
