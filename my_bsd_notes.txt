@@ -43,6 +43,11 @@ window manager.
 	
     $ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
+    $ rm -rf ~/.config/nvim/.git
+
+    do:
+    :LazyHealth   (after installation)
+
 ================================================================================
 
 Sun Jun 30 08:06:46 AM EDT 2024
