@@ -39,6 +39,14 @@ window manager.
 ================================================================================
 ================================================================================
 
+Tue Jul 16 06:21:05 AM EDT 2024
+
+    vim-go install:
+
+    $ git clone https://github.com/fatih/vim-go.git 
+      ~/.vim/pack/plugins/start/vim-go
+================================================================================
+
     I guess this was missing for my Nvim and Lazy vim setup:
 	
     $ git clone https://github.com/LazyVim/starter ~/.config/nvim
