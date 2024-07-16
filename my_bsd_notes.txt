@@ -45,6 +45,13 @@ Tue Jul 16 06:21:05 AM EDT 2024
 
     $ git clone https://github.com/fatih/vim-go.git 
       ~/.vim/pack/plugins/start/vim-go
+
+    Run from vim:
+    :GoInstallBinaries
+
+    To trigger autocomplete:
+    Ctrl-x Ctrl-o
+
 ================================================================================
 
     I guess this was missing for my Nvim and Lazy vim setup:
