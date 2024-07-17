@@ -39,6 +39,20 @@ window manager.
 ================================================================================
 ================================================================================
 
+Tue Jul 16 08:06:29 PM EDT 2024
+
+    I tried to program in Go instead of Zig due to my "memory allocation" issue
+    with Zig. But, I do not get as much fun working in Golang as I do working in
+    Zig. Went back to Helix editor for editing Zig files. Just works. Found the
+    way to replace text more sanely:
+
+    /[old_word]
+    return
+    c  - this is key for "change"
+    [new_word]
+
+================================================================================
+
 Tue Jul 16 06:21:05 AM EDT 2024
 
     vim-go install:
