@@ -39,6 +39,20 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed Jul 17 07:20:53 AM EDT 2024
+
+    Programmed in Zig last night and felt good. Liked it. Worked on dynamic 
+    strings. Opened a file and processed contents line by line.
+    One function call from main which had allocator and filename as params.
+    Allocator used to read file: file.reader().readAllAlloc(allocator, filesize)
+    which returned a slice. Slice returned. The same allocator was also used to
+    init an ArrayList in main. Just called the ArrayList function "deinit()" 
+    with defer:
+    var arrList = std.ArrayList([]const u8).init(allocator);
+    defer arrList.deinit();
+
+================================================================================
+
 Wed Jul 17 12:39:20 AM EDT 2024
 
     Vim is better as a barebones editor and for editing textfiles like this as
