@@ -39,6 +39,15 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed Jul 17 12:34:14 AM EDT 2024
+
+    Ok. I guess it is Helix again for my coding stuff in Zig especially as I had
+    trouble configuring vim for Zig. vim-go for Go works, but I just do not feel
+    satisfied enough when programming something in Go... But I do with Zig... It
+    is somekind of weird thing...
+
+================================================================================
+
 Tue Jul 16 06:21:05 AM EDT 2024
 
     vim-go install:
