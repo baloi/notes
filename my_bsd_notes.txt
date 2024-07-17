@@ -39,6 +39,13 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed Jul 17 12:39:20 AM EDT 2024
+
+    Vim is better as a barebones editor and for editing textfiles like this as
+    there are no line numbers even. Very barebones and very fast...
+
+================================================================================
+
 Wed Jul 17 12:34:14 AM EDT 2024
 
     Ok. I guess it is Helix again for my coding stuff in Zig especially as I had
