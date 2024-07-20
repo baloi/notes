@@ -39,6 +39,17 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri Jul 19 07:06:16 AM EDT 2024
+
+    Installing ADA tools:
+    $ sudo dnf install fedora-gnat-project-common gprbuild gcc-gnat
+
+    Compiling:
+    $ gcc -c hello.adb
+    $ gnatmake hello.adb
+
+================================================================================
+
 Wed Jul 17 07:20:53 AM EDT 2024
 
     Programmed in Zig last night and felt good. Liked it. Worked on dynamic 
