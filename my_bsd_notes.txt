@@ -39,6 +39,29 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sat Jul 27 09:41:53 AM EDT 2024
+
+    Oh boy! I have been coding in C, basically also learning from other coders
+    in Youtube even which has given me more than buying books on different 
+    languages that are "higher level". It cost me to buy those books although
+    I have learned from them too. But now, I have decided to just go full on C
+    and that is it. Go full on C bare metal without even using outside C 
+    libraries and coding in simpler C. Going bare metal exposes problems easier.
+    I do have to code longer for freeing resources, error checks and allocating,
+    but.... Error checking and assertions are particularly useful as it has 
+    eliminated that feeling of leaving coding altogether with "Segmentation 
+    Fault". Just have to be careful of every resource...
+    I learned error check and assertion in a simple and direct way with this link
+    (have to also use the "nobuild" tool built by this guy as it saves a lot of
+    time compiling and running a build script):
+
+    https://www.youtube.com/watch?v=HCAgvKQDJng&list=PLl4Z-RA9nlu-1uv_aeP8mVeoptR7kJf_Q&index=17
+
+    I also now have gdb as a tool I understand more:
+    
+    https://www.youtube.com/watch?v=svG6OPyKsrw&list=PLl4Z-RA9nlu92TDc2oyVhysJjwqqbnGd3&index=2
+================================================================================
+
 Fri Jul 19 07:06:16 AM EDT 2024
 
     Installing ADA tools:
