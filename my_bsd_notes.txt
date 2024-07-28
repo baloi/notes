@@ -39,6 +39,19 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun Jul 28 10:37:46 AM EDT 2024
+    
+    The power of C....
+    
+    And programming it has become easier with the 'nobuild' tool as it lessens
+    time and brain cells needed to compile and run my code...
+
+    Enjoying it. Now also have GDB as another tool...
+
+    Let's get it going...
+
+================================================================================
+
 Sat Jul 27 09:41:53 AM EDT 2024
 
     Oh boy! I have been coding in C, basically also learning from other coders
