@@ -39,6 +39,29 @@ window manager.
 ================================================================================
 ================================================================================
 
+Thu Aug  1 08:38:13 AM EDT 2024
+
+    Went through c_cyg/minimal_editor/src/main.c and tried to understand the
+    code especially the edit_line() function. It is a good study in to 
+    navigating around pointers, finding characters, changing a string and the
+    importance of where the null terminator is, use of functions as strchr(),
+    strlen(), strcpy(), scanf(), fread() and fwrite(). A very good study. Have
+    to add more error checks though. Got a segmentation fault on my first run
+    and I just added one error check after file opening and found it was a case
+    of file not found. An specific error message is MUCH better than a 
+    segmentation fault!
+    Go C all the way!
+
+================================================================================
+
+Wed Jul 31 07:03:40 PM EDT 2024
+    
+    For C programming:
+    > code an editor (line editor)
+    > Make it a client-server app and in the console
+
+================================================================================
+
 Sun Jul 28 04:14:46 PM EDT 2024
 
     SQLite for code reading:
