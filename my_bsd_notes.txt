@@ -39,6 +39,17 @@ window manager.
 ================================================================================
 ================================================================================
 
+Fri Aug  9 04:51:59 PM EDT 2024
+
+    Coding with vim is better for C than in NVim or Helix right now. I might get
+    NVim autocomplete for C and function definition lookup, but edit in NVim has
+    ways I am not comfortable with and I have to go back to correct myself for
+    an NVim skill issue. Also, I do not like seeing "hints" in the code itself.
+    Anyway we can always do :term in Vim then man [function_name].... That is
+    what Tsoding daily uses anyway....
+
+================================================================================
+
 Thu Aug  1 08:38:13 AM EDT 2024
 
     Went through c_cyg/minimal_editor/src/main.c and tried to understand the
