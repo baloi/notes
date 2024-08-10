@@ -39,9 +39,15 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sat Aug 10 07:20:55 PM EDT 2024
+
+    Coded c_cyg/current/apx_hashmap.c which has key->value pair as both strings.
+
+================================================================================
+
 Fri Aug  9 04:51:59 PM EDT 2024
 
-    Coding with vim is better for C than in NVim or Helix right now. I might get
+    Coding with Vim is better for C than in NVim or Helix right now. I might get
     NVim autocomplete for C and function definition lookup, but edit in NVim has
     ways I am not comfortable with and I have to go back to correct myself for
     an NVim skill issue. Also, I do not like seeing "hints" in the code itself.
