@@ -1,3 +1,4 @@
+https://resources.oreilly.com/examples/9781593271442/
 --->  Some of the ports you installed have notes:
   lzma has the following notes:
     The LZMA SDK program is installed as "lzma_alone", to avoid conflict with
