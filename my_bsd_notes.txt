@@ -39,6 +39,24 @@ window manager.
 ================================================================================
 ================================================================================
 
+Tue Aug 13 02:28:51 PM EDT 2024
+    (Entry from journal...)
+
+    Took time to program some Code and made it work by just coding in 1 file.
+    I figured that if I just navigate to code efficiently, it will not be a
+    big of a problem right now as I still open many vim windows if I put my
+    source in different files. Just have not figured out yet how to use header
+    files effectively including declaration of structs especially. Might figure
+    it out later or not. Just want to have a working program. This program also
+    contains the tests. So be it!
+
+    Also deleted the "YouCompleteMe" plugin from my .vimrc file as it was 
+    causing a long delay/pause of the computer when I type "." or "->" from a
+    struct variable/point as it was looking for completions and that was driving
+    me nuts. Just delete autocomplete rather than loose my willingness to code.
+
+================================================================================
+
 Mon Aug 12 10:09:35 AM EDT 2024
 
     Grep for a file by name
