@@ -50,6 +50,10 @@ Sat Sep  7 10:16:03 AM EDT 2024
     Initialize mojo project:
     $ magic init hello-world --format mojoproject
 
+    Init mojo
+    $ cd hello-world
+    $ magic shell
+
 ================================================================================
 
 Sun Aug 18 09:59:26 AM EDT 2024
