@@ -39,6 +39,36 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sat Sep  7 10:16:03 AM EDT 2024
+
+
+    Install mojo:
+    $ curl -ssL https://magic.modular.com | bash
+
+    Add ~/.modular/bin to your PATH
+
+    Initialize mojo project:
+    $ magic init hello-world --format mojoproject
+
+================================================================================
+
+Sun Aug 18 09:59:26 AM EDT 2024
+
+    Helix seems to run faster without the line numbers at the side and is more
+    unencombered looking. It becomes faster...
+
+    Configure helix editor without line numbers:
+
+    Edit ~/.config/helix/config.toml
+    
+        theme="jellybeans"
+
+        [editor]
+        gutters=["diagnostics", "spacer", "diff"]
+        true-color=true
+
+================================================================================
+
 Fri Aug 16 12:37:10 AM EDT 2024
 
     https://github.com/clangd/clangd/releases/tag/18.1.3
