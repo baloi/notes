@@ -69,6 +69,20 @@ Sun Aug 18 09:59:26 AM EDT 2024
 
 ================================================================================
 
+Wed Aug 21 10:46:53 AM EDT 2024
+
+    I tried to code in Zig this morning for a quick hello world. Coding was sort
+    of fast with auto complete via Helix language support which was so easy to 
+    setup. Coding was ok, but compiling was at least 3 times slower than the 
+    equivalent C program and that will be a big annoyance when coding, compiling,
+    debugging, refactoring. Can't do it.
+    As with the Helix editor, I was able to code fast and create 6 new files just
+    using Helix. From Helix "Ctrl-w s" to split, ":new" for new buffer then 
+    ":w filename" to write the file. Stay on the correct directory for now, will
+    probably figure out how to change to another directory another time.
+
+================================================================================
+
 Fri Aug 16 12:37:10 AM EDT 2024
 
     https://github.com/clangd/clangd/releases/tag/18.1.3
