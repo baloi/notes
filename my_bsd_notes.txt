@@ -74,6 +74,7 @@ Sat Sep  7 10:16:03 AM EDT 2024
     Initialize mojo project:
     $ magic init hello-world --format mojoproject
 
+    Init mojo
     $ cd hello-world
     $ magic shell
 
