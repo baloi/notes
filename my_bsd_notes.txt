@@ -37,7 +37,31 @@ window manager.
         * Try to use only what is in the default install plus vim and git!
 
 ================================================================================
-================================================================================
+=================================================================================
+
+Wed Sep 11 08:42:45 PM EDT 2024
+
+    Using scanf() fgets().
+
+    int num;
+    char buff[256];
+
+    // this will have a weird behaviour
+    scanf("%d", num);
+    printf("Enter line: ");
+    fgets(buff, 256, stdin);
+
+    // Use this instead:
+    scanf("%d", num);
+    fgetc(stdin); // fgetc() will take the '\n' from stdin
+                  // as scanf() above is proceeded by a number
+                  // then the trailing '\n' newline character
+                  // and that gets overflowed to fgets() call 
+                  // from stdin...
+    printf("Enter line: ");
+    fgets(buff, 256, stdin);
+
+===============================================================================
 
 Sat Sep  7 10:16:03 AM EDT 2024
 
@@ -49,6 +73,9 @@ Sat Sep  7 10:16:03 AM EDT 2024
 
     Initialize mojo project:
     $ magic init hello-world --format mojoproject
+
+    $ cd hello-world
+    $ magic shell
 
 ================================================================================
 
