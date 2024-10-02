@@ -13,3 +13,12 @@ Steps:
 > Create database 
   $ mix ecto.migrate
 
+=============== Tutorials ===============
+> 2. Using Phoenix Framework to Create an Elixir REST API Project 
+https://www.youtube.com/watch?v=s3WNCjN4Pes
+> Elixir programming:
+https://www.youtube.com/watch?v=-lgtb-YSUWE&t=12s
+> SQLite3 Full Text Search with Phoenix 
+https://fly.io/phoenix-files/sqlite3-full-text-search-with-phoenix/
+> CRUD To Do List App built with Phoenix and Elixir
+https://medium.com/@spenserhuang/crud-to-do-list-app-built-with-phoenix-and-elixir-7e916565b82
