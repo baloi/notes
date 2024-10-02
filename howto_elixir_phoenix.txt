@@ -1,0 +1,14 @@
+https://hexdocs.pm/phoenix/installation.html#erlang-24-or-later
+
+> SQLITE and Elixir-Phoenix:
+https://dev.to/atmorojo/using-sqlite-with-ecto-in-a-phoenix-app-1i34
+
+============ HOWTO ===========
+Steps:
+> create the project
+  $ mix phx.new sqlite_app --database sqlite3
+> Create schema
+  $ mix phx.gen.context Data Document gigs title:string description:string songs:string
+> Create database 
+  $ mix ecto.migrate
+
