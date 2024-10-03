@@ -14,6 +14,8 @@ Steps:
   $ mix ecto.migrate
 
 =============== Tutorials ===============
+> Better:
+https://thephoenixtutorial.org/
 > 2. Using Phoenix Framework to Create an Elixir REST API Project 
 https://www.youtube.com/watch?v=s3WNCjN4Pes
 > Elixir programming:
