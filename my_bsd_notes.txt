@@ -39,6 +39,18 @@ window manager.
 ================================================================================
 =================================================================================
 
+Thu Feb  5 08:53:40 AM EST 2026
+
+    Howto convert Ultimate Guitar tabs to PDF (Apple products no programming)
+    > From Ultimate Guitar -> Download PDF -> Copy
+    > Open Notes app -> paste
+    > Open the new song in Notes -> click "Share" icon and send to: Goodnotes,
+      Preview or Drive
+
+    Done!
+
+=================================================================================
+
 Mon Oct 28 07:15:18 AM EDT 2024
 
     Got to use mdbook as a tool. Serving pages...
