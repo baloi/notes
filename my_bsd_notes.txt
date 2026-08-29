@@ -39,6 +39,70 @@ window manager.
 ================================================================================
 =================================================================================
 
+Sat Aug 29 01:52:33 PM EDT 2026
+
+    Run flask python to enable server to be accessed in network (please do open
+    port too)
+
+    $ flask run --host=0.0.0.0
+
+=================================================================================
+
+Sat Aug 29 01:28:41 PM EDT 2026
+
+    Ports and ip's
+    > find my ip
+    $ ip a
+
+    > open port using ufw
+    $ sudo dnf install ufw
+    $ sudo ufw enable
+    $ sudo ufw allow ($your_port_number)
+    $ sudo ufw status
+
+    list ports:
+    $ netstat
+
+    or:
+    $ netstat -lntu (-l listening sockets, -n port number, -t tcp, -u udp)
+
+=================================================================================
+
+Sat Aug 29 12:49:22 PM EDT 2026
+
+    > Create app.py:
+
+--------- code start --------------    
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+
+def hello():
+    return "Hello there!\n"
+    # added "\n" for newline in console applications like curl
+    
+--------- code end --------------    
+
+    > run:
+    flask run
+
+    > browswer
+    http://localhost:5000/hello
+
+    > console (copy paste Ctrl-sh-p then Ctrl-sh-v)
+
+        $ curl localhost:5000
+        Hello there!    
+
+    Had trouble connecting to the server from another computer in the network so
+    I had to open port 5000 with "ufw" as above and then run flask to run on host
+    0.0.0.0
+
+    $ flask run --host=0.0.0.0
+
+=================================================================================
+
 Thu Feb  5 08:53:40 AM EST 2026
 
     Howto convert Ultimate Guitar tabs to PDF (Apple products no programming)
