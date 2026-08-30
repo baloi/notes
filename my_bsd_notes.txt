@@ -46,6 +46,22 @@ Sat Aug 29 01:52:33 PM EDT 2026
 
     $ flask run --host=0.0.0.0
 
+    So right now, the flask app cannot be accessed from another computer but can
+    be run in the local server. Which is fine for now. I will have to figure out
+    the connectivity once I have a thing running...
+
+    But will really want to get this thing running already....
+
+    (UPDATE):
+    Can now access the flask app by "reloading" the firewall.
+
+    $ sudo ufw allow 5000
+    $ sudo ufw reload
+
+    Then access:
+    $ curl ($local_ip):5000
+    Hello there!
+
 =================================================================================
 
 Sat Aug 29 01:28:41 PM EDT 2026
