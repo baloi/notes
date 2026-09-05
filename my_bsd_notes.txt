@@ -43,7 +43,9 @@ Sat Sep  5 03:16:38 PM EDT 2026
 
     How to have multiple source files for golang
     ==========SUMMARY===============
-    1 make multiple go files in directory with ONLY 1 main function
+    1 make multiple go files in directory with ONLY 1 main function.
+      Each file is preceeded with "package main"
+      
     2 initialize directory with "go mod init [module_name]"
     3 run: "go run ." (go will run the "main()" function in the directory)
     ================================
@@ -52,6 +54,7 @@ Sat Sep  5 03:16:38 PM EDT 2026
       function and model.go has Person struct
 
     ---- app.go start ----
+package main
 import "fmt"
 
 func main() {
@@ -80,6 +83,9 @@ func newPerson(n string) *Person {
 
     > initialize module, example:
       $ go mod init [module_name]
+    > make sure:
+      only one file has the "main()" function AND 
+      EACH file is preceeded by "package main"
 
     > run the your program in the directory and everything in the *.go files in
       director is accessible. Note only 1 main() function in this directory
