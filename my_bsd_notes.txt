@@ -37,7 +37,55 @@ window manager.
         * Try to use only what is in the default install plus vim and git!
 
 ================================================================================
-=================================================================================
+================================================================================
+
+Sat Sep  5 03:16:38 PM EDT 2026
+
+    How to have multiple source files for golang
+    ==========SUMMARY===============
+    1 make multiple go files in directory with ONLY 1 main function
+    2 initialize directory with "go mod init [module_name]"
+    3 run: "go run ." (go will run the "main()" function in the directory)
+    ================================
+
+    > have one main file with main() function, example in app.go has a main
+      function and model.go has Person struct
+
+    ---- app.go start ----
+import "fmt"
+
+func main() {
+	fmt.Println("app starting")
+	p := newPerson("first person")
+	fmt.Println("name: ", p.name)
+
+	p.name = "baloi"
+	fmt.Println("name: ", p.name)
+}    
+
+    ---- app.go end   ---
+
+    ---- model.go start ----
+package main
+
+type Person struct {
+	name string
+}
+func newPerson(n string) *Person {
+	return &Person{
+		name: n,
+	}
+}
+    ---- model.go end   ----
+
+    > initialize module, example:
+      $ go mod init [module_name]
+
+    > run the your program in the directory and everything in the *.go files in
+      director is accessible. Note only 1 main() function in this directory
+      $ go run .
+
+================================================================================
 
 Sat Aug 29 01:52:33 PM EDT 2026
 
