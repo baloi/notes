@@ -41,7 +41,7 @@ window manager.
 
 Sat Sep  5 10:46:26 PM EDT 2026
 
-    Using netcat to connec to a server:
+    Using netcat to connect to a server:
 
     $ nc -w3 -4 -v [host] [port]
 
