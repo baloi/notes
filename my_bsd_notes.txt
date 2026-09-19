@@ -39,6 +39,26 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sat Sep 19 07:40:42 AM EDT 2026
+
+    Tmux without anything on the right side (like date and time):
+
+    edit ~/.tmux.conf
+
+    set -g status-right ""
+
+    This makes the right side of the status bar blank
+
+================================================================================
+
+Fri Sep 18 06:00:08 PM EDT 2026
+
+    missing firmware Debian
+b43-open/ucode29_mimo.fw
+b43/ucode29_mimo.fw
+
+================================================================================
+
 Fri Sep 18 07:42:57 AM EDT 2026
 
     Recording vids in Linux (Fedora):
@@ -76,7 +96,7 @@ Host github.com
 
 ---- config end  -------------
 
-================================================================================
+===============================================================================
 
 Sat Sep  5 10:46:26 PM EDT 2026
 
@@ -549,7 +569,7 @@ Thu Jun 27 06:25:45 AM EDT 2024
     > That KDE Wallet thing that asks for the password when just logging in and
       internet connection works only after we enter the password. 
     > Firefox does not have Facebook or Youtube working properly. Well maybe
-      this is becaused I might have tweaked something. I do have Chrome running
+      this is because I might have tweaked something. I do have Chrome running
       now. 
 
     Things I like about my Fedora install:
@@ -663,7 +683,7 @@ Fri Jun 21 07:56:31 AM EDT 2024
     and just general life itself. Decided to spend less on learning to configure
     stuff and just have things that work and like:
     > Terminal editor with Vim bindings (fun to code with vim bindings)
-    > Linux OS (Fedora works and in faster than Debian) and my laptop runs on 
+    > Linux OS (Fedora works and is faster than Debian) and my laptop runs on 
       battery now, unlike when I had MacOS installed - something was hogging
       the battery.
     > Languages like Zig, C, Go?, Java?
