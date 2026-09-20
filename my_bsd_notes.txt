@@ -39,6 +39,21 @@ window manager.
 ================================================================================
 ================================================================================
 
+Sun Sep 20 07:55:15 AM EDT 2026
+
+    > HOWTO copy text in tmux:
+
+    Steps to Copy and PasteEnter Copy Mode: 
+    - Press Ctrl + B, then [.
+    - Navigate: Use arrow keys or Vim keys (h, j, k, l) to move the cursor to 
+      your text.
+    - Start Selection: Press Space (or v if using Vim mode).
+    - Copy Text: Press Enter (or y if using Vim mode) to save it to the 
+      tmux buffer.
+    - Paste Text: Press Ctrl + B, then ] where you want to paste the text
+
+================================================================================
+
 Sat Sep 19 07:40:42 AM EDT 2026
 
     Tmux without anything on the right side (like date and time):
