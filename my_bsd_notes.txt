@@ -39,6 +39,22 @@ window manager.
 ================================================================================
 ================================================================================
 
+Wed Sep 30 06:48:38 AM EDT 2026
+
+> HOWTO copy text in tmux: (useful for debug when copying errors from terminal
+                            and paste to browser ;) )
+
+  Steps to Copy and PasteEnter Copy Mode: 
+    - Press Ctrl + B, then [.
+    - Navigate: Use arrow keys or Vim keys (h, j, k, l) to move the cursor to 
+      your text.
+    - Start Selection: Press Space (or v if using Vim mode).
+    - Copy Text: Press Enter (or y if using Vim mode) to save it to the tmux 
+      buffer.
+    - Paste Text: Press Ctrl + B, then ] where you want to paste the text
+
+================================================================================
+
 Sat Sep 26 02:03:44 PM EDT 2026
 
     Maybe just time to read code...
